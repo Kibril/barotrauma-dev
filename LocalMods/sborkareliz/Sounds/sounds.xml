@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sounds>
+  <music file="%ModDir%/Sounds/Music/Menu Music.ogg" type="menu" />
+  <music file="%ModDir%/Sounds/Music/Menu Music 2.ogg" type="menu" />
+  <music file="%ModDir%/Sounds/Music/Menu Music 3.ogg" type="menu" />
+  <music file="%ModDir%/Sounds/Music/Scary Ruins Music.ogg" type="flooded" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Ambience of the Abyssopelagic.ogg" type="ruins" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Ambience of the Abyss 2.ogg" type="wreck" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Spooky Ambience.ogg" type="deep" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Research.ogg" type="research" intensityrange="0,49" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Monster Attack.ogg" type="flooded" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Leviathan.ogg" type="flooded" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Ambience of the Epipelagic.ogg" type="default" intensityrange="0,49" />
+  <music file="%ModDir%/Sounds/Music/Ending Ambience.ogg" type="default" intensityrange="0,49" />
+  <music file="%ModDir%/Sounds/Music/Default Ambience.ogg" type="default" intensityrange="0,49" />
+  <music file="%ModDir%/Sounds/Music/Ambience of the Mesopelagic.ogg" type="default" intensityrange="0,49" />
+  <music file="%ModDir%/Sounds/Music/Ambience of the Bathypelagic.ogg" type="default" intensityrange="0,49" />
+  <music file="%ModDir%/Sounds/Music/Ambience of Fleshers.ogg" type="default" intensityrange="0,49" />
+  <music file="%ModDir%/Sounds/Music/Peaceful Ambience 2.ogg" type="military" intensityrange="0,49" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Peaceful Ambience.ogg" type="city" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Peaceful Ambience 3.ogg" type="outpost" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Mining.ogg" type="mine" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Peaceful Ambience 4.ogg" type="default" intensityrange="0,49" />
+  <music file="%ModDir%/Sounds/Music/Peaceful Ambience 5.ogg" type="default" intensityrange="0,49" />
+  <music file="%ModDir%/Sounds/Music/Wreck Ambience.ogg" type="wreck" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Ruin Ambience.ogg" type="ruins" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Spooky Ambience.ogg" type="ruins" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Deep Ambience.ogg" type="deep" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Level Ending 2.ogg" type="endround" />
+  <music file="%ModDir%/Sounds/Music/Approaching Destination.ogg" type="endround" />
+  <music file="%ModDir%/Sounds/Music/Crew Dead.ogg" type="crewdead" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Crew Dead 2.ogg" type="crewdead" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Level Intro 2.ogg" type="start" intensityrange="0,10" />
+  <music file="%ModDir%/Sounds/Music/Level Intro 3.ogg" type="start" intensityrange="0,10" />
+  <music file="%ModDir%/Sounds/Music/Level Intro.ogg" type="start" intensityrange="0,10" />
+  <music file="%ModDir%/Sounds/Music/Level Intro 4.ogg" type="start" intensityrange="0,10" />
+  <music file="%ModDir%/Sounds/Music/Level Intro 5.ogg" type="start" intensityrange="0,10" />
+  <music file="%ModDir%/Sounds/Music/Intense Event.ogg" type="intensity" intensityrange="50,65" />
+  <music file="%ModDir%/Sounds/Music/Intense Event 2.ogg" type="intensity" intensityrange="65,85" />
+  <music file="%ModDir%/Sounds/Music/Crew Dead.ogg" type="intensity" intensityrange="85,95" />
+  <music file="%ModDir%/Sounds/Music/Intense.ogg" type="intensity" intensityrange="85,100" />
+  <music file="%ModDir%/Sounds/Music/Crew Dead 2.ogg" type="intensity" intensityrange="95,100" />
+  <music file="%ModDir%/Sounds/Music/dahlias-tear-forlorn-whispers-on-a-moonlit-path.ogg" type="ruins" intensityrange="0,49" />
+  <music file="%ModDir%/Sounds/Music/keosz-all-i-had-to-do.ogg" type="abandoned" intensityrange="0,49" />
+  <music file="%ModDir%/Sounds/Music/yuka-kitamura-dark-souls-iii.ogg" intensityrange="10,49" type="flooded" />
+  <music file="%ModDir%/Sounds/Music/Turjan-Aylahn-Tanc-a-Lelek-_Highfleet-OST_.ogg" type="flooded" />
+  <music file="%ModDir%/Sounds/Music/Two-Steps-From-Hell-14-Fragments-Of-Your-Imagination.ogg" type="default" intensityrange="0,49" />
+</sounds>

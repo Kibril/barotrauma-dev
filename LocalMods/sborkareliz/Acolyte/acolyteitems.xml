@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Holy Symbiote" identifier="blessedmag" description="This strain of husk symbiote generates a short lived, stinger shaped strain of husk parasite. The stingers generated cause targets to bleed profusely." maxstacksize="1" scale="0.5" category="Weapon" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,blessedammo" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="blessedbow" amount="1" spawnprobability="1" />
+    <Fabricate suitablefabricators="medicalfabricator" requiredtime="300">
+      <RequiredSkill identifier="weapons" level="70" />
+      <RequiredSkill identifier="medical" level="90" />
+      <RequiredItem identifier="alienspear" amount="2" />
+      <RequiredItem identifier="huskeggs" amount="4" />
+      <RequiredItem identifier="hyperzine" amount="1" />
+      <RequiredItem identifier="calcium" amount="2" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="huskeggs" mincondition="0.95" />
+      <Item identifier="spinebolt" amount="3" />
+      <Item identifier="steel" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Icons/huskharpoonsprite.png" sourcerect="0,0,55,55" />
+    <Sprite texture="%ModDir%/Icons/huskharpoon.png" depth="0.54" sourcerect="0,0,180,18" origin="0.5,0.5" />
+    <Body width="14" height="40" density="20" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="blessedbolt" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
+      <Containable items="blessedbolt" />
+      <!-- Spawn a blessed bolt on use. Condition -16.7 -> 6 shots per magazine. -->
+      <StatusEffect type="OnUse" target="This" condition="-100" disabledeltatime="true">
+        <SpawnItem identifiers="blessedbolt" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" disabledeltatime="true" Condition="100" delay="5" />
+    </ItemContainer>
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+  <Item name="Blessed Bolt" identifier="blessedbolt" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="true" scale="0.5">
+    <InventoryIcon texture="%ModDir%/Icons/huskharpoon.png" sourcerect="0,0,180,18" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Icons/huskharpoon.png" sourcerect="0,0,180,18" depth="0.55" origin="0.5,0.5" />
+    <Body width="160" height="10" density="30" />
+    <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+    <Projectile characterusable="false" launchimpulse="5" sticktocharacters="true" sticktoitems="true" sticktostructures="true" sticktodoors="false">
+      <Attack structuredamage="15" targetforce="25" itemdamage="20" penetration="0.2">
+        <Affliction identifier="lacerations" strength="25" />
+        <Affliction identifier="bleeding" strength="25" />
+        <Affliction identifier="stun" strength="0.5" />
+        <Affliction identifier="huskinfection" strength="1" commonness="0.2" />
+        <Affliction identifier="bleedreaction" strength="10" />
+      </Attack>
+      <!--  smg rounds should not exist outside magazines  -->
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="20">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+  <Item name="Blessed Arbalest" identifier="blessedbow" description="A special crossbow, made to channel the divine power of the Holy Symbiote." category="Weapon" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gunsmith,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="secarmcab" secondary="armcab,weaponholder" />
+    <Deconstruct time="10">
+      <Item identifier="calcium" />
+      <Item identifier="steel" />
+      <Item identifier="tin" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="120">
+      <RequiredSkill identifier="weapons" level="60" />
+      <RequiredSkill identifier="medical" level="60" />
+      <RequiredItem identifier="calcium" amount="6" />
+      <RequiredItem identifier="titaniumaluminiumalloy" amount="4" />
+      <RequiredItem identifier="huskeggs" amount="4" />
+      <RequiredItem identifier="harpoongun" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Icons/huskharpoongun.png" sourcerect="0,0,215,63" depth="0.55" origin="0.5,0.5" />
+    <Body width="180" height="30" density="25" />
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="35,-10" aimpos="45,-10" handle1="-20,-6" handle2="30,10" holdangle="-40" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="1.5" launchimpulse="25.0" barrelpos="85,18" spread="1" unskilledspread="10" combatPriority="60" drawhudwhenequipped="true" crosshairscale="0.2">
+      <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
+      <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
+      <Sound file="Content/Items/Weapons/HarpoonGun1.ogg" type="OnUse" />
+      <Sound file="Content/Items/Weapons/HarpoonGun2.ogg" type="OnUse" />
+      <Sound file="Content/Items/Weapons/HarpoonGun3.ogg" type="OnUse" />
+      <StatusEffect type="OnUse">
+        <Explosion range="150.0" force="5" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="6.0" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Contained">
+        <Use />
+      </StatusEffect>
+      <RequiredItems items="blessedammo" type="Contained" msg="ItemMsgSpearRequired" />
+      <RequiredSkill identifier="weapons" level="30" />
+    </RangedWeapon>
+    <ItemContainer itempos="27,10" iteminterval="0,-4" hideitems="true" capacity="1" maxstacksize="6" containedstateindicatorslot="0" containedstateindicatorstyle="bolt" containedspritedepths="0.551,0.552,0.553,0.554,0.555,0.556">
+      <Containable items="blessedammo" />
+      <SlotIcon slotindex="0" texture="Content/UI/ContainerIndicators.png" sourcerect="1,123,120,29" origin="0.5,0.5" />
+      <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,536,128,64" origin="0.45,0.5" />
+      <SubContainer capacity="1" maxstacksize="1">
+        <Containable items="flashlight" hide="false" itempos="18,12" setactive="true" />
+      </SubContainer>
+    </ItemContainer>
+    <aitarget sightrange="0" soundrange="500" fadeouttime="2" />
+    <Quality>
+      <QualityStat stattype="FirepowerMultiplier" value="0.1" />
+    </Quality>
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+</Items>

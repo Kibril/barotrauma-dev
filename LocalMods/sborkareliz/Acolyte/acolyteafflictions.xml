@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Afflictions>
+  <Affliction identifier="neuazvimost" type="talentbuff" isbuff="true" limbspecific="false" hideiconafterdelay="true" maxstrength="3" duration="600" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+    <Effect minstrength="0" maxstrength="1" 
+            resistancefor="damage,bleeding,burn"
+            minresistance="1"
+            maxresistance="1">
+      <StatValue stattype="MovementSpeed" value="1" />
+    </Effect>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="2,7" sheetelementsize="128,128" color="10,193,114,255" origin="0,0"/>
+  </Affliction>
+  <Affliction identifier="nobreath" type="talentbuff" isbuff="true" limbspecific="false" hideiconafterdelay="true" maxstrength="1" duration="60" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+    <Effect minstrength="0" maxstrength="100"
+      strengthchange="1"
+      resistancefor="respiratoryarrest,hyperventilation,hypoventilation,dyspnea,pneumothorax,lungdamage,hypoxemia,sym_cough,sym_wheezing"
+      minresistance="1.0"
+      maxresistance="1.0"/>
+    <Icon texture="%ModDir%/Icons/CustomIcons.png" sourcerect="384,510,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction identifier="apotheosis1" type="talentbuff" isbuff="true" limbspecific="false" hideiconafterdelay="true" maxstrength="1" duration="90" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+    <Effect minstrength="0" maxstrength="1">
+      <StatusEffect target="Character">
+        <ReduceAffliction type="ra_fracture" strength="4" />
+        <ReduceAffliction type="la_fracture" strength="4" />
+        <ReduceAffliction type="rl_fracture" strength="4" />
+        <ReduceAffliction type="ll_fracture" strength="4" />
+        <ReduceAffliction type="t_fracture" strength="4" />
+        <ReduceAffliction type="n_fracture" strength="4" />
+        <ReduceAffliction type="h_fracture" strength="4" />
+        <ReduceAffliction type="dislocation1" strength="4" />
+        <ReduceAffliction type="dislocation2" strength="4" />
+        <ReduceAffliction type="dislocation3" strength="4" />
+        <ReduceAffliction type="dislocation4" strength="4" />
+      </StatusEffect>
+    </Effect>
+    <Icon texture="%ModDir%/Icons/CustomIcons.png" sourcerect="384,510,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction identifier="bleedreaction" type="debuff" limbspecific="false" maxstrength="100" affectmachines="false">
+    <Effect minstrength="0" maxstrength="100" strengthchange="-1" resistancefor="bloodloss" minresistance="0" maxresistance="-1" />
+    <icon texture="Content/UI/CommandUIBackground.png" sourcerect="640,768,128,128" color="84,171,90,255" origin="0,0" />
+  </Affliction>
+</Afflictions>

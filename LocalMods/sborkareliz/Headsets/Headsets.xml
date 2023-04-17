@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Thermal Headset" identifier="thermheadset" scale="0.5" category="Equipment" tags="smallitem" description="A headset with built-in thermal goggles." cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="0.1" />
+    <Price baseprice="500" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1" sold="false" />
+      <Price locationtype="city" multiplier="1" sold="false" />
+      <Price locationtype="research" multiplier="1" sold="false" />
+      <Price locationtype="military" multiplier="1" sold="false" />
+      <Price locationtype="mine" multiplier="1" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="thermalgoggles" />
+      <Item identifier="headset" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="mechanical" level="30" />
+      <RequiredItem identifier="thermalgoggles" />
+      <RequiredItem identifier="headset" />
+      <RequiredItem identifier="copper" />
+      <RequiredItem identifier="plastic" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Headsets/AdvancedHeadsetAtlas.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <Sprite name="Thermal Headset" texture="%ModDir%/Headsets/AdvancedHeadsetAtlas.png" sourcerect="71,7,65,41" depth="0.6" origin="0.5,0.5" />
+    <Body width="70" height="24" density="30" />
+    <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
+      <sprite name="Thermal Headset Wearable" texture="%ModDir%/Headsets/AdvancedHeadsetAtlas.png" limb="Head" hidelimb="false" inheritlimbdepth="true" ignorelimbscale="true" scale="0.35" hideotherwearables="false" sourcerect="71,7,65,41" origin="0.4,0.4" />
+    </Wearable>
+    <StatusHUD drawhudwhenequipped="true" overlaycolor="176,0,0,120" range="3000" thermalgoggles="true" showdeadcharacters="false" showtexts="false" />
+    <WifiComponent range="35000.0" LinkToChat="true" MinChatMessageInterval="0.0">
+      <RequiredItems items="mobilebattery" type="Contained" />
+    </WifiComponent>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery">
+      <Containable items="mobilebattery" />
+    </ItemContainer>
+  </Item>
+  <Item name="Tactical Headset" identifier="tacheadset" scale="0.5" category="Equipment" tags="smallitem" description="The peak of combat scanner technology, this headset has a built-in automatic medical injector and thermal goggles attached." cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.01" />
+    <Price baseprice="490" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1" sold="false" />
+      <Price locationtype="city" multiplier="1" sold="false" />
+      <Price locationtype="research" multiplier="1" sold="false" />
+      <Price locationtype="military" multiplier="1" sold="false" />
+      <Price locationtype="mine" multiplier="1" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="thermalgoggles" />
+      <Item identifier="autoinjectorheadset" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="mechanical" level="30" />
+      <RequiredSkill identifier="medical" level="30" />
+      <RequiredItem identifier="thermalgoggles" />
+      <RequiredItem identifier="autoinjectorheadset" />
+      <RequiredItem identifier="copper" />
+      <RequiredItem identifier="plastic" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Headsets/AdvancedHeadsetAtlas.png" sourcerect="425,0,64,64" origin="0.6,0.45" />
+    <Sprite name="Tactical Headset" texture="%ModDir%/Headsets/AdvancedHeadsetAtlas.png" sourcerect="12,78,75,58" depth="0.6" origin="0.8,0.55" />
+    <Body width="70" height="24" density="30" />
+    <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect">
+      <sprite name="Tactical Headset Wearable" texture="%ModDir%/Headsets/AdvancedHeadsetAtlas.png" limb="Head" hideotherwearables="false" inheritlimbdepth="true" scale="0.35" sourcerect="12,78,75,58" origin="0.5,0.5" />
+    </Wearable>
+    <StatusHUD drawhudwhenequipped="true" overlaycolor="176,0,0,120" range="3000" thermalgoggles="true" showdeadcharacters="false" showtexts="false" />
+    <WifiComponent range="35000.0" LinkToChat="true" MinChatMessageInterval="0.0">
+      <RequiredItems items="mobilebattery" type="Contained" />
+    </WifiComponent>
+    <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="battery" containedstateindicatorslot="0" autoinject="true">
+      <Containable items="none" />
+      <SlotIcon slotindex="0" texture="Content/UI/ContainerIndicators.png" sourcerect="2,186,120,29" origin="0.5,0.5" />
+      <SlotIcon slotindex="1" texture="Content/UI/ContainerIndicators.png" sourcerect="2,155,120,29" origin="0.5,0.5" />
+      <Subcontainer capacity="1" maxstacksize="1">
+        <Containable items="mobilebattery" />
+      </Subcontainer>
+      <Subcontainer capacity="1" maxstacksize="1">
+        <Containable items="chem,medical" />
+      </Subcontainer>
+    </ItemContainer>
+  </Item>
+</Items>

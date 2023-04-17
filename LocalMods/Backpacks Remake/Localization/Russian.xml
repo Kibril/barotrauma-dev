@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Russian" nowhitespace="false" translatedname="Русский">
+  <!-- Translation made possible by 1Жопа_Krota2 https://steamcommunity.com/id/EtBellatorLucis -->
+  <entityname.ammopack>Кейс для патронов</entityname.ammopack>
+  <entitydescription.ammopack>Кейс, позволяющий держать патроны в одном месте.</entitydescription.ammopack>
+  <entityname.backpack1>Рюкзак</entityname.backpack1>
+  <entitydescription.backpack1>Перенесёт нагрузку с ваших рук на вашу спину.</entitydescription.backpack1>
+  <entityname.minigun1>Миниган</entityname.minigun1>
+  <entitydescription.minigun1>Для перезарядки этого зверя поместите его в Ящик с патронами для минигана (Заметка : Как только он заполнится, быстро возьмите его. Я ещё не починил баг с ухудшением состояния минигана)</entitydescription.minigun1>
+  <entityname.minigunammunitiontank>Стойка с патронами для минигана</entityname.minigunammunitiontank>
+  <entitydescription.minigunammunitiontank>Ящик с тяжелыми патронами, прикреплённый к броне для питания прожорливого минигана.</entitydescription.minigunammunitiontank>
+  <entityname.ddossuit>Костюм для глубоководного погружения</entityname.ddossuit>
+  <entitydescription.ddossuit>Подводный костюм, используемый только элитными водолазами. Имеет встроенную двигательная установка с батарейным питанием, укреплённый рюкзак, компактный отсек для хранения контейнеров, и покрытие, устойчивое к очень высокому давлению. Это чудо техники гарантирует выживание того, кто находится внутри и кто сможет позволить себе этот костюм... Водолаз должен раздеться, чтобы надеть этот костюм.</entitydescription.ddossuit>
+  <entityname.heavybackpack>Тяжёлый рюкзак</entityname.heavybackpack>
+  <entitydescription.heavybackpack>Рюкзак, созданный для облегчения транспортировки тяжелых инструментов или экипировки. Может быть использован для хранения крупных вещей, например, ящиков с патронами, снарядов для Рельсотрона и инопланетных артефактов.</entitydescription.heavybackpack>
+  <entityname.heavycrate>Тяжёлый ящик</entityname.heavycrate>
+  <entitydescription.heavycrate>Тяжёлый переносной ящик, используемый для хранения ящиков с патронами, снарядов для Рельсотрноа, водолазных костюмов, и даже инопланетных артефактов. Он вас сильно замедлит, но даст возможность переносить много тяжёлых вещей.</entitydescription.heavycrate>
+  <entityname.medicalbackpack>Медицинский рюкзак</entityname.medicalbackpack>
+  <entitydescription.medicalbackpack>Для транспортировки медикаментов.</entitydescription.medicalbackpack>
+  <entityname.medipack>Медицинский кейс</entityname.medipack>
+  <entitydescription.medipack>Кейс для простой транпортировки медицинских предметов.</entitydescription.medipack>
+  <entityname.oxy-genbackpack>Кислородный рюкзак</entityname.oxy-genbackpack>
+  <entitydescription.oxy-genbackpack>Портативная кислородная станция, превращенная в рюкзак, что позволяет как дышать под водой, так и заполнять кислородные баллоны.</entitydescription.oxy-genbackpack>
+  <entityname.power-backpack>Энергетический рюкзак</entityname.power-backpack>
+  <entitydescription.power-backpack>Портативный яркий источник света, оснащённый зарядными отсеками для продолжительных подводных операций. Имеет несколько карманов.</entitydescription.power-backpack>
+  <entityname.shieldbackpack>Рюкзак с генератором щита</entityname.shieldbackpack>
+  <entitydescription.shieldbackpack>Революционный прибор, используемый для уменьшения получаемого урона. Уровень защиты зависит от типа используемой батареи. Некоторые даже используют инопланетные источники энергии...</entitydescription.shieldbackpack>
+  <entityname.tacticalbodyarmor>Тактическая броня</entityname.tacticalbodyarmor>
+  <entitydescription.tacticalbodyarmor>По сути, бронежилет с прикреплённым на него патронташем. Просто и эффективно.</entitydescription.tacticalbodyarmor>
+  <entityname.techno-backpack>Технический рюкзак</entityname.techno-backpack>
+  <entitydescription.techno-backpack>Полезный рюкзак, позволяющий следить за системами подлодки и тепловыми сигнатурами окружающих организмов (И, конечно, он не взорвётся (возможно))</entitydescription.techno-backpack>
+  <entityname.xeno-backpack>Инопланетный рюкзак</entityname.xeno-backpack>
+  <entitydescription.xeno-backpack>испособление, созданное из различных непонятных инопланетных материалов и напоминающее рюкзак. В него не поместится много предметов, но, используя кровь владельца, он может рематериализовать различное оборудование, а также подавить психоз.</entitydescription.xeno-backpack>
+</infotexts>

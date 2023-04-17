@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Talents>
+  <Override>
+    <Talent identifier="Blessed">
+    <Description tag="talentdescription.blessed1">
+      <Replace tag="[health]" value="10" color="gui.green" />
+      <Replace tag="[maximumhealth]" value="stattypenames.maximumhealthmultiplier" color="gui.orange" />
+      <Replace tag="[amount]" value="5" color="gui.green" />
+      <Replace tag="[skill]" value="skillname.medical" color="gui.orange" />
+    </Description>
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="1,2" sheetelementsize="128,128" />
+    <AbilityGroupInterval>
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
+        <AbilityConditionHasAffliction invert="true" afflictionidentifier="husksymbiosis" />
+        <AbilityConditionHasAffliction afflictionidentifier="disguisedashusk" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character">
+            <ReduceAffliction type="damage" strength="1" />
+            <ReduceAffliction type="burn" strength="1" />
+            <ReduceAffliction type="organdamage" strength="0.3" />
+            <ReduceAffliction type="bonedamage" strength="0.3" />
+            <ReduceAffliction type="heartdamage" strength="0.2" />
+            <ReduceAffliction type="liverdamage" strength="0.2" />
+            <ReduceAffliction type="kidneydamage" strength="0.2" />
+            <ReduceAffliction type="internaldamage" strength="0.1" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupInterval>
+      <Conditions>
+        <AbilityConditionAboveVitality invert="true" vitalitypercentage="0" />
+        <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
+        <AbilityConditionHasAffliction invert="true" afflictionidentifier="husksymbiosis" />
+        <AbilityConditionHasAffliction afflictionidentifier="disguisedashusk" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character">
+              <Affliction identifier="apotheosis1" strength="1.0" />
+              <Affliction identifier="seizure" amount="30" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <!-- Husk Symbiosis -->
+    <AbilityGroupInterval>
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
+        <AbilityConditionHasAffliction invert="false" afflictionidentifier="husksymbiosis" />
+        <AbilityConditionHasAffliction afflictionidentifier="disguisedashusk" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character">
+            <ReduceAffliction type="damage" strength="1" />
+            <ReduceAffliction type="burn" strength="1" />
+            <ReduceAffliction type="organdamage" strength="0.3" />
+            <ReduceAffliction type="bonedamage" strength="0.3" />
+            <ReduceAffliction type="heartdamage" strength="0.2" />
+            <ReduceAffliction type="liverdamage" strength="0.2" />
+            <ReduceAffliction type="kidneydamage" strength="0.2" />
+            <ReduceAffliction type="internaldamage" strength="0.1" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupInterval>
+      <Conditions>
+        <AbilityConditionAboveVitality invert="true" vitalitypercentage="0" />
+        <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
+        <AbilityConditionHasAffliction invert="false" afflictionidentifier="husksymbiosis" />
+        <AbilityConditionHasAffliction afflictionidentifier="disguisedashusk" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character">
+              <Affliction identifier="apotheosis1" strength="1.0" />
+              <Affliction identifier="seizure" amount="30" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+  </Talent>
+  <Talent identifier="Willinghost">
+    <Description tag="talentdescription.slowhusk" />
+    <Description linebreak="true" />
+    <Description tag="talentdescription.willinghost1">
+      <Replace tag="[amount]" value="50" color="gui.green" />
+    </Description>
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="4,6" sheetelementsize="128,128" />
+    <AbilityGroupInterval>
+      <Conditions>
+        <AbilityConditionHasTalent invert="true" identifier="Bettertogether" truthywhen="HasTalent" />
+        <AbilityConditionHasTalent invert="true" identifier="Supplication" truthywhen="HasTalent" />
+        <AbilityConditionHasAffliction afflictionidentifier="huskinfection" minimumpercentage="0.05" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character">
+              <ReduceAffliction type="huskinfection" strength="0.10" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupInterval interval="1">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="huskinfection" minimumpercentage="0.50" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character">
+              <Affliction identifier="Willinghost" amount="2.0" />
+              <Affliction identifier="nobreath" strength="1.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+  </Talent>
+  <Talent identifier="xBloodfeast">
+    <Description tag="talentdescription.bloodfeast1">
+      <Replace tag="[bleed]" value="40" color="gui.green" />
+      <Replace tag="[bleeding]" value="afflictionname.bleeding" color="gui.orange" />
+    </Description>
+    <Description linebreak="true" />
+    <Description tag="talentdescription.medicaleffectivenessreduction">
+      <Replace tag="[amount]" value="30" color="gui.red" />
+    </Description>
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="3,6" sheetelementsize="128,128" />
+    <AbilityGroupInterval>
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
+        <AbilityConditionHasAffliction invert="true" afflictionidentifier="husksymbiosis" />
+        <AbilityConditionHasAffliction afflictionidentifier="disguisedashusk" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character">
+              <ReduceAffliction type="internalbleeding" strength="0.9" />
+              <ReduceAffliction type="bleeding" strength="0.9" />
+              <ReduceAffliction type="bloodloss" strength="0.4" />
+              <ReduceAffliction type="ll_arterialcut" strength="1" />
+              <ReduceAffliction type="rl_arterialcut" strength="1" />
+              <ReduceAffliction type="la_arterialcut" strength="1" />
+              <ReduceAffliction type="ra_arterialcut" strength="1" />
+              <ReduceAffliction type="t_arterialcut" strength="1" />
+              <ReduceAffliction type="h_arterialcut" strength="10" />
+              <ReduceAffliction type="tamponade" strength="0.2" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupInterval>
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
+        <AbilityConditionHasAffliction afflictionidentifier="cardiacarrest" />
+        <AbilityConditionHasAffliction invert="true" afflictionidentifier="husksymbiosis" />
+        <AbilityConditionHasAffliction afflictionidentifier="disguisedashusk" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character">
+            <ReduceAffliction type="bloodloss" strength="0.5" />
+            <ReduceAffliction type="ll_arterialcut" strength="2" />
+            <ReduceAffliction type="rl_arterialcut" strength="2" />
+            <ReduceAffliction type="la_arterialcut" strength="2" />
+            <ReduceAffliction type="ra_arterialcut" strength="2" />
+            <ReduceAffliction type="t_arterialcut" strength="2" />
+            <ReduceAffliction type="h_arterialcut" strength="200" />
+            <ReduceAffliction type="tamponade" strength="5" />
+            <ReduceAffliction type="cardiacarrest" strength="0.2" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
+        <AbilityConditionHasAffliction invert="true" afflictionidentifier="husksymbiosis" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAffliction afflictionidentifiers="bleeding" addedmultiplier="0.4" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupInterval>
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
+        <AbilityConditionHasAffliction invert="true" afflictionidentifier="husksymbiosis" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyStat stattype="MedicalItemEffectivenessMultiplier" value="-0.30" />
+      </Abilities>
+    </AbilityGroupInterval>
+    <!-- Husk Symbiosis -->
+    <AbilityGroupInterval>
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
+        <AbilityConditionHasAffliction invert="false" afflictionidentifier="husksymbiosis" />
+        <AbilityConditionHasAffliction afflictionidentifier="disguisedashusk" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character">
+              <ReduceAffliction type="internalbleeding" strength="0.9" />
+              <ReduceAffliction type="bleeding" strength="0.9" />
+              <ReduceAffliction type="bloodloss" strength="0.4" />
+              <ReduceAffliction type="ll_arterialcut" strength="1" />
+              <ReduceAffliction type="rl_arterialcut" strength="1" />
+              <ReduceAffliction type="la_arterialcut" strength="1" />
+              <ReduceAffliction type="ra_arterialcut" strength="1" />
+              <ReduceAffliction type="t_arterialcut" strength="1" />
+              <ReduceAffliction type="h_arterialcut" strength="10" />
+              <ReduceAffliction type="tamponade" strength="0.2" />
+              <ReduceAffliction type="cardiacarrest" strength="0.2" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupInterval>
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
+        <AbilityConditionHasAffliction afflictionidentifier="cardiacarrest" />
+        <AbilityConditionHasAffliction invert="false" afflictionidentifier="husksymbiosis" />
+        <AbilityConditionHasAffliction afflictionidentifier="disguisedashusk" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect target="Character">
+            <ReduceAffliction type="bloodloss" strength="0.5" />
+            <ReduceAffliction type="ll_arterialcut" strength="20" />
+            <ReduceAffliction type="rl_arterialcut" strength="20" />
+            <ReduceAffliction type="la_arterialcut" strength="20" />
+            <ReduceAffliction type="ra_arterialcut" strength="20" />
+            <ReduceAffliction type="t_arterialcut" strength="20" />
+            <ReduceAffliction type="h_arterialcut" strength="20" />
+            <ReduceAffliction type="tamponade" strength="5" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
+        <AbilityConditionHasAffliction invert="false" afflictionidentifier="husksymbiosis" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAffliction afflictionidentifiers="bleeding" addedmultiplier="0.4" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupInterval>
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="huskinfection" />
+        <AbilityConditionHasAffliction invert="false" afflictionidentifier="husksymbiosis" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyStat stattype="MedicalItemEffectivenessMultiplier" value="-0.30" />
+      </Abilities>
+    </AbilityGroupInterval>
+    </Talent>
+    <Talent identifier="medievalmedication">
+    <Description tag="talentdescription.medievalmedication">
+      <Replace tag="[item]" value="entityname.huskeggs" color="gui.orange" />
+    </Description>
+    <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="0,3" sheetelementsize="128,128" />
+    <AbilityGroupEffect abilityeffecttype="OnApplyTreatment">
+      <Conditions>
+        <AbilityConditionCharacter targettypes="Ally" />
+        <AbilityConditionItem identifiers="huskeggs" />
+        <AbilityConditionHasAffliction afflictionidentifier="disguisedashusk" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="UseTarget" tags="medical" duration="60.0">
+            <ReduceAffliction type="damage" strength="0.3" />
+            <ReduceAffliction type="burn" strength="0.3" />
+            <ReduceAffliction type="organdamage" strength="0.3" />
+            <ReduceAffliction type="bonedamage" strength="0.3" />
+            <ReduceAffliction type="heartdamage" strength="0.3" />
+            <ReduceAffliction type="liverdamage" strength="0.3" />
+            <ReduceAffliction type="kidneydamage" strength="0.3" />
+            <ReduceAffliction type="internaldamage" strength="0.1" />
+            <ReduceAffliction type="internalbleeding" strength="0.3" />
+            <ReduceAffliction type="bleeding" strength="0.3" />
+            <ReduceAffliction type="bloodloss" strength="0.2" />
+            <ReduceAffliction type="hypoxemia" strength="0.5" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupEffect>
+    </Talent>
+  </Override>
+</Talents>

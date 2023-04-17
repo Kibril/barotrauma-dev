@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Simplified Chinese" nowhitespace="true" translatedname="中文(简体)">
+  <entityname.pucsplus>PUCS PLUS防护服</entityname.pucsplus>
+  <entityname.pucsmech>PUCS PLUS装甲服</entityname.pucsmech>
+  <entitydescription.pucsplus>加强版PUCS防护服，大幅强化了抗击打能力并降低了耗氧量，同时能够抵抗‖color:190,170,100,255‖辐射和火灾‖color:end‖的危害，且内置‖color:190,170,100,255‖高级自动注射、降噪、推进器和声纳系统‖color:end‖，能够赋予使用者更强的作战机动能力。
+
+可以放置药品：(左上格子)生理盐水、血袋、异星血浆、(右上格子)吗啡、芬太尼、神效剂；‖color:238,99,99,255‖放置战斗兴奋剂时只能在半血后后自动全量注射。‖color:end‖</entitydescription.pucsplus>
+  <entityname.PCPS_InterfaceController>PUCS PLUS界面控制器</entityname.PCPS_InterfaceController>
+  <entitydescription.PCPS_InterfaceController>用于控制‖color:190,170,100,255‖PUCS PLUS‖color:end‖的各类功能界面的显示，可以拿着控制器，勾选"禁用界面"后放回‖color:190,170,100,255‖PUCS PLUS‖color:end‖中来关闭功能界面的显示。</entitydescription.PCPS_InterfaceController>
+  <embi.pucsscooter>推进器</embi.pucsscooter>
+  <embi.lightswitch>探照灯</embi.lightswitch>
+  <embi.noisecancelling>降噪</embi.noisecancelling>
+  <embi.InterfaceController>禁用界面</embi.InterfaceController>
+  <displayname.embi.Conversion>[itemname] (转换)</displayname.embi.Conversion>
+</infotexts>

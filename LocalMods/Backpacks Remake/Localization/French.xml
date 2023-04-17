@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="French" nowhitespace="false" translatedname="Français">
+  <entityname.ammopack>Malette à munitions</entityname.ammopack>
+  <entitydescription.ammopack>Une malette bien pratique pour ranger sur soi des munitions d'arme conventionnelle.</entitydescription.ammopack>
+  <entityname.backpack1>Sac à Dos</entityname.backpack1>
+  <entitydescription.backpack1>Pour avoir les mains libre et le dos qui souffre.</entitydescription.backpack1>
+  <entityname.minigun1>Minigun</entityname.minigun1>
+  <entitydescription.minigun1>Afin de recharger cette machine de mort il vous faut la placer dans un réservoir à munition de minigun (Note : En raison d'un bug pour l'instant non corrigeable il est préférable de le retirer rapidement une fois rechargé ou vous risquer de perdre des munitions.</entitydescription.minigun1>
+  <entityname.minigunammunitiontank>Réservoir à munition de minigun</entityname.minigunammunitiontank>
+  <entitydescription.minigunammunitiontank>Un imposant réservoir à munitions utilisé pour rapidement recharger le minigun.</entitydescription.minigunammunitiontank>
+  <entityname.ddossuit>Combinaison d'Opération en Plongée Profonde</entityname.ddossuit>
+  <entitydescription.ddossuit>Une combinaison de plongée utilisée uniquement par l'élite des plongeurs durant les opération abyssales. Avec un système de propulsion intégré alimenté par batterie, un sac à dos renforcé, un support de conteneur de stockage compact et une carapace très résistante à la pression, cette merveille de technologie assurera la survie de ceux qui l'utilisent et qui peuvent se la permettre... Il faut se déshabiller pour pouvoir la porter.</entitydescription.ddossuit>
+  <entityname.heavybackpack>Sac à Dos Lourd </entityname.heavybackpack>
+  <entitydescription.heavybackpack>Un packetage lourd utilisé afin de transporter de large quantité de matériel plus facilement. Peut être utilisé afin de transporter des caisses, des tenues de plongés, des munitions lourdes et même des artéfacts alien.</entitydescription.heavybackpack>
+  <entityname.heavycrate>Caisse Lourde</entityname.heavycrate>
+  <entitydescription.heavycrate>Une caisse lourde bien pratique permettant de transporter des objets encombrant tel que des tenues de plongée, des munitions lourdes et même des artéfacts aliens.</entitydescription.heavycrate>
+  <entityname.medicalbackpack>Sac à Dos Médical</entityname.medicalbackpack>
+  <entitydescription.medicalbackpack>Permet un transport des ressources et composants medicaux bien plus facile.</entitydescription.medicalbackpack>
+  <entityname.medipack>Malette Médicale</entityname.medipack>
+  <entitydescription.medipack>Une malette bien pratique pour ranger sur soi du matériel médical.</entitydescription.medipack>
+  <entityname.oxy-genbackpack>Générateur d'oxygène portable</entityname.oxy-genbackpack>
+  <entitydescription.oxy-genbackpack>Une station de génération portable convertie en sac à dos permettant à l'utilisateur de respirer sous l'eau ainsi que de remplir jusqu'à deux réservoirs d'oxygène en même.</entitydescription.oxy-genbackpack>
+  <entityname.power-backpack>Générateur électrique portable</entityname.power-backpack>
+  <entitydescription.power-backpack>Un générateur électrique portatif équipé d'une puissante lumière radiale et de ports de rechargement pour vos batteries. Possède aussi quelques compartiments de stockage.</entitydescription.power-backpack>
+  <entityname.shieldbackpack>Générateur de bouclier portable</entityname.shieldbackpack>
+  <entitydescription.shieldbackpack>Un générateur de bouclier personnel encore au stade expérimental. Une fois alimenté, prodigue un champ de protection suivant le porteur et permet même d'annuler les effets de la pression barotraumatique. Certaines personnes ont même essayer de l'alimenté avec de l'énergie alien...</entitydescription.shieldbackpack>
+  <entityname.tacticalbodyarmor>Gilet porte-plaques</entityname.tacticalbodyarmor>
+  <entitydescription.tacticalbodyarmor>Un simple gilet pare-balles avec une bandolière attaché dessus. Ça marche, tout simplement.</entitydescription.tacticalbodyarmor>
+  <entityname.techno-backpack>Interface de Status Universelle Portable</entityname.techno-backpack>
+  <entitydescription.techno-backpack>Une interface portative permettant en plus d'un espace de stockage respectable la possibilité de traquer les signatures thermiques, les échos sonar et d'avoir un status complet du sous-marin.</entitydescription.techno-backpack>
+  <entityname.xeno-backpack>Sac à Dos Alien</entityname.xeno-backpack>
+  <entitydescription.xeno-backpack>Une bien étrange machine alien portative permettant en echange des matériaux composant le corps humain, en particulier le sang, de regénérer différent type de matériaux placé à l'interieur. Le processus semble même apaiser l'esprit de l'utilisateur</entitydescription.xeno-backpack>
+</infotexts>

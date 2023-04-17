@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Brazilian Portuguese" nowhitespace="false" translatedname="Português brasileiro">
+  <entityname.ammopack>Estojo de Munição</entityname.ammopack>
+  <entitydescription.ammopack>Uma estojo que permite um gerenciamento de munição mais fácil.</entitydescription.ammopack>
+  <entityname.backpack1>Mochila</entityname.backpack1>
+  <entitydescription.backpack1>Para deixar suas mãos livres e suas costas em sofrimento.</entitydescription.backpack1>
+  <entityname.minigun1>Minigun</entityname.minigun1>
+  <entitydescription.minigun1>Para recarregar essa besta você deve colocá-la em um Tanque de Munição de Minigun (Nota : Quando ela estiver cheia, a remova rápido pois ainda é necessário consertar o problema da drenagem de condição).</entitydescription.minigun1>
+  <entityname.minigunammunitiontank>Tanque de Munição de Minigun</entityname.minigunammunitiontank>
+  <entitydescription.minigunammunitiontank>Um tanque de munição pesado montado em uma armadura corporal maior para alimentar a fome colossal da minigun quando necessário.</entitydescription.minigunammunitiontank>
+  <entityname.ddossuit>Traje de Mergulho de Operação Profunda</entityname.ddossuit>
+  <entitydescription.ddossuit>Um traje de mergulho usado pela elite de mergulhadores das profundezas. Com um sistema de propulsão integral alimentado por bateria, uma mochila reforçado, um suporte compacto para contêiner de armazenamento e um revestimento altamente resistente à pressão, essa maravilha da tecnologia garantirá a sobrevivência de quem a usa e tem condições de pagar seu custo... Deve-se despir-se para poder usá-lo.</entitydescription.ddossuit>
+  <entityname.heavybackpack>Mochila Pesada</entityname.heavybackpack>
+  <entitydescription.heavybackpack>Armazenamento grande usado para transportar ferramentas ou equipamento pesado sem problemas. Pode ser usado para armazenar itens grandes como caixas de munição, projéteis de canhão elétrico e artefatos alienígenas.</entitydescription.heavybackpack>
+  <entityname.heavycrate>Caixa Pesada</entityname.heavycrate>
+  <entitydescription.heavycrate>Uma caixa móvel pesada usada para guardar caixas de munição, projéteis de canhão elétrico, trajes de mergulho e, até mesmo, artefatos alienígenas. Terá um grande impacto na sua mobilidade mas oferece uma ótima maneira para mover itens grandes.</entitydescription.heavycrate>
+  <entityname.medicalbackpack>Mochila Médica</entityname.medicalbackpack>
+  <entitydescription.medicalbackpack>Para transportar quaisqueres itens e componentes médicos.</entitydescription.medicalbackpack>
+  <entityname.medipack>Estojo Médico</entityname.medipack>
+  <entitydescription.medipack>Um estojo que permite transporte de itens médicos mais fácil.</entitydescription.medipack>
+  <entityname.oxy-genbackpack>Mochila Geradora de Oxigênio</entityname.oxy-genbackpack>
+  <entitydescription.oxy-genbackpack>Uma estação de recarga portátil convertida em uma mochila que permite ao usuário respirar debaixo d'água, bem como reabastecer qualquer tanque de oxigênio.</entitydescription.oxy-genbackpack>
+  <entityname.power-backpack>Mochila Bateria</entityname.power-backpack>
+  <entitydescription.power-backpack>Um emissor de luz portátil de alta intensidade equipado com docas de recarga, para operações prolongadas em alto mar com alguns bolsos para armazenamento ocasional.</entitydescription.power-backpack>
+  <entityname.shieldbackpack>Mochila de Escudo</entityname.shieldbackpack>
+  <entitydescription.shieldbackpack>Um dispositivo revolucionário usado para reduzir os danos sofridos, quando energizado, dependendo do tipo de bateria usada. Algumas pessoas até colocam fontes de energia alienígena dentro...</entitydescription.shieldbackpack>
+  <entityname.tacticalbodyarmor>Armadura Corporal Tática</entityname.tacticalbodyarmor>
+  <entitydescription.tacticalbodyarmor>Basicamente uma armadura corporal com uma bandoleira integrada. Só funciona, ok?</entitydescription.tacticalbodyarmor>
+  <entityname.techno-backpack>Mochila Tecnológica</entityname.techno-backpack>
+  <entitydescription.techno-backpack>Uma mochila útil que permite o monitoramento do status do submarino, assim como a assinatura térmica de todas as criaturas a sua volta (e, claro, não irá explodir (provavelmente)).</entitydescription.techno-backpack>
+  <entityname.xeno-backpack>Mochila Alienígena</entityname.xeno-backpack>
+  <entitydescription.xeno-backpack>Uma engenhoca estranha, criada a partir de diversos materiais alienígenas de difícil compreensão, semelhante a uma mochila. Como está, não pode armazenar muito, mas usando o sangue de seu usuário pode rematerializar vários tipos de equipamentos, além de suprimir psicose.</entitydescription.xeno-backpack>
+</infotexts>

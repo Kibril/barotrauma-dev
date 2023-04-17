@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="PUCS PLUS" modversion="1.4" corepackage="False" gameversion="1.0.8.0" altnames="PUCS PLUS">
+  <Item file="%ModDir%/Items/PUCS-P.xml" />
+  <Other file="%ModDir%/Items/PUCSP_male.png" />
+  <Other file="%ModDir%/Items/PUCSP_female.png" />
+  <Other file="%ModDir%/Items/PUCSP_items.png" />
+  <Other file="%ModDir%/Items/PUCSM.png" />
+  <Other file="%ModDir%/Items/PUCSM_items.png" />
+  <Other file="%ModDir%/Light/diving_light.png" />
+  <Text file="%ModDir%/Localization/chinese.xml" />
+  <Text file="%ModDir%/Localization/english.xml" />
+  <Text file="%ModDir%/Localization/Russian.xml" />
+</contentpackage>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Backpacks Remake" modversion="2.2a" corepackage="False" gameversion="0.20.16.1">
+  <Item file="%ModDir%/Backpack/Backpack.xml" />
+  <Item file="%ModDir%/Heavy Backpack/Heavy Backpack.xml" />
+  <Item file="%ModDir%/Power-Backpack/Power-Backpack.xml" />
+  <Item file="%ModDir%/Medical Backpack/Medical Backpack.xml" />
+  <Item file="%ModDir%/Duffel Bag/Duffel Bag.xml" />
+  <Item file="%ModDir%/Xeno-Backpack/Xeno-Backpack.xml" />
+  <Item file="%ModDir%/Heavy Crate/Heavy Crate.xml" />
+  <Item file="%ModDir%/Medipack/Medipack.xml" />
+  <Item file="%ModDir%/Oxy-Gen. Backpack/Oxy-Gen. Backpack.xml" />
+  <Item file="%ModDir%/Techno-Backpack/Techno-Backpack.xml" />
+  <!--<Item file="%ModDir%/Shield Backpack/Shield Backpack.xml" />-->
+  <Afflictions file="%ModDir%/Afflictions.xml" />
+  <Text file="%ModDir%/Localization/Russian.xml" />
+  <Text file="%ModDir%/Localization/English.xml" />
+  <Text file="%ModDir%/Localization/French.xml" />
+  <Text file="%ModDir%/Localization/Polish.xml" />
+  <Text file="%ModDir%/Localization/Brazilian Portuguese.xml" />
+</contentpackage>

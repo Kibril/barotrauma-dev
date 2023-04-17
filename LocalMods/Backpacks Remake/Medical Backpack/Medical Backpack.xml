@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="medicalbackpack" category="Equipment" tags="medical,mediumitem,backpack" fireproof="true" waterproof="true" cargocontaineridentifier="metalcrate" scale="0.28" impactsoundtag="impact_soft" description="">
+    <Price baseprice="350">
+      <Price locationtype="outpost" multiplier="1" minavailable="4" />
+      <Price locationtype="city" multiplier="0.9" minavailable="6" />
+      <Price locationtype="research" multiplier="1.25" minavailable="1" />
+      <Price locationtype="military" multiplier="1.25" minavailable="1" />
+      <Price locationtype="mine" multiplier="1.25" minavailable="8" />
+    </Price>
+    <Deconstruct time="40">
+      <Item identifier="ballisticfiber" />
+      <Item identifier="ballisticfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="mechanical" level="35" />
+      <RequiredItem identifier="ballisticfiber" />
+      <RequiredItem identifier="ballisticfiber" />
+    </Fabricate>
+    <InventoryIcon texture="Medical Backpack.png" sourcerect="185,8,261,273" />
+    <Sprite texture="Medical Backpack.png" sourcerect="185,8,261,273" depth="0.6" origin="0.5,0.9" />
+    <Body width="100" height="60" density="30" />
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+      <sprite name="Backpack on character" texture="Medical Backpack.png" canbehiddenbyotherwearables="false" limb="Torso" depth="0.8" hidelimb="false" inherittexturescale="true" origin="1,0.5" sourcerect="6,14,73,124" />
+      <ItemContainer capacity="0" maxstacksize="0" hideitems="true" slotsperrow="4" containedstateindicatorslot="1">
+        <Containable items="none" />
+        <SlotIcon slotindex="0" texture="%ModDir%/Icons/Medical.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="1" texture="%ModDir%/Icons/Medical.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="2" texture="%ModDir%/Icons/Medical.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="3" texture="%ModDir%/Icons/Medical.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="4" texture="%ModDir%/Icons/Medical.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="5" texture="%ModDir%/Icons/Medical.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="6" texture="%ModDir%/Icons/Medical.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="7" texture="%ModDir%/Icons/Medical.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="8" texture="%ModDir%/Icons/Medical.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="9" texture="%ModDir%/Icons/Medical.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="10" texture="%ModDir%/Icons/Medical.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="11" texture="%ModDir%/Icons/Medical.png" origin="0.5,0.5" />
+        <SubContainer capacity="12" maxstacksize="8">
+          <Containable items="chem,medical,syringe,huskeggs,organicfiber,paralyxis,plant,surgerytool,surgery,organ" excludeditems="backpack,toolbox" />
+        </SubContainer>
+        <SubContainer capacity="4" maxstacksize="8">
+          <Containable items="smallitem,mediumitem,mobilecontainer" excludeditems="backpack,toolbox,cargoscooter" />
+        </SubContainer>
+      </ItemContainer>
+      <SkillModifier skillidentifier="medical" skillvalue="10" />
+      <!---->
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,mediumitem" type="Contained" targetslot="12" />
+        <Affliction identifier="encombrancemedicalbackpack" amount="2" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,mediumitem" type="Contained" targetslot="13" />
+        <Affliction identifier="encombrancemedicalbackpack" amount="2" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,mediumitem" type="Contained" targetslot="14" />
+        <Affliction identifier="encombrancemedicalbackpack" amount="2" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,mediumitem" type="Contained" targetslot="15" />
+        <Affliction identifier="encombrancemedicalbackpack" amount="2" />
+      </StatusEffect>
+      <!---->
+      <!---->
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="chem,medical,syringe,huskeggs,organicfiber,paralyxis,plant,surgerytool,surgery,organ" type="Contained" targetslot="0" />
+        <Affliction identifier="encombrancemedicalbackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="chem,medical,syringe,huskeggs,organicfiber,paralyxis,plant,surgerytool,surgery,organ" type="Contained" targetslot="1" />
+        <Affliction identifier="encombrancemedicalbackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="chem,medical,syringe,huskeggs,organicfiber,paralyxis,plant,surgerytool,surgery,organ" type="Contained" targetslot="2" />
+        <Affliction identifier="encombrancemedicalbackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="chem,medical,syringe,huskeggs,organicfiber,paralyxis,plant,surgerytool,surgery,organ" type="Contained" targetslot="3" />
+        <Affliction identifier="encombrancemedicalbackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="chem,medical,syringe,huskeggs,organicfiber,paralyxis,plant,surgerytool,surgery,organ" type="Contained" targetslot="4" />
+        <Affliction identifier="encombrancemedicalbackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="chem,medical,syringe,huskeggs,organicfiber,paralyxis,plant,surgerytool,surgery,organ" type="Contained" targetslot="5" />
+        <Affliction identifier="encombrancemedicalbackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="chem,medical,syringe,huskeggs,organicfiber,paralyxis,plant,surgerytool,surgery,organ" type="Contained" targetslot="6" />
+        <Affliction identifier="encombrancemedicalbackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="chem,medical,syringe,huskeggs,organicfiber,paralyxis,plant,surgerytool,surgery,organ" type="Contained" targetslot="7" />
+        <Affliction identifier="encombrancemedicalbackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="chem,medical,syringe,huskeggs,organicfiber,paralyxis,plant,surgerytool,surgery,organ" type="Contained" targetslot="8" />
+        <Affliction identifier="encombrancemedicalbackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="chem,medical,syringe,huskeggs,organicfiber,paralyxis,plant,surgerytool,surgery,organ" type="Contained" targetslot="9" />
+        <Affliction identifier="encombrancemedicalbackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="chem,medical,syringe,huskeggs,organicfiber,paralyxis,plant,surgerytool,surgery,organ" type="Contained" targetslot="10" />
+        <Affliction identifier="encombrancemedicalbackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="chem,medical,syringe,huskeggs,organicfiber,paralyxis,plant,surgerytool,surgery,organ" type="Contained" targetslot="11" />
+        <Affliction identifier="encombrancemedicalbackpack" amount="1" />
+      </StatusEffect>
+      <!---->
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,0" handle1="-10,-20" handle2="10,-20" holdangle="45" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use">
+      <Upgrade gameversion="0.1401.0.0" msg="ItemMsgPickUpUse" />
+    </Holdable>
+  </Item>
+</Items>

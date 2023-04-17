@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sounds>
+  <damagesound file="%ModDir%/Sounds/armourmeddeflect1.ogg" damagesoundtype="armourmedimpact" />
+  <damagesound file="%ModDir%/Sounds/armourmeddeflect2.ogg" damagesoundtype="armourmedimpact" />
+  <damagesound file="%ModDir%/Sounds/armourmeddeflect3.ogg" damagesoundtype="armourmedimpact" />
+  <damagesound file="%ModDir%/Sounds/armourheavydeflect1.ogg" damagesoundtype="armourheavyimpact" />
+  <damagesound file="%ModDir%/Sounds/armourheavydeflect2.ogg" damagesoundtype="armourheavyimpact" />
+  <damagesound file="%ModDir%/Sounds/armourheavydeflect3.ogg" damagesoundtype="armourheavyimpact" />
+  <heavysuitfootstep file="%ModDir%/Sounds/heavyfootstep.ogg" />
+</sounds>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <entityname.ammopack>Ammopack</entityname.ammopack>
+  <entitydescription.ammopack>A case allowing an easier ammunition management.</entitydescription.ammopack>
+  <entityname.backpack1>Backpack</entityname.backpack1>
+  <entitydescription.backpack1>To make your hands free, and your back suffer.</entitydescription.backpack1>
+  <entityname.minigun1>Minigun</entityname.minigun1>
+  <entitydescription.minigun1>To refill this beast you have to place it in a Minigun Ammunition Tank (Note : Once it is full remove it quickly for i have yet to fix the condition draining issue).</entitydescription.minigun1>
+  <entityname.minigunammunitiontank>Minigun Ammunition Tank</entityname.minigunammunitiontank>
+  <entitydescription.minigunammunitiontank>A heavy ammunition tank mounted on a larger body armor to feed the minigun colossal hunger when needed.</entitydescription.minigunammunitiontank>
+  <entityname.ddossuit>Deep Diving Operation Suit</entityname.ddossuit>
+  <entitydescription.ddossuit>A diving suit used only by the elite deep divers. With an integrated battery powered propulsion system, a reinforced backpack, a compact storage container holder, and a highly pressure resistant plating this wonder of technology will assure the survival of those who use it, and can afford it... One should unclothes himself to be able to wear it.</entitydescription.ddossuit>
+  <entityname.heavybackpack>Heavy Backpack</entityname.heavybackpack>
+  <entitydescription.heavybackpack>Large packaging used to transport heavy tools or equipement more easily. Can be used to store large items like Ammoboxes, Railgun Shell and Xeno's artefacts.</entitydescription.heavybackpack>
+  <entityname.heavycrate>Heavy Crate</entityname.heavycrate>
+  <entitydescription.heavycrate>A heavy movable crate used to store ammoboxes, railgun shells, diving suits, and even alien artifacts. It will slow you down quit alot but will offer a great way to move large items.</entitydescription.heavycrate>
+  <entityname.medicalbackpack>Medical Backpack</entityname.medicalbackpack>
+  <entitydescription.medicalbackpack>To transport any medical items and components.</entitydescription.medicalbackpack>
+  <entityname.medipack>Medipack</entityname.medipack>
+  <entitydescription.medipack>A case allowing a easier medical related items transportation.</entitydescription.medipack>
+  <entityname.oxy-genbackpack>Oxy-Gen. Backpack</entityname.oxy-genbackpack>
+  <entitydescription.oxy-genbackpack>A portable rebreathing station converted into a backpack allowing the user to breath underwater as well as refilling any oxygen tanks.</entitydescription.oxy-genbackpack>
+  <entityname.power-backpack>Power-Backpack</entityname.power-backpack>
+  <entitydescription.power-backpack>A portable high intensity light emitter equiped with charging docks, for extended deep sea operations with some pockets for occasionnal storage.</entitydescription.power-backpack>
+  <entityname.shieldbackpack>Shield Backpack</entityname.shieldbackpack>
+  <entitydescription.shieldbackpack>A revolutionnary device used to reduce damage taken when powered depending on the battery type used. Some peoples even put some alien power source inside...</entitydescription.shieldbackpack>
+  <entityname.tacticalbodyarmor>Tactical Body Armor</entityname.tacticalbodyarmor>
+  <entitydescription.tacticalbodyarmor>Basically a body armor with a bandolier slapped on it. It just work.</entitydescription.tacticalbodyarmor>
+  <entityname.techno-backpack>Techno-Backpack</entityname.techno-backpack>
+  <entitydescription.techno-backpack>A useful backpack allowing you to monitor the submarines status as well as the thermal signature of every lifeform around (And of course it won't explode (hopefully))</entitydescription.techno-backpack>
+  <entityname.xeno-backpack>Xeno-Backpack</entityname.xeno-backpack>
+  <entitydescription.xeno-backpack>A strange contraption created with various and hard to understand alien materials to ressemble a wearable backpack. As it is, it can't contain a lot but using his wearer's blood it can rematerialize multiple types of equipement as well as supressing psychosis.</entitydescription.xeno-backpack>
+</infotexts>

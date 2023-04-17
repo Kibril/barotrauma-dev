@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <entityname.pucsplus>PUCS PLUS</entityname.pucsplus>
+  <entityname.pucsmech>PUCS PLUS</entityname.pucsmech>
+  <entitydescription.pucsplus>Enhanced version of PUCS, which greatly improves combat effectiveness, reduces oxygen consumption, and can resist ‖color:190,170,100,255‖radiation‖color:end‖ and ‖color:190,170,100,255‖fire‖color:end‖ hazards, and has built-in ‖color:190,170,100,255‖advanced drug injection, noise reduction, thrusters and sonar systems‖color:end‖, which can Give users stronger combat maneuverability.
+
+Drugs can be placed: (upper left grid) Saline, Blood Pack, Alien Blood, (upper right grid) Morphine, Fentanyl, Deusizine; ‖color:238,99,99,255‖Combat Stimulant can also be placed here, but it can only be placed automatically when the blood volume is low injection.‖color:end‖</entitydescription.pucsplus>
+  <entityname.PCPS_InterfaceController>PUCS PLUS Interface Controller</entityname.PCPS_InterfaceController>
+  <entitydescription.PCPS_InterfaceController>It is used to control the display of various functional interfaces of ‖color:190,170,100,255‖PUCS PLUS‖color:end‖. You can hold the controller, check "Disable interface" and put it back into ‖color:190,170,100,255‖PUCS PLUS‖color:end‖ to turn off the display of the functional interface.</entitydescription.PCPS_InterfaceController>
+  <embi.pucsscooter>Thruster</embi.pucsscooter>
+  <embi.lightswitch>Searchlight</embi.lightswitch>
+  <embi.noisecancelling>Noise Cancelling</embi.noisecancelling>
+  <embi.InterfaceController>Disable Interface</embi.InterfaceController>
+  <displayname.embi.Conversion>[itemname] (Conversion)</displayname.embi.Conversion>
+</infotexts>

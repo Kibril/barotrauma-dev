@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="heavycrate" tags="crate" scale="0.5" linkable="true" pickdistance="150" showcontentsintooltip="true" impactsoundtag="impact_metal_heavy" waterproof="true" description="">
+    <Price baseprice="100">
+      <Price locationtype="outpost" multiplier="1" minavailable="1" />
+      <Price locationtype="city" multiplier="0.9" minavailable="1" />
+      <Price locationtype="research" multiplier="1.25" minavailable="1" />
+      <Price locationtype="military" multiplier="1.25" minavailable="3" />
+      <Price locationtype="mine" multiplier="1.25" minavailable="0" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="steel" />
+      <Item identifier="steel" />
+      <Item identifier="steel" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="mechanical" level="30" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="steel" />
+    </Fabricate>
+    <Sprite texture="Heavy Crate.png" depth="0.54" sourcerect="165,103,304,86" origin="0.5,0.5" />
+    <ContainedSprite name="Heavy Crate on shelf" allowedcontainertags="cargocontainer" texture="Heavy Crate.png" sourcerect="164,5,152,87" depth="0.55" origin="0.5,0.5" />
+    <Body width="145" height="85" density="50" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-20,14" handle2="20,14" aimable="false" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="deepdiving,ammobox,railgunammo,depthchargeammo,alienartifact,toolbox" type="Contained" targetslot="0" />
+        <Affliction identifier="encombranceheavybackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="deepdiving,ammobox,railgunammo,depthchargeammo,alienartifact,toolbox" type="Contained" targetslot="1" />
+        <Affliction identifier="encombranceheavybackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="deepdiving,ammobox,railgunammo,depthchargeammo,alienartifact,toolbox" type="Contained" targetslot="2" />
+        <Affliction identifier="encombranceheavybackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="deepdiving,ammobox,railgunammo,depthchargeammo,alienartifact,toolbox" type="Contained" targetslot="3" />
+        <Affliction identifier="encombranceheavybackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="deepdiving,ammobox,railgunammo,depthchargeammo,alienartifact,toolbox" type="Contained" targetslot="4" />
+        <Affliction identifier="encombranceheavybackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="deepdiving,ammobox,railgunammo,depthchargeammo,alienartifact,toolbox" type="Contained" targetslot="5" />
+        <Affliction identifier="encombranceheavybackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="deepdiving,ammobox,railgunammo,depthchargeammo,alienartifact,toolbox" type="Contained" targetslot="6" />
+        <Affliction identifier="encombranceheavybackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="deepdiving,ammobox,railgunammo,depthchargeammo,alienartifact,toolbox" type="Contained" targetslot="7" />
+        <Affliction identifier="encombranceheavybackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="deepdiving,ammobox,railgunammo,depthchargeammo,alienartifact,toolbox" type="Contained" targetslot="8" />
+        <Affliction identifier="encombranceheavybackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="deepdiving,ammobox,railgunammo,depthchargeammo,alienartifact,toolbox" type="Contained" targetslot="9" />
+        <Affliction identifier="encombranceheavybackpack" amount="1" />
+      </StatusEffect>
+    </Holdable>
+    <ItemContainer capacity="10" slotsperrow="2" maxstacksize="64" canbeselected="false" hideitems="true" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="deepdiving,ammobox,railgunammo,depthchargeammo,alienartifact,toolbox" excludeditems="backpack" />
+      <SlotIcon slotindex="0" texture="%ModDir%/Icons/Heavy.png" origin="0.5,0.45" />
+      <SlotIcon slotindex="1" texture="%ModDir%/Icons/Heavy.png" origin="0.5,0.45" />
+      <SlotIcon slotindex="2" texture="%ModDir%/Icons/Heavy.png" origin="0.5,0.45" />
+      <SlotIcon slotindex="3" texture="%ModDir%/Icons/Heavy.png" origin="0.5,0.45" />
+      <SlotIcon slotindex="4" texture="%ModDir%/Icons/Heavy.png" origin="0.5,0.45" />
+      <SlotIcon slotindex="5" texture="%ModDir%/Icons/Heavy.png" origin="0.5,0.45" />
+      <SlotIcon slotindex="6" texture="%ModDir%/Icons/Heavy.png" origin="0.5,0.45" />
+      <SlotIcon slotindex="7" texture="%ModDir%/Icons/Heavy.png" origin="0.5,0.45" />
+      <SlotIcon slotindex="8" texture="%ModDir%/Icons/Heavy.png" origin="0.5,0.45" />
+      <SlotIcon slotindex="9" texture="%ModDir%/Icons/Heavy.png" origin="0.5,0.45" />
+    </ItemContainer>
+  </Item>
+</Items>

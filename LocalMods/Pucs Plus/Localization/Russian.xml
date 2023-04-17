@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="russian" nowhitespace="false" translatedname="Русский">
+  <entityname.pucsplus>Прототип улучшенного УЗК</entityname.pucsplus>
+  <entityname.pucsmech>Инопланетный УЗК</entityname.pucsmech>
+  <entitydescription.pucsplus>Усовершенствованная версия УЗК, который повышает боевую эффективность, уменьшает потребление кислорода, и имеет сопротивление ‖color:190,170,100,255‖радиации‖color:end‖ и ‖color:190,170,100,255‖огню‖color:end‖, и встроенный ‖color:190,170,100,255‖передовой инжектор, шумоподавитель, двигатели и сонарную систему‖color:end‖, что может повысить боевую маневренность.
+
+Препараты могут быть размещены: (верхняя левая сетка) Физиологический раствор, Пакет с кровью, Кровь Чужих, (верхняя правая) Морфин, Фентанил, Деусцин; ‖color:238,99,99,255‖Боевой стимпак так же может быть помещён, но он может быть введен автоматически только при низком объеме крови.‖color:end‖</entitydescription.pucsplus>
+  <entityname.PCPS_InterfaceController>УЗК+ Интерфейсный Контроллер</entityname.PCPS_InterfaceController>
+  <entitydescription.PCPS_InterfaceController>Он используется для управления отображением различных функциональных интерфейсов ‖color:190,170,100,255‖УЗК+‖color:end‖. Вы можете взять контроллер, установить флажок "Отключить интерфейс" и вставить его обратно в ‖color:190,170,100,255‖УЗК+‖color:end‖, чтобы отключить отображение функционального интерфейса.</entitydescription.PCPS_InterfaceController>
+  <embi.pucsscooter>Сопла</embi.pucsscooter>
+  <embi.lightswitch>Фонари</embi.lightswitch>
+  <embi.noisecancelling>Шумоподавление</embi.noisecancelling>
+  <embi.InterfaceController>Выключить интерфейс</embi.InterfaceController>
+  <displayname.embi.Conversion>[itemname] (Conversion)</displayname.embi.Conversion>
+</infotexts>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Talents>
+  <Override>
+    <Talent identifier="activeparry">
+      <Description tag="talentdescription.activeparry">
+        <Replace tag="[amount]" value="15" color="gui.green" />
+      </Description>
+      <Description tag="talentdescription.activeparry2nd">
+        <Replace tag="[amount]" value="55" color="gui.green" />
+      </Description>
+      <Icon texture="%ModDir%/Diver/DTalentsIcons.png" sheetindex="4,2" sheetelementsize="128,128" />
+      <AbilityGroupInterval interval="0.9">
+        <Conditions>
+          <AbilityConditionIsAiming />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityModifyResistance resistanceid="damage" multiplier="0.85" />
+        </Abilities>
+      </AbilityGroupInterval>
+      <AbilityGroupInterval interval="0.9">
+        <Conditions>
+          <AbilityConditionIsAiming weapontype="melee" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityModifyResistance resistanceid="damage" multiplier="0.75" />
+        </Abilities>
+      </AbilityGroupInterval>
+    </Talent>
+    <Talent identifier="calloused">
+      <Icon texture="%ModDir%/Diver/DTalentsIcons.png" sheetindex="3,0" sheetelementsize="128,128" />
+      <Description tag="talentdescription.calloused" />
+      <AbilityGroupInterval>
+        <Conditions>
+          <AbilityConditionAboveVitality invert="true" vitalitypercentage="0" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityApplyStatusEffects>
+            <StatusEffects>
+              <CharacterAbilityModifyResistance resistanceid="oxygenlow" multiplier="0.5" />
+              <CharacterAbilityModifyResistance resistanceid="bleeding" multiplier="0.5" />
+              <CharacterAbilityModifyResistance resistanceid="bloodloss" multiplier="0.5" />
+            </StatusEffects>
+          </CharacterAbilityApplyStatusEffects>
+        </Abilities>
+      </AbilityGroupInterval>
+    </Talent>
+  </Override>
+</Talents>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Missions>
+  <OutpostDestroyMission name="Vanguard Assassination" identifier="abandonedoutpostassassinateliv" tags="abandonedoutpost" textidentifier="abandonedoutpostassassinateliv" type="OutpostDestroy" reward="12000" difficulty="4" commonness="25" allowretry="true" sonarlabel="target" unhideentitysubcategories="abandonedhuman" achievementidentifier="abandonedoutpostassassinate">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,512,256,256" color="214,50,48" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Reputation identifier="separatists" amount="-40" />
+    <Reputation identifier="coalition" amount="15" />
+    <Characters>
+      <Character identifier="seplivfollower" from="abandonedlivnpcs" moduleflags="crewmodule" />
+      <Character identifier="seplivfollower" from="abandonedlivnpcs" moduleflags="crewmodule" />
+      <Character identifier="seplivfollowerwanderer" from="abandonedlivnpcs" moduleflags="crewmodule" multiplayeronly="true" />
+      <Character identifier="seplivfollower" from="abandonedlivnpcs" moduleflags="researchmodule" />
+      <Character identifier="seplivfollowerwanderer" from="abandonedlivnpcs" moduleflags="researchmodule" />
+      <Character identifier="seplivfollowerwanderer" from="abandonedlivnpcs" moduleflags="researchmodule" multiplayeronly="true" />
+      <Character identifier="seplivfollower" from="abandonedlivnpcs" moduleflags="researchmodule" multiplayeronly="true" />
+      <Character identifier="seplivfollower" from="abandonedlivnpcs" moduleflags="engineeringmodule" />
+      <Character identifier="seplivfollower" from="abandonedlivnpcs" moduleflags="engineeringmodule" multiplayeronly="true" />
+      <Character identifier="seplivfollowerwanderer" from="abandonedlivnpcs" moduleflags="securitymodule" />
+      <Character identifier="seplivfollowerwanderer" from="abandonedlivnpcs" moduleflags="securitymodule" />
+      <Character identifier="seplivfollowerwanderer" from="abandonedlivnpcs" moduleflags="securitymodule" />
+      <Character identifier="seplivfollowerwanderer" from="abandonedlivnpcs" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="seplivfollower" from="abandonedlivnpcs" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="liv" from="abandonedlivnpcs" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="liv" from="abandonedlivnpcs" spawnpointtags="banditleader" requirekill="true" asfaraspossible="true" />
+    </Characters>
+    <message header="missionheader0.abandonedoutpostassassinateliv" text="missionmessage0.abandonedoutpostassassinateliv" />
+  </OutpostDestroyMission>
+  <OutpostDestroyMission name="Infiltrator Assassination" identifier="abandonedoutpostassassinateyui" tags="abandonedoutpost" textidentifier="abandonedoutpostassassinateyui" type="OutpostDestroy" reward="12000" difficulty="4" commonness="25" allowretry="true" sonarlabel="target" unhideentitysubcategories="abandonedhuman" achievementidentifier="abandonedoutpostassassinate">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,512,256,256" color="214,50,48" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Reputation identifier="separatists" amount="-15" />
+    <Reputation identifier="coalition" amount="10" />
+    <Characters>
+      <Character identifier="sepyuifollower" from="abandonedyuinpcs" moduleflags="crewmodule" />
+      <Character identifier="sepyuifollowerwanderer" from="abandonedyuinpcs" moduleflags="crewmodule" />
+      <Character identifier="sepyuifollower" from="abandonedyuinpcs" moduleflags="crewmodule" multiplayeronly="true" />
+      <Character identifier="sepyuifollower" from="abandonedyuinpcs" moduleflags="researchmodule" />
+      <Character identifier="sepyuifollowerwanderer" from="abandonedyuinpcs" moduleflags="researchmodule" />
+      <Character identifier="sepyuifollower" from="abandonedyuinpcs" moduleflags="researchmodule" multiplayeronly="true" />
+      <Character identifier="sepyuifollower" from="abandonedyuinpcs" moduleflags="engineeringmodule" />
+      <Character identifier="sepyuifollower" from="abandonedyuinpcs" moduleflags="engineeringmodule" />
+      <Character identifier="sepyuifollower" from="abandonedyuinpcs" moduleflags="engineeringmodule" multiplayeronly="true" />
+      <Character identifier="sepyuifollowerwanderer" from="abandonedyuinpcs" moduleflags="securitymodule" />
+      <Character identifier="sepyuifollowerwanderer" from="abandonedyuinpcs" moduleflags="securitymodule" />
+      <Character identifier="sepyuifollowerwanderer" from="abandonedyuinpcs" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="yui" from="abandonedyuinpcs" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="yui" from="abandonedyuinpcs" spawnpointtags="banditleader" requirekill="true" asfaraspossible="true" />
+    </Characters>
+    <message header="missionheader0.abandonedoutpostassassinateyui" text="missionmessage0.abandonedoutpostassassinateyui" />
+  </OutpostDestroyMission>
+  <OutpostDestroyMission name="Rogue Coalition Cleansing" identifier="abandonedoutpostassassinaterogues" tags="abandonedoutpost" textidentifier="abandonedoutpostassassinaterogues" type="OutpostDestroy" reward="6000" difficulty="4" commonness="35" allowretry="true" sonarlabel="target" unhideentitysubcategories="abandonedhuman" achievementidentifier="abandonedoutpostassassinate">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,512,256,256" color="214,50,48" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="roguecoalitionsoldier" from="roguecoalitionmembers" moduleflags="crewmodule" />
+      <Character identifier="roguecoalitionsoldier" from="roguecoalitionmembers" moduleflags="crewmodule" />
+      <Character identifier="roguecoalitionsoldierwanderer" from="roguecoalitionmembers" moduleflags="crewmodule" />
+      <Character identifier="roguecoalitionsoldier" from="roguecoalitionmembers" moduleflags="crewmodule" multiplayeronly="true" />
+      <Character identifier="roguecoalitionsoldierwanderer" from="roguecoalitionmembers" moduleflags="researchmodule" />
+      <Character identifier="roguecoalitionsoldier" from="roguecoalitionmembers" moduleflags="researchmodule" />
+      <Character identifier="roguecoalitionsoldier" from="roguecoalitionmembers" moduleflags="engineeringmodule" />
+      <Character identifier="roguecoalitionsoldier" from="roguecoalitionmembers" moduleflags="engineeringmodule" />
+      <Character identifier="roguecoalitionsoldierwanderer" from="roguecoalitionmembers" moduleflags="engineeringmodule" multiplayeronly="true" />
+      <Character identifier="roguecoalitionsoldierwanderer" from="roguecoalitionmembers" moduleflags="securitymodule" />
+      <Character identifier="roguecoalitionsoldierwanderer" from="roguecoalitionmembers" moduleflags="securitymodule" />
+      <Character identifier="roguecoalitionsoldierwanderer" from="roguecoalitionmembers" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="rogueleader" from="roguecoalitionmembers" spawnpointtags="banditleader" requirekill="true" asfaraspossible="true" />
+    </Characters>
+    <message header="missionheader0.abandonedoutpostassassinaterogues" text="missionmessage0.abandonedoutpostassassinaterogues" />
+  </OutpostDestroyMission>
+  <OutpostDestroyMission name="" identifier="abandonedoutpostassassinatescavs" tags="abandonedoutpost" textidentifier="abandonedoutpostassassinatescavs" type="OutpostDestroy" reward="6000" difficulty="4" commonness="40" allowretry="true" sonarlabel="target" unhideentitysubcategories="abandonedhuman" achievementidentifier="abandonedoutpostassassinate">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,512,256,256" color="214,50,48" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="piratescav" from="piratescavnpcs" moduleflags="crewmodule" />
+      <Character identifier="piratescav" from="piratescavnpcs" moduleflags="crewmodule" />
+      <Character identifier="piratescav" from="piratescavnpcs" moduleflags="crewmodule" />
+      <Character identifier="piratescavwanderer" from="piratescavnpcs" moduleflags="crewmodule" multiplayeronly="true" />
+      <Character identifier="piratescav" from="piratescavnpcs" moduleflags="crewmodule" multiplayeronly="true" />
+      <Character identifier="piratescav" from="piratescavnpcs" moduleflags="researchmodule" />
+      <Character identifier="piratescavwanderer" from="piratescavnpcs" moduleflags="researchmodule" />
+      <Character identifier="piratescav" from="piratescavnpcs" moduleflags="researchmodule" multiplayeronly="true" />
+      <Character identifier="piratescav" from="piratescavnpcs" moduleflags="researchmodule" multiplayeronly="true" />
+      <Character identifier="piratescav" from="piratescavnpcs" moduleflags="engineeringmodule" />
+      <Character identifier="piratescavwanderer" from="piratescavnpcs" moduleflags="engineeringmodule" />
+      <Character identifier="piratescavwanderer" from="piratescavnpcs" moduleflags="engineeringmodule" multiplayeronly="true" />
+      <Character identifier="piratescav" from="piratescavnpcs" moduleflags="engineeringmodule" multiplayeronly="true" />
+      <Character identifier="piratescavwanderer" from="piratescavnpcs" moduleflags="securitymodule" />
+      <Character identifier="piratescavwanderer" from="piratescavnpcs" moduleflags="securitymodule" />
+      <Character identifier="piratescavwanderer" from="piratescavnpcs" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="piratescavwanderer" from="piratescavnpcs" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="piratescavleader" from="piratescavnpcs" spawnpointtags="banditleader" requirekill="true" asfaraspossible="true" />
+    </Characters>
+    <message header="missionheader0.abandonedoutpostassassinatescavs" text="missionmessage0.abandonedoutpostassassinatescavs" />
+  </OutpostDestroyMission>
+  <OutpostDestroyMission name="" identifier="abandonedoutpostassassinatetemppirates" tags="abandonedoutpost" textidentifier="abandonedoutpostassassinatetemppirates" type="OutpostDestroy" reward="6000" difficulty="4" commonness="30" allowretry="true" sonarlabel="target" unhideentitysubcategories="abandonedhuman" achievementidentifier="abandonedoutpostassassinate">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,512,256,256" color="214,50,48" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="pirateprivate" from="piratescavnpcs" moduleflags="crewmodule" />
+      <Character identifier="pirateoperator" from="piratescavnpcs" moduleflags="crewmodule" />
+      <Character identifier="pirateprivate" from="piratescavnpcs" moduleflags="crewmodule" multiplayeronly="true" />
+      <Character identifier="pirateprivate" from="piratescavnpcs" moduleflags="researchmodule" />
+      <Character identifier="pirateoperator" from="piratescavnpcs" moduleflags="researchmodule" />
+      <Character identifier="pirateprivate" from="piratescavnpcs" moduleflags="researchmodule" multiplayeronly="true" />
+      <Character identifier="pirateprivate" from="piratescavnpcs" moduleflags="researchmodule" multiplayeronly="true" />
+      <Character identifier="pirateprivate" from="piratescavnpcs" moduleflags="engineeringmodule" />
+      <Character identifier="pirateoperator" from="piratescavnpcs" moduleflags="engineeringmodule" />
+      <Character identifier="pirateoperator" from="piratescavnpcs" moduleflags="engineeringmodule" multiplayeronly="true" />
+      <Character identifier="piratescav" from="piratescavnpcs" moduleflags="engineeringmodule" multiplayeronly="true" />
+      <Character identifier="pirateoperator" from="piratescavnpcs" moduleflags="securitymodule" />
+      <Character identifier="pirateoperator" from="piratescavnpcs" moduleflags="securitymodule" />
+      <Character identifier="pirateprivate" from="piratescavnpcs" moduleflags="securitymodule" />
+      <Character identifier="pirateprivate" from="piratescavnpcs" moduleflags="securitymodule" />
+      <Character identifier="pirateoperatorleader" from="piratescavnpcs" spawnpointtags="banditleader" requirekill="true" asfaraspossible="true" />
+    </Characters>
+    <message header="missionheader0.abandonedoutpostassassinatetemppirates" text="missionmessage0.abandonedoutpostassassinatetemppirates" />
+  </OutpostDestroyMission>
+  <OutpostDestroyMission name="Separatist Outpost Operations" identifier="abandonedoutpostassassinateseparatists" tags="abandonedoutpost" textidentifier="abandonedoutpostassassinateseparatists" type="OutpostDestroy" reward="4000" difficulty="4" commonness="35" allowretry="true" sonarlabel="target" unhideentitysubcategories="abandonedhuman" achievementidentifier="abandonedoutpostassassinate">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,512,256,256" color="214,50,48" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Reputation identifier="separatists" amount="-10" />
+    <Reputation identifier="coalition" amount="10" />
+    <Characters>
+      <Character identifier="separatistsoldier" from="separatistoutpostmembers" moduleflags="crewmodule" />
+      <Character identifier="separatistsoldier" from="separatistoutpostmembers" moduleflags="crewmodule" />
+      <Character identifier="separatistsoldierwanderer" from="separatistoutpostmembers" moduleflags="crewmodule" />
+      <Character identifier="separatistsoldier" from="separatistoutpostmembers" moduleflags="crewmodule" multiplayeronly="true" />
+      <Character identifier="separatistsoldierwanderer" from="separatistoutpostmembers" moduleflags="researchmodule" />
+      <Character identifier="separatistsoldier" from="separatistoutpostmembers" moduleflags="researchmodule" />
+      <Character identifier="separatistsoldier" from="separatistoutpostmembers" moduleflags="engineeringmodule" />
+      <Character identifier="separatistsoldier" from="separatistoutpostmembers" moduleflags="engineeringmodule" />
+      <Character identifier="separatistsoldierwanderer" from="separatistoutpostmembers" moduleflags="engineeringmodule" multiplayeronly="true" />
+      <Character identifier="separatistsoldier" from="separatistoutpostmembers" moduleflags="securitymodule" />
+      <Character identifier="separatistsoldierwanderer" from="separatistoutpostmembers" moduleflags="securitymodule" />
+      <Character identifier="separatistsoldierwanderer" from="separatistoutpostmembers" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="separatistoutpostleader" from="separatistoutpostmembers" spawnpointtags="banditleader" requirekill="true" asfaraspossible="true" />
+    </Characters>
+    <message header="missionheader0.abandonedoutpostassassinateseparatists" text="missionmessage0.abandonedoutpostassassinateseparatists" />
+  </OutpostDestroyMission>
+</Missions>

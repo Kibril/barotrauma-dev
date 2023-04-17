@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="oxy-genbackpack" category="Equipment" tags="mediumitem,backpack" scale="0.4" fireproof="true" waterproof="true" description="" impactsoundtag="impact_metal_light">
+    <Price baseprice="500">
+      <Price locationtype="outpost" multiplier="1" minavailable="1" />
+      <Price locationtype="city" multiplier="1" minavailable="2" />
+      <Price locationtype="research" multiplier="1.25" minavailable="1" />
+      <Price locationtype="military" multiplier="1.25" minavailable="2" />
+      <Price locationtype="mine" multiplier="0.8" minavailable="1" />
+    </Price>
+    <Deconstruct time="30">
+      <Item identifier="steel" />
+      <Item identifier="steel" />
+      <Item identifier="rubber" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="batterycell" />
+      <Item identifier="oxygentank" />
+      <Item identifier="oxygentank" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="rubber" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="batterycell" />
+      <RequiredItem identifier="oxygentank" />
+      <RequiredItem identifier="oxygentank" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Oxy-Gen. Backpack/Oxy-Gen. Backpack.png" sourcerect="95,9,129,216" />
+    <Sprite texture="%ModDir%/Oxy-Gen. Backpack/Oxy-Gen. Backpack.png" sourcerect="95,9,129,216" depth="0.7" origin="0.5,0.8" />
+    <Body radius="45" width="34" density="15" />
+    <Wearable slots="Bag" msg="ItemMsgEquipSelect">
+      <sprite name="rebreather" texture="%ModDir%/Oxy-Gen. Backpack/Oxy-Gen. Backpack.png" canbehiddenbyotherwearables="false" limb="Head" depth="0.9" inheritscale="true" ignorelimbscale="true" scale="0.65" hidelimb="false" hidewearablesoftype="moustache,beard" hideotherwearables="false" sourcerect="222,5,77,85" origin="0.4,0.51" />
+      <sprite name="Backpack" texture="%ModDir%/Oxy-Gen. Backpack/Oxy-Gen. Backpack.png" canbehiddenbyotherwearables="false" limb="Torso" inheritlimbdepth="true" hidelimb="false" inheritorigin="false" inherittexturescale="true" sourcerect="0,0,61,137" origin="1.1,0.5" />
+      <StatusEffect type="OnWearing" target="Contained" targetslot="0" Condition="0.2">
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained" targetslot="1" Condition="0.2">
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained" targetslot="2" Condition="0.2">
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" OxygenAvailable="1000.0" comparison="Or" />
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,mediumitem" type="Contained" targetslot="2" />
+        <Affliction identifier="encombrancebackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,mediumitem" type="Contained" targetslot="3" />
+        <Affliction identifier="encombrancebackpack" amount="1" />
+      </StatusEffect>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,0" handle1="-10,-20" handle2="10,-20" holdangle="45" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use">
+      <Upgrade gameversion="0.1401.0.0" msg="ItemMsgPickUpUse" />
+    </Holdable>
+    <ItemContainer capacity="2" maxstacksize="1" slotsperrow="2" hideitems="true" containedstateindicatorslot="2">
+      <Containable items="oxygentank" excludeditems="backpack,toolbox" />
+      <SlotIcon slotindex="0" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="789,786,90,85" origin="0.5,0.45" />
+      <SlotIcon slotindex="1" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="789,786,90,85" origin="0.5,0.45" />
+      <SubContainer capacity="2" maxstacksize="64">
+        <Containable items="smallitem,mediumitem" excludeditems="backpack,toolbox,cargoscooter" />
+      </SubContainer>
+    </ItemContainer>
+  </Item>
+</Items>

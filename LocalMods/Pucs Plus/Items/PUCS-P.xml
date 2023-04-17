@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <Item name="" identifier="pucsplus" category="Equipment,Diving" tags="diving,divingsuit,deepdiving,divinggear_wearableindoors,provocative,pucsplus" scale="0.5" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy" hideconditionbar="true">
+    <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.0" />
+    <!-- 售卖 -->
+    <Price baseprice="2700" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.25" />
+      <Price storeidentifier="merchantmine" />
+    </Price>
+    <!-- 解构 -->
+    <Deconstruct time="60">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="physicorium" />
+      <Item identifier="pucs" />
+    </Deconstruct>
+    <!-- 制造 -->
+    <Fabricate suitablefabricators="fabricator" requiredtime="1" displayname="embi.Conversion">
+      <RequiredItem identifier="pucsmech" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" requiredtime="70">
+      <RequiredSkill identifier="electrical" level="90" />
+      <RequiredSkill identifier="mechanical" level="90" />
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredItem identifier="scp_durasteel" amount="2" />
+      <RequiredItem identifier="aliencircuitry" amount="4" />
+      <RequiredItem identifier="physicorium" amount="2" />
+      <RequiredItem identifier="fulgurium" amount="2" />
+      <Item tag="alienpowercell" />
+      <RequiredItem identifier="pucs" />
+    </Fabricate>
+    <!-- 图标 -->
+    <InventoryIcon texture="%ModDir%/Items/PUCSP_items.png" sourcerect="8,129,128,128" origin="0.5,0.5" />
+    <Sprite name="pucs plus Item" texture="%ModDir%/Items/PUCSP_items.png" sourcerect="158,7,154,134" depth="0.55" origin="0.5,0.5" />
+    <ContainedSprite name="pucs plus In Vertical Locker" allowedcontainertags="divingsuitcontainervertical" texture="%ModDir%/Items/PUCSP_items.png" sourcerect="322,7,87,190" depth="0.55" origin="0.5,0.5" />
+    <ContainedSprite name="pucs plus Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="%ModDir%/Items/PUCSP_female.png" sourcerect="430,0,80,207" depth="0.55" origin="-0.12,-0.13" />
+    <ContainedSprite name="pucs plus In Horizontal Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="%ModDir%/Items/PUCSP_items.png" sourcerect="158,198,225,66" depth="0.55" origin="0.6,0.5" />
+    <!-- 物品大小 -->
+    <Body radius="45" width="34" density="10" />
+    <!-- 着装 -->
+    <Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select">
+      <!-- 头盔（附加灯） -->
+      <sprite name="pucs plus Helmet Wearable" texture="%ModDir%/Items/PUCSP_items.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.70" hidelimb="false" hideotherwearables="false" sourcerect="5,7,105,124" origin="0.5,0.35">
+        <LightComponent range="200.0" lightcolor="250,224,165,255" powerconsumption="0" IsOn="false" allowingameediting="false">
+          <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
+            <Conditional IsDead="false" />
+          </StatusEffect>
+          <LightTexture texture="%ModDir%/Light/diving_light.png" origin="0.01, 0.5" size="3.7,2.7" />
+        </LightComponent>
+      </sprite>
+      <!-- 部位贴图 -->
+      <sprite name="pucs plus Torso" texture="%ModDir%/Items/PUCSP_[GENDER].png" limb="Torso" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="pucs plus Right Hand" texture="%ModDir%/Items/PUCSP_[GENDER].png" limb="RightHand" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="pucs plus Left Hand" texture="%ModDir%/Items/PUCSP_[GENDER].png" limb="LeftHand" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="pucs plus Right Lower Arm" texture="%ModDir%/Items/PUCSP_[GENDER].png" limb="RightArm" hidelimb="true" inherittexturescale="true" CanBeHiddenByOtherWearables="false" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="pucs plus Left Lower Arm" texture="%ModDir%/Items/PUCSP_[GENDER].png" limb="LeftArm" hidelimb="true" inherittexturescale="true" CanBeHiddenByOtherWearables="false" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="pucs plus Right Upper Arm" texture="%ModDir%/Items/PUCSP_[GENDER].png" limb="RightForearm" hidelimb="true" inherittexturescale="true" CanBeHiddenByOtherWearables="false" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="pucs plus Left Upper Arm" texture="%ModDir%/Items/PUCSP_[GENDER].png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" CanBeHiddenByOtherWearables="false" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="pucs plus Waist" texture="%ModDir%/Items/PUCSP_[GENDER].png" limb="Waist" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="pucs plus Right Thigh" texture="%ModDir%/Items/PUCSP_[GENDER].png" limb="RightThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="pucs plus Left Thigh" texture="%ModDir%/Items/PUCSP_[GENDER].png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="pucs plus Right Leg" texture="%ModDir%/Items/PUCSP_[GENDER].png" limb="RightLeg" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="pucs plus Left Leg" texture="%ModDir%/Items/PUCSP_[GENDER].png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="pucs plus Left Shoe" texture="%ModDir%/Items/PUCSP_[GENDER].png" limb="LeftFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="pucs plus Right Shoe" texture="%ModDir%/Items/PUCSP_[GENDER].png" limb="RightFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Hide Boobs" texture="%ModDir%/Items/PUCSP_[GENDER].png" limb="Tail" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="false" sourcerect="0,0,1,1" />
+      <!-- 抵抗水流冲击 -->
+      <StatValue stattype="FlowResistance" value="0.9" />
+      <!-- 给予基本属性和音效 -->
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" ObstructVision="true" PressureProtection="10000.0" SpeedMultiplier="1.0" PropulsionSpeedMultiplier="2.4" LowPassMultiplier="1.0" setvalue="true" disabledeltatime="true">
+        <Sound file="Content/Items/Diving/DivingSuitLoop1.ogg" range="500" />
+        <Sound file="Content/Items/Diving/DivingSuitLoop2.ogg" range="500" />
+      </StatusEffect>
+      <!-- 潜水服氧气控制机制 -->
+      <!-- 使用船内氧气/减免重机枪后座 -->
+      <StatusEffect type="OnWearing" target="Character" OxygenAvailable="0.0" UseHullOxygen="true">
+        <Affliction identifier="recoilstabilized" amount="1" />
+      </StatusEffect>
+      <!-- 于潜水服柜中时回复氧氧气罐耐久 -->
+      <StatusEffect type="OnContained" target="Contained" Condition="1.0" targetslot="0">
+        <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
+        <RequiredItem items="oxygentank" type="Contained" excludebroken="false" />
+      </StatusEffect>
+      <!-- 于无水有氧环境中时缓慢回复氧氧气罐耐久 -->
+      <StatusEffect type="OnContained" target="Contained" Condition="0.3333" targetslot="0" comparison="and">
+        <Conditional inWater="false" />
+        <Conditional HullOxygenPercentage="gt 50" />
+        <RequiredItem items="oxygentank" type="Contained" excludebroken="false" />
+      </StatusEffect>
+      <!-- Hull氧含量小于50％时  启用内置氧罐 -->
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" Condition="-0.2" comparison="And" targetslot="0">
+        <Conditional IsDead="false" />
+        <Conditional HullOxygenPercentage="lt 50" />
+        <Conditional InWater="false" />
+        <Conditional decreasedoxygenconsumption="lt 100" />
+        <RequiredItem items="oxygensource" type="Contained" />
+      </StatusEffect>
+      <!-- 在水中时  启用内置氧罐 -->
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" Condition="-0.2" comparison="And" targetslot="0">
+        <Conditional InWater="true" />
+        <Conditional decreasedoxygenconsumption="lt 100" />
+        <RequiredItem items="oxygensource" type="Contained" />
+      </StatusEffect>
+      <!-- 高级自动注射功能 -->
+      <!--使用生理盐水-->
+      <StatusEffect type="OnWearing" target="Character,Contained" condition="-10" targetslot="2">
+        <ReduceAffliction type="bloodloss" amount="2.5" />
+        <RequiredItem items="antibloodloss1" type="Contained" targetslot="2" />
+        <Conditional bloodloss="gt 5.0" />
+      </StatusEffect>
+      <!--使用血袋-->
+      <StatusEffect type="OnWearing" target="Character,Contained" condition="-5" targetslot="2">
+        <ReduceAffliction type="bloodloss" amount="6" />
+        <RequiredItem items="antibloodloss2" type="Contained" targetslot="2" />
+        <Conditional bloodloss="gt 5.0" />
+      </StatusEffect>
+      <!--使用异星血浆-->
+      <StatusEffect type="OnWearing" target="Character,Contained" condition="-5" targetslot="2">
+        <Affliction identifier="psychosis" amount="2.25" />
+        <ReduceAffliction type="bloodloss" amount="6" />
+        <RequiredItem items="alienblood" type="Contained" targetslot="2" />
+        <Conditional bloodloss="gt 5.0" />
+      </StatusEffect>
+      <!--使用吗啡-->
+      <StatusEffect type="OnWearing" target="Character,Contained" comparison="or" condition="-10" targetslot="3">
+        <ReduceAffliction type="damage" amount="5" />
+        <ReduceAffliction type="burn" amount="0.1" />
+        <Affliction identifier="oxygenlow" amount="2" />
+        <Affliction identifier="opiateaddiction" amount="0.5" />
+        <Affliction identifier="opiateoverdose" amount="1.0" />
+        <ReduceAffliction identifier="opiatewithdrawal" amount="3.0" />
+        <RequiredItem items="antidama1" type="Contained" targetslot="3" />
+        <Conditional internaldamage="gt 0.0" />
+        <Conditional blunttrauma="gt 0.0" />
+        <Conditional lacerations="gt 0.0" />
+        <Conditional bitewounds="gt 0.0" />
+        <Conditional gunshotwound="gt 0.0" />
+        <Conditional organdamage="gt 0.0" />
+        <Conditional explosiondamage="gt 0.0" />
+        <Conditional concussion="gt 0.0" />
+      </StatusEffect>
+      <!--使用芬太尼-->
+      <StatusEffect type="OnWearing" target="Character,Contained" comparison="or" condition="-20" targetslot="3">
+        <ReduceAffliction type="damage" amount="15" />
+        <ReduceAffliction type="burn" amount="1" />
+        <Affliction identifier="oxygenlow" amount="6" />
+        <Affliction identifier="opiateaddiction" amount="1.5" />
+        <Affliction identifier="opiateoverdose" amount="4.5" />
+        <ReduceAffliction identifier="opiatewithdrawal" amount="20" />
+        <RequiredItem items="antidama2" type="Contained" targetslot="3" />
+        <Conditional internaldamage="gt 0.0" />
+        <Conditional blunttrauma="gt 0.0" />
+        <Conditional lacerations="gt 0.0" />
+        <Conditional bitewounds="gt 0.0" />
+        <Conditional gunshotwound="gt 0.0" />
+        <Conditional organdamage="gt 0.0" />
+        <Conditional explosiondamage="gt 0.0" />
+        <Conditional concussion="gt 0.0" />
+      </StatusEffect>
+      <!--使用神效剂-->
+      <StatusEffect type="OnWearing" target="Character,Contained" comparison="or" condition="-5" targetslot="3">
+        <Affliction identifier="burn" amount="0.02" />
+        <ReduceAffliction type="damage" amount="3" />
+        <ReduceAffliction identifier="oxygenlow" amount="3" />
+        <ReduceAffliction identifier="bloodloss" amount="2" />
+        <RequiredItem items="deusizine" type="Contained" targetslot="3" />
+        <Conditional internaldamage="gt 0.0" />
+        <Conditional blunttrauma="gt 0.0" />
+        <Conditional lacerations="gt 0.0" />
+        <Conditional bitewounds="gt 0.0" />
+        <Conditional gunshotwound="gt 0.0" />
+        <Conditional organdamage="gt 0.0" />
+        <Conditional explosiondamage="gt 0.0" />
+        <Conditional concussion="gt 0.0" />
+        <Conditional bloodloss="gt 5.0" />
+        <Conditional oxygenlow="gt 50.0" />
+      </StatusEffect>
+      <!--使用战斗兴奋剂-->
+      <StatusEffect type="OnWearing" target="Character,Contained" condition="-6000.0" targetslot="3" duration="5.0" comparison="and">
+        <Conditional HealthPercentage="lte 50.0" />
+        <Conditional condition="gt 0" />
+        <Affliction identifier="combatstimulant" amount="15.0" />
+        <Affliction identifier="chemaddiction" amount="4.0" />
+        <RequiredItem items="combatstimulantsyringe" type="Contained" targetslot="3" />
+      </StatusEffect>
+      <!-- PCPS特殊功能 -->
+      <!-- 推进器 -->
+      <StatusEffect type="OnWearing" target="Character,this" SpeedMultiplier="2.7" PropulsionSpeedMultiplier="3.3" setvalue="true" comparison="And">
+        <Conditional HasTag="eq scooter_on" />
+        <Conditional InWater="true" />
+        <Conditional Speed="gt 0.3" />
+        <sound file="Content/Items/Diving/ScooterLoop.ogg" range="500.0" loop="true" />
+        <ParticleEmitter particle="bubbles" ScaleMultiplier="0.3,0.3" EmitInterval="0.05" ParticleAmount="1" />
+      </StatusEffect>
+      <!-- 降噪 -->
+      <StatusEffect type="OnWearing" target="Character,this" LowPassMultiplier="0.2" setvalue="true">
+        <Conditional holdangle="eq 46" />
+      </StatusEffect>
+      <!-- 声纳信标 -->
+      <StatusEffect type="OnWearing" target="This">
+        <Conditional SoundRange="gte 49999" />
+        <sound file="Content/Items/Weapons/SonarDecoy.ogg" range="500.0" loop="true" volume="0.77" />
+      </StatusEffect>
+      <!-- 低氧气报警 -->
+      <StatusEffect type="OnWearing" target="Contained,Character" comparison="And" targetslot="0">
+        <Conditional HullOxygenPercentage="gte 50" />
+        <Conditional InWater="true" />
+        <RequiredItem items="oxygensource" type="Contained" />
+        <Conditional condition="lt 5.0" />
+        <Conditional decreasedoxygenconsumption="lt 100" />
+        <Sound file="Content/Items/WarningBeepSlow.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" comparison="And" targetslot="0">
+        <Conditional HullOxygenPercentage="lt 50" />
+        <RequiredItem items="oxygensource" type="Contained" />
+        <Conditional condition="lt 5.0" />
+        <Conditional decreasedoxygenconsumption="lt 100" />
+        <Sound file="Content/Items/WarningBeepSlow.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" comparison="And" targetslot="0">
+        <Conditional InWater="true" />
+        <Conditional HullOxygenPercentage="gte 50" />
+        <RequiredItem items="oxygensource" type="Contained" />
+        <Conditional condition="lte 0.0" />
+        <Conditional decreasedoxygenconsumption="lt 100" />
+        <Sound file="Content/Items/WarningBeep.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" comparison="And" targetslot="0">
+        <Conditional oxygenlow="gt 10.0" />
+        <Conditional decreasedoxygenconsumption="lt 100" />
+        <Sound file="Content/Items/WarningBeep.ogg" range="500" />
+      </StatusEffect>
+      <!-- 自定义界面 -->
+      <!-- 推进器/探照灯 -->
+      <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+        <GuiFrame relativesize="0.083,0.062" anchor="BottomLeft" relativeoffset="0.0043,0.3052" style="ItemUI" />
+        <TickBox text="embi.pucsscooter">
+          <StatusEffect type="OnUse" target="This" Tags="scooter_on" setvalue="true" />
+          <StatusEffect type="OnSecondaryUse" target="This" Tags="scooter_off" setvalue="true" />
+        </TickBox>
+      </CustomInterface>
+      <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+        <GuiFrame relativesize="0.083,0.062" anchor="BottomLeft" relativeoffset="0.0952,0.3052" style="ItemUI" />
+        <TickBox text="embi.lightswitch">
+          <StatusEffect type="OnUse" target="This" IsOn="true" setvalue="true" />
+          <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" setvalue="true" />
+        </TickBox>
+      </CustomInterface>
+      <!-- 声纳信标 -->
+      <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+        <GuiFrame relativesize="0.083,0.062" anchor="BottomLeft" relativeoffset="0.0043,0.375" style="ItemUI" />
+        <TickBox text="sonarbeacon.beaconsignal">
+          <StatusEffect type="OnUse" target="This" SoundRange="50000" setvalue="true" />
+          <StatusEffect type="OnSecondaryUse" target="This" SoundRange="0" setvalue="true" />
+        </TickBox>
+      </CustomInterface>
+      <!-- 降噪 -->
+      <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+        <GuiFrame relativesize="0.083,0.062" anchor="BottomLeft" relativeoffset="0.0952,0.375" style="ItemUI" />
+        <TickBox text="embi.noisecancelling">
+          <StatusEffect type="OnUse" target="This" holdangle="46" setvalue="true" />
+          <StatusEffect type="OnSecondaryUse" target="This" holdangle="45" setvalue="true" />
+        </TickBox>
+      </CustomInterface>
+      <!-- 信标文字 -->
+      <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+        <GuiFrame relativesize="0.1484375,0.062" anchor="TopRight" relativeoffset="0.156,0.0055" style="ItemUI" />
+        <TextBox text="sonarbeacon.beaconsignal" propertyname="SonarLabel" maxtextlength="32" />
+      </CustomInterface>
+      <!-- 界面控制 -->
+      <StatusEffect type="Always" target="This,Contained" targetslot="1" drawhudwhenequipped="true" setvalue="true" interval="1.0">
+        <Conditional hastag="eq InterfaceOn" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="This,Contained" targetslot="1" drawhudwhenequipped="false" setvalue="true" interval="1.0">
+        <Conditional hastag="eq InterfaceOff" />
+      </StatusEffect>
+      <!-- 减伤 -->
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="activesonar" damagemultiplier="0.7" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="activesonarbeacon" damagemultiplier="0.75" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acoustictrauma" damagemultiplier="0.15" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="vibrationdamage" damagemultiplier="0.65" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations" damagemultiplier="0.28" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bleeding" damagemultiplier="0.5" probabilitymultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bloodloss" damagemultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="burn,acidburn" damagemultiplier="0" damagesound="" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,lethalradiation" damagemultiplier="0" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" damagemultiplier="0.0" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.1" damagesound="LimbArmor" />
+      <damagemodifier afflictionidentifiers="progressivestun,incrementalstun,concussion,stun" armorsector="0.0,360.0" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true" />
+    </Wearable>
+    <!-- 手持状态 -->
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,-50" handle1="-10,-20" handle2="10,-20" holdangle="45" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+    <!-- AiTarget，信标信息 -->
+    <AiTarget soundrange="50000" sonarlabel="entityname.sonarbeacon" />
+    <!-- 声纳, detectsubmarinewalls="false"-->
+    <Sonar range="8000.0" powerconsumption="0" drawhudwhenequipped="true" displaybordersize="-0.1" characterusable="false" hasmineralscanner="true" allowuioverlap="true">
+      <sound file="Content/Items/Command/SonarPing.ogg" type="OnUse" range="1000.0" />
+      <GuiFrame relativesize="0.35,0.35" anchor="TopRight" relativeoffset="-0.045,-0.10" />
+      <PingCircle texture="Content/Items/Command/pingCircle.png" origin="0.5,0.5" />
+      <DirectionalPingCircle texture="Content/Items/Command/directionalPingCircle.png" origin="0.0,0.5" />
+      <ScreenOverlay texture="Content/Items/Command/sonarOverlay.png" origin="0.5,0.5" />
+      <ScreenBackground texture="Content/Items/Command/sonarBackground.png" origin="0.5,0.5" />
+      <DirectionalPingBackground texture="Content/Items/Command/directionalPingBackground.png" origin="0.5,0.5" />
+      <DirectionalPingButton index="0" texture="Content/Items/Command/directionalPingButton.png" sourcerect="0,0,91,266" origin="-4.5275,0.5" />
+      <DirectionalPingButton index="1" texture="Content/Items/Command/directionalPingButton.png" sourcerect="133,0,91,266" origin="-4.5275,0.5" />
+      <DirectionalPingButton index="2" texture="Content/Items/Command/directionalPingButton.png" sourcerect="266,0,91,266" origin="-4.5275,0.5" />
+      <Blip texture="Content/Items/Command/sonarBlip.png" origin="0.5,0.5" />
+      <LineSprite texture="Content/Items/Command/NavUI.png" sourcerect="181,141,109,4" origin="0,0.5" />
+      <icon identifier="outpost" texture="Content/UI/MainIconsAtlas.png" sourcerect="352,398,16,8" origin="0.5,0.5" />
+      <icon identifier="submarine" texture="Content/UI/MainIconsAtlas.png" sourcerect="353,407,14,6" origin="0.5,0.5" />
+      <icon identifier="shuttle" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,407,8,6" origin="0.5,0.5" />
+      <icon identifier="artifact" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,414,8,8" origin="0.5,0.5" />
+      <icon identifier="mineral" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,434,7,12" origin="0.5,0.5" />
+      <icon identifier="" texture="Content/UI/MainIconsAtlas.png" sourcerect="346,416,4,4" origin="0.5,0.5" />
+    </Sonar>
+    <!-- 物品栏 -->
+    <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
+      <Containable items="none" />
+      <SlotIcon slotindex="0" texture="Content/UI/ContainerIndicators.png" sourcerect="1,93,120,29" origin="0.5,0.45" />
+      <SlotIcon slotindex="1" texture="%ModDir%/Items/PUCSP_male.png" sourcerect="476,215,35,35" origin="0.5,0.45" />
+      <SlotIcon slotindex="2" texture="%ModDir%/Items/PUCSP_female.png" sourcerect="473,212,33,44" origin="0.5,0.45" />
+      <SlotIcon slotindex="3" texture="%ModDir%/Items/PUCSP_female.png" sourcerect="434,212,39,39" origin="0.5,0.45" />
+      <SubContainer capacity="1" maxstacksize="1">
+        <Containable items="oxygensource" />
+        <Containable items="oxygenitetank">
+          <StatusEffect type="OnContaining" target="Character" SpeedMultiplier="1.3" setvalue="true" targetslot="0">
+            <Conditional IsDead="false" />
+          </StatusEffect>
+        </Containable>
+      </SubContainer>
+      <SubContainer capacity="1" maxstacksize="1" SpawnWithId="PCPS_InterfaceController">
+        <Containable items="PCPS_InterfaceController" />
+      </SubContainer>
+      <SubContainer capacity="1" maxstacksize="1">
+        <Containable items="antibloodloss1,antibloodloss2,alienblood" />
+      </SubContainer>
+      <SubContainer capacity="1" maxstacksize="1">
+        <Containable items="antidama1,antidama2,deusizine,combatstimulantsyringe" />
+      </SubContainer>
+      <SubContainer capacity="2">
+        <Containable items="smallitem" Excludeditems="oxygensource,PCPS_InterfaceController" />
+      </SubContainer>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="PCPS_InterfaceController" category="Electrical" Tags="PCPS_InterfaceController" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" hideinmenus="true">
+    <Deconstruct time="1">
+      <Item identifier="tin" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="1">
+      <RequiredItem identifier="tin" />
+    </Fabricate>
+    <PreferredContainer primary="pucsplus" />
+    <PreferredContainer secondary="pucsplus" amount="1" spawnprobability="1" />
+    <Sprite texture="%ModDir%/Items/PUCSP_male.png" depth="0.8" sourcerect="428,214,47,38" origin="0.5,0.5" />
+    <Body radius="14" width="60" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.11,0.08" anchor="BottomCenter" relativeoffset="0.0,0.120" style="ItemUI" />
+      <TickBox text="embi.InterfaceController">
+        <StatusEffect type="OnUse" target="This" tags="InterfaceOff" setvalue="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" tags="InterfaceOn" setvalue="true" />
+      </TickBox>
+    </CustomInterface>
+  </Item>
+  <Item name="" identifier="pucsmech" descriptionidentifier="pucsplus" variantof="pucsplus">
+    <!-- 制造-转换配方 -->
+    <Fabricate>
+      <RequiredItem identifier="pucsplus" />
+    </Fabricate>
+    <!-- 图标 -->
+    <InventoryIcon texture="%ModDir%/Items/PUCSM_items.png" sourcerect="15,172,138,138" />
+    <Sprite texture="%ModDir%/Items/PUCSM_items.png" sourcerect="141,0,158,173" />
+    <ContainedSprite texture="%ModDir%/Items/PUCSM_items.png" sourcerect="315,0,109,212" />
+    <ContainedSprite texture="%ModDir%/Items/PUCSM.png" sourcerect="430,0,80,207" />
+    <ContainedSprite texture="%ModDir%/Items/PUCSM_items.png" sourcerect="180,221,225,66" origin="0.65,0.5" />
+    <!-- 着装 -->
+    <Wearable>
+      <!-- 头盔（附加灯） -->
+      <sprite texture="%ModDir%/Items/PUCSM_items.png" scale="0.615" hideotherwearables="true" sourcerect="12,5,120,156" origin="0.5,0.55">
+        <LightComponent>
+          <LightTexture origin="0.01, 0.51" />
+        </LightComponent>
+      </sprite>
+      <!-- 部位贴图 -->
+      <sprite texture="%ModDir%/Items/PUCSM.png" />
+      <sprite texture="%ModDir%/Items/PUCSM.png" />
+      <sprite texture="%ModDir%/Items/PUCSM.png" />
+      <sprite texture="%ModDir%/Items/PUCSM.png" />
+      <sprite texture="%ModDir%/Items/PUCSM.png" />
+      <sprite texture="%ModDir%/Items/PUCSM.png" />
+      <sprite texture="%ModDir%/Items/PUCSM.png" />
+      <sprite texture="%ModDir%/Items/PUCSM.png" />
+      <sprite texture="%ModDir%/Items/PUCSM.png" />
+      <sprite texture="%ModDir%/Items/PUCSM.png" />
+      <sprite texture="%ModDir%/Items/PUCSM.png" />
+      <sprite texture="%ModDir%/Items/PUCSM.png" />
+      <sprite texture="%ModDir%/Items/PUCSM.png" />
+      <sprite texture="%ModDir%/Items/PUCSM.png" />
+      <sprite texture="%ModDir%/Items/PUCSM.png" />
+    </Wearable>
+  </Item>
+</items>

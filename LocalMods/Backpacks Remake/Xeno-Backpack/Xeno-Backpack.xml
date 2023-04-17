@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="xeno-backpack" category="Equipment" tags="mediumitem,backpack" scale="0.4" fireproof="true" waterproof="true" description="" impactsoundtag="impact_metal_light">
+    <Price baseprice="16000">
+      <Price locationtype="research" multiplier="3.25" minavailable="0" />
+    </Price>
+    <Deconstruct time="30">
+      <Item identifier="power-backpack" />
+      <Item identifier="fulgurium" />
+      <Item identifier="fulgurium" />
+      <Item identifier="fulgurium" />
+      <Item identifier="fulgurium" />
+      <Item identifier="incendium" />
+      <Item identifier="incendium" />
+      <Item identifier="incendium" />
+      <Item identifier="oxygeniteshard" />
+      <Item identifier="oxygeniteshard" />
+      <Item identifier="oxygeniteshard" />
+      <Item identifier="alienpowercell" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="mechanical" level="80" />
+      <RequiredItem identifier="power-backpack" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Xeno-Backpack/Xeno-Backpack.png" sourcerect="95,9,129,216" />
+    <Sprite texture="%ModDir%/Xeno-Backpack/Xeno-Backpack.png" sourcerect="95,9,129,216" depth="0.7" origin="0.5,0.8" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="TopRight" absoluteoffset="20,128" style="ItemUI" />
+      <TickBox text="Toggle Backpack Lights" IsOn="true">
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+      </TickBox>
+    </CustomInterface>
+    <Body radius="45" width="34" density="15" />
+    <Wearable slots="Bag" msg="ItemMsgEquipSelect">
+      <sprite texture="%ModDir%/Xeno-Backpack/Xeno-Backpack.png" canbehiddenbyotherwearables="false" limb="Torso" inheritlimbdepth="true" hidelimb="false" inheritorigin="false" inherittexturescale="true" sourcerect="0,0,61,137" origin="1.1,0.5">
+        <LightComponent range="1000.0" lightcolor="0,200,255,255" powerconsumption="10" IsOn="true">
+          <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true" comparison="Or">
+            <Conditional IsDead="false" />
+          </StatusEffect>
+          <LightTexture texture="%ModDir%/Xeno-Backpack/Power-Backpack light.png" origin="0.52, 0.48" size="0.5,0.5" />
+        </LightComponent>
+      </sprite>
+      <StatusEffect type="OnWearing" target="Character,Contained" Condition="0.20" comparison="and">
+        <Conditional IsDead="false" />
+        <Conditional condition="lt 100.0" />
+        <Affliction identifier="bloodloss" strength="0.20" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character,Contained" comparison="and">
+        <Conditional IsDead="false" />
+        <Conditional psychosis="gt 0.1" />
+        <Affliction identifier="psychosis" strength="-0.25" />
+        <Affliction identifier="bloodloss" strength="0.10" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="ammobox,smallitem,mediumitem,weapon,gun,mobilebattery,ek_laserpistol_mag,ek_laserrifle_mag,ek_alienrifle_mag,40kloadable,40kammo,halo_fluorescentrod,halo_magazine,mcbatteryrod,marinebatteryrod" type="Contained" targetslot="0" />
+        <Affliction identifier="xenobackpackmalus" amount="0.6" />
+      </StatusEffect>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,0" handle1="-10,-20" handle2="10,-20" holdangle="45" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use">
+      <Upgrade gameversion="0.1401.0.0" msg="ItemMsgPickUpUse" />
+    </Holdable>
+    <ItemContainer capacity="1" maxstacksize="64" hideitems="true">
+      <Containable items="ammobox,smallitem,mediumitem,weapon,gun,mobilebattery,ek_laserpistol_mag,ek_laserrifle_mag,ek_alienrifle_mag,40kloadable,40kammo,halo_fluorescentrod,halo_magazine,mcbatteryrod,marinebatteryrod,geneticmaterial,ehaammo" excludeditems="backpack" />
+      <SlotIcon slotindex="0" texture="%ModDir%/Icons/Xeno.png" origin="0.5,0.5" />
+    </ItemContainer>
+  </Item>
+</Items>

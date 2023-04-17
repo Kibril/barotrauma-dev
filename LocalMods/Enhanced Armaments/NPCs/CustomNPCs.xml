@@ -1,0 +1,2222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<npcsets>
+  <npcset identifier="abandonedlivnpcs">
+    <npc identifier="seplivfollower" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Passive" healthmultiplier="0.9" healthmultiplierinmultiplayer="1" aimspeed="2" aimaccuracy="0.55" reportrange="1000">
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ak74m">
+          <Item identifier="scp_ak74apmag" />
+        </Item>
+        <Item identifier="scp_ak74apmag" />
+        <Item identifier="scp_ak74apmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ak103">
+          <Item identifier="scp_akapmag" />
+        </Item>
+        <Item identifier="scp_akapmag" />
+        <Item identifier="scp_akapmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.8">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_tabuk">
+          <Item identifier="scp_akdumag" />
+        </Item>
+        <Item identifier="scp_akdumag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="scp_heavyvest" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_kh2020">
+          <Item identifier="scp_65bullmag" />
+        </Item>
+        <Item identifier="scp_65bullmag" />
+        <Item identifier="scp_65bullmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.7">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_deagle">
+          <Item identifier="scp_deaglemag" />
+        </Item>
+        <Item identifier="scp_deaglemag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.7">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_g3">
+          <Item identifier="scp_scarmag" />
+        </Item>
+        <Item identifier="scp_scarmag" />
+        <Item identifier="scp_scarmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.45">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadeheavyhelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_kh2020">
+          <Item identifier="scp_65bullmag" />
+        </Item>
+        <Item identifier="scp_65bullmag" />
+        <Item identifier="scp_65bullmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.45">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadeheavyhelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_saiga12">
+          <Item identifier="scp_saigadrummag" />
+        </Item>
+        <Item identifier="scp_saigadrummag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.45">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true" />
+        <Item identifier="scp_heavyvest" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_rsh12">
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+        </Item>
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.4">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadeheavyhelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ak103">
+          <Item identifier="scp_akdumag" />
+        </Item>
+        <Item identifier="scp_akdumag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_specopsuniform" equip="true" />
+        <Item identifier="scp_yuirig" equip="true" />
+        <Item identifier="scp_yuihelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_hk433">
+          <Item identifier="scp_556apmag" />
+        </Item>
+        <Item identifier="scp_556apmag" />
+        <Item identifier="scp_556apmag" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="screwdriver" equip="true" />
+        <Item identifier="scp_physicoriumsword" equip="false" />
+        <Item identifier="scp_assaultpack" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="0.1">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_livuniform" equip="true" />
+        <Item identifier="scp_livrig" equip="true" />
+        <Item identifier="scp_livhelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_scar17">
+          <Item identifier="scp_scarmag" />
+        </Item>
+        <Item identifier="scp_scarmag" />
+        <Item identifier="scp_scarmag" />
+        <Item identifier="screwdriver" equip="true" />
+        <Item identifier="scp_physicoriumsword" equip="false" />
+        <Item identifier="scp_assaultpack" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="0.1">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_livuniform" equip="true" />
+        <Item identifier="scp_livrig" equip="true" />
+        <Item identifier="scp_livhelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_kh2020">
+          <Item identifier="scp_65bullmag" />
+        </Item>
+        <Item identifier="scp_65bullmag" />
+        <Item identifier="scp_65bullmag" />
+        <Item identifier="screwdriver" equip="true" />
+        <Item identifier="scp_physicoriumsword" equip="false" />
+        <Item identifier="scp_assaultpack" equip="true" />
+      </ItemSet>
+    </npc>
+    <npc identifier="seplivfollowerwanderer" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Patrol" healthmultiplier="0.9" healthmultiplierinmultiplayer="1" aimspeed="2" aimaccuracy="0.55" reportrange="1000">
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ak74m">
+          <Item identifier="scp_ak74apmag" />
+        </Item>
+        <Item identifier="scp_ak74apmag" />
+        <Item identifier="scp_ak74apmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ak103">
+          <Item identifier="scp_akapmag" />
+        </Item>
+        <Item identifier="scp_akapmag" />
+        <Item identifier="scp_akapmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="scp_heavyvest" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_kh2020">
+          <Item identifier="scp_65bullmag" />
+        </Item>
+        <Item identifier="scp_65bullmag" />
+        <Item identifier="scp_65bullmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.7">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_deagle">
+          <Item identifier="scp_deaglemag" />
+        </Item>
+        <Item identifier="scp_deaglemag" />
+        <Item identifier="scp_deaglemag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.7">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_g3">
+          <Item identifier="scp_scarmag" />
+        </Item>
+        <Item identifier="scp_scarmag" />
+        <Item identifier="scp_scarmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.45">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadeheavyhelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_kh2020">
+          <Item identifier="scp_65bullmag" />
+        </Item>
+        <Item identifier="scp_65bullmag" />
+        <Item identifier="scp_65bullmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.45">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadeheavyhelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_saiga12">
+          <Item identifier="scp_saigadrummag" />
+        </Item>
+        <Item identifier="scp_saigadrummag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.45">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true" />
+        <Item identifier="scp_heavyvest" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_rsh12">
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+        </Item>
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.4">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadeheavyhelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ak103">
+          <Item identifier="scp_akdumag" />
+        </Item>
+        <Item identifier="scp_akdumag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_specopsuniform" equip="true" />
+        <Item identifier="scp_yuirig" equip="true" />
+        <Item identifier="scp_yuihelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_hk433">
+          <Item identifier="scp_556apmag" />
+        </Item>
+        <Item identifier="scp_556apmag" />
+        <Item identifier="scp_556apmag" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="screwdriver" equip="true" />
+        <Item identifier="scp_dementonitemachete" equip="false" />
+        <Item identifier="scp_assaultpack" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="0.1">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_livuniform" equip="true" />
+        <Item identifier="scp_livrig" equip="true" />
+        <Item identifier="scp_livhelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_scar17">
+          <Item identifier="scp_scarmag" />
+        </Item>
+        <Item identifier="scp_scarmag" />
+        <Item identifier="scp_scarmag" />
+        <Item identifier="screwdriver" equip="true" />
+        <Item identifier="scp_dementonitemachete" equip="false" />
+        <Item identifier="scp_assaultpack" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="0.1">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_livuniform" equip="true" />
+        <Item identifier="scp_livrig" equip="true" />
+        <Item identifier="scp_livhelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_kh2020">
+          <Item identifier="scp_65bullmag" />
+        </Item>
+        <Item identifier="scp_65bullmag" />
+        <Item identifier="scp_65bullmag" />
+        <Item identifier="screwdriver" equip="true" />
+        <Item identifier="scp_dementonitemachete" equip="false" />
+        <Item identifier="scp_assaultpack" equip="true" />
+      </ItemSet>
+    </npc>
+    <npc identifier="liv" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Passive" healthmultiplier="1.15" healthmultiplierinmultiplayer="1.25" experiencepoints="6000" aimspeed="3.25" aimaccuracy="0.75" reportrange="10000">
+      <talents>
+        <talent identifier="implacable" />
+        <talent identifier="rifleman" />
+        <talent identifier="swole" />
+      </talents>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_livuniform" equip="true" />
+        <Item identifier="scp_livrig" equip="true" />
+        <Item identifier="scp_livhelmet" equip="true" />
+        <Item identifier="scp_tacpack" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ash12">
+          <Item identifier="scp_ash12extmag" />
+        </Item>
+        <Item identifier="scp_m6">
+          <Item identifier="scp_deaglemag" />
+        </Item>
+        <Item identifier="scp_ash12extmag" />
+        <Item identifier="scp_ash12extmag" />
+        <Item identifier="scp_deaglemag" />
+        <Item identifier="scp_deaglemag" />
+        <Item identifier="screwdriver" equip="true" />
+        <Item identifier="scp_dementonitemachete" equip="false" />
+      </ItemSet>
+    </npc>
+  </npcset>
+  <npcset identifier="roguecoalitionmembers">
+    <npc identifier="roguecoalitionsoldier" commonness="0" moduleflags="crewmodule" job="securityofficer" behavior="Passive" healthmultiplier="0.8" healthmultiplierinmultiplayer="0.9" aimspeed="2" aimaccuracy="0.4" reportrange="1000">
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_lightuniform" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="ballistichelmet2" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ump45">
+          <Item identifier="scp_umpmag" />
+        </Item>
+        <Item identifier="scp_umpmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_lightuniform" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="ballistichelmet2" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="smg">
+          <Item identifier="smgmagazine" />
+        </Item>
+        <Item identifier="smgmagazine" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_lightuniform" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="ballistichelmet2" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_smg9">
+          <Item identifier="scp_9mmsmgmag" />
+        </Item>
+        <Item identifier="scp_9mmsmgmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_lightuniform" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_sg550">
+          <Item identifier="scp_556mag" />
+        </Item>
+        <Item identifier="scp_556mag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyuniform" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_mdr">
+          <Item identifier="scp_556mag" />
+        </Item>
+        <Item identifier="scp_556mag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_lightuniform" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="ballistichelmet2" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_m590">
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+        </Item>
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.8">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_lightuniform" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_m4s90">
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+        </Item>
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.75">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_lightuniform" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_mxa1">
+          <Item identifier="scp_65mag" />
+        </Item>
+        <Item identifier="scp_65mag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.65">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyuniform" equip="true" />
+        <Item identifier="scp_heavyvest" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_mxa1">
+          <Item identifier="scp_65mag" />
+        </Item>
+        <Item identifier="scp_p226">
+          <Item identifier="scp_9mmmag" />
+        </Item>
+        <Item identifier="scp_65mag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.85">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_lightuniform" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="ballistichelmet2" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="rifle">
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+        </Item>
+        <Item identifier="riflebullet" />
+        <Item identifier="riflebullet" />
+        <Item identifier="riflebullet" />
+        <Item identifier="riflebullet" />
+        <Item identifier="riflebullet" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="roguecoalitionsoldierwanderer" commonness="0" moduleflags="crewmodule" job="securityofficer" behavior="Patrol" healthmultiplier="0.8" healthmultiplierinmultiplayer="0.9" aimspeed="2" aimaccuracy="0.4" reportrange="1000">
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_lightuniform" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="ballistichelmet2" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ump45">
+          <Item identifier="scp_umpmag" />
+        </Item>
+        <Item identifier="scp_umpmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_lightuniform" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="ballistichelmet2" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="smg">
+          <Item identifier="smgmagazine" />
+        </Item>
+        <Item identifier="smgmagazine" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_lightuniform" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="ballistichelmet2" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_smg9">
+          <Item identifier="scp_9mmsmgmag" />
+        </Item>
+        <Item identifier="scp_9mmsmgmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_lightuniform" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_sg550">
+          <Item identifier="scp_556mag" />
+        </Item>
+        <Item identifier="scp_556mag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyuniform" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_mdr">
+          <Item identifier="scp_556mag" />
+        </Item>
+        <Item identifier="scp_556mag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_lightuniform" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="ballistichelmet2" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_m590">
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+        </Item>
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.8">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_lightuniform" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_m4s90">
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+        </Item>
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.75">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_lightuniform" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_mxa1">
+          <Item identifier="scp_65mag" />
+        </Item>
+        <Item identifier="scp_65mag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.65">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyuniform" equip="true" />
+        <Item identifier="scp_heavyvest" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_mxa1">
+          <Item identifier="scp_65mag" />
+        </Item>
+        <Item identifier="scp_p226">
+          <Item identifier="scp_9mmmag" />
+        </Item>
+        <Item identifier="scp_65mag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.85">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_lightuniform" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="ballistichelmet2" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="rifle">
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+        </Item>
+        <Item identifier="riflebullet" />
+        <Item identifier="riflebullet" />
+        <Item identifier="riflebullet" />
+        <Item identifier="riflebullet" />
+        <Item identifier="riflebullet" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="rogueleader" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Passive" healthmultiplier="0.8" healthmultiplierinmultiplayer="1" aimspeed="2" aimaccuracy="0.5" reportrange="10000">
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="captainsuniform1" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="captainscap1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_sg550">
+          <Item identifier="scp_556mag" />
+        </Item>
+        <Item identifier="scp_556mag" />
+        <Item identifier="scp_556mag" />
+        <Item identifier="screwdriver" equip="true" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="captainsuniform1" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="captainscap1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="smgunique">
+          <Item identifier="smgmagazine" />
+        </Item>
+        <Item identifier="smgmagazine" />
+        <Item identifier="smgmagazine" />
+        <Item identifier="screwdriver" equip="true" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.75">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="captainsuniform1" equip="true" />
+        <Item identifier="scp_heavyvest" equip="true" />
+        <Item identifier="captainscap1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_mxa1">
+          <Item identifier="scp_65mag" />
+        </Item>
+        <Item identifier="scp_65mag" />
+        <Item identifier="screwdriver" equip="true" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.75">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="captainsuniform3" equip="true" />
+        <Item identifier="scp_heavyvest" equip="true" />
+        <Item identifier="captainscap3" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_scar17">
+          <Item identifier="scp_scarmag" />
+        </Item>
+        <Item identifier="scp_scarmag" />
+        <Item identifier="screwdriver" equip="true" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+    </npc>
+  </npcset>
+  <npcset identifier="abandonedyuinpcs">
+    <npc identifier="sepyuifollower" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Passive" healthmultiplier="0.9" healthmultiplierinmultiplayer="1" aimspeed="2" aimaccuracy="0.55" reportrange="1000">
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ak74m">
+          <Item identifier="scp_ak74apmag" />
+        </Item>
+        <Item identifier="scp_ak74apmag" />
+        <Item identifier="scp_ak74apmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_val">
+          <Item identifier="scp_valmag" />
+        </Item>
+        <Item identifier="scp_valmag" />
+        <Item identifier="scp_valmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_sg550">
+          <Item identifier="scp_556apmag" />
+        </Item>
+        <Item identifier="scp_556apmag" />
+        <Item identifier="scp_556apmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.7">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_rsh12">
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+        </Item>
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.7">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_kh2020">
+          <Item identifier="scp_65bullmag" />
+        </Item>
+        <Item identifier="scp_65bullmag" />
+        <Item identifier="scp_65bullmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.45">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadeheavyhelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_val">
+          <Item identifier="scp_valextmag" />
+        </Item>
+        <Item identifier="scp_valextmag" />
+        <Item identifier="scp_valextmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.45">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadeheavyhelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_saiga12">
+          <Item identifier="scp_saigadrummag" />
+        </Item>
+        <Item identifier="scp_saigadrummag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.4">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadeheavyhelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ak103">
+          <Item identifier="scp_akapmag" />
+        </Item>
+        <Item identifier="scp_akapmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_specopsuniform" equip="true" />
+        <Item identifier="scp_yuirig" equip="true" />
+        <Item identifier="scp_yuihelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_val">
+          <Item identifier="scp_valbigmag" />
+        </Item>
+        <Item identifier="scp_valbigmag" />
+        <Item identifier="scp_valbigmag" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="screwdriver" equip="true" />
+        <Item identifier="scp_physicoriumsword" equip="false" />
+        <ItemSet commonness="0.2">
+          <Item identifier="idcard" equip="true" />
+          <Item identifier="scp_specopsuniform" equip="true" />
+          <Item identifier="scp_yuirig" equip="true" />
+          <Item identifier="scp_yuihelmet" equip="true" />
+          <Item identifier="divingmask">
+            <Item identifier="oxygentank" />
+          </Item>
+          <Item identifier="scp_kir">
+            <Item identifier="scp_kirmag" />
+          </Item>
+          <Item identifier="scp_kirmag" />
+          <Item identifier="scp_kirmag" />
+          <Item identifier="scp_physicoriumsword" equip="false" />
+        </ItemSet>
+      </ItemSet>
+    </npc>
+    <npc identifier="sepyuifollowerwanderer" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Patrol" healthmultiplier="0.9" healthmultiplierinmultiplayer="1" aimspeed="2" aimaccuracy="0.55" reportrange="1000">
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ak74m">
+          <Item identifier="scp_ak74apmag" />
+        </Item>
+        <Item identifier="scp_ak74apmag" />
+        <Item identifier="scp_ak74apmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_val">
+          <Item identifier="scp_valmag" />
+        </Item>
+        <Item identifier="scp_valmag" />
+        <Item identifier="scp_valmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="bodyarmor" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_sg550">
+          <Item identifier="scp_556apmag" />
+        </Item>
+        <Item identifier="scp_556apmag" />
+        <Item identifier="scp_556apmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.7">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_rsh12">
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+        </Item>
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.7">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_kh2020">
+          <Item identifier="scp_65bullmag" />
+        </Item>
+        <Item identifier="scp_65bullmag" />
+        <Item identifier="scp_65bullmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.45">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadeheavyhelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_val">
+          <Item identifier="scp_valextmag" />
+        </Item>
+        <Item identifier="scp_valextmag" />
+        <Item identifier="scp_valextmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.45">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadeheavyhelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_saiga12">
+          <Item identifier="scp_saigadrummag" />
+        </Item>
+        <Item identifier="scp_saigadrummag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.4">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadeheavyhelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ak103">
+          <Item identifier="scp_akapmag" />
+        </Item>
+        <Item identifier="scp_akapmag" />
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_specopsuniform" equip="true" />
+        <Item identifier="scp_yuirig" equip="true" />
+        <Item identifier="scp_yuihelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_val">
+          <Item identifier="scp_valbigmag" />
+        </Item>
+        <Item identifier="scp_valbigmag" />
+        <Item identifier="scp_valbigmag" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="screwdriver" equip="true" />
+        <Item identifier="scp_physicoriumsword" equip="false" />
+        <ItemSet commonness="0.2">
+          <Item identifier="idcard" equip="true" />
+          <Item identifier="scp_specopsuniform" equip="true" />
+          <Item identifier="scp_yuirig" equip="true" />
+          <Item identifier="scp_yuihelmet" equip="true" />
+          <Item identifier="divingmask">
+            <Item identifier="oxygentank" />
+          </Item>
+          <Item identifier="scp_kir">
+            <Item identifier="scp_kirmag" />
+          </Item>
+          <Item identifier="scp_kirmag" />
+          <Item identifier="scp_kirmag" />
+          <Item identifier="scp_physicoriumsword" equip="false" />
+        </ItemSet>
+      </ItemSet>
+    </npc>
+    <npc identifier="yui" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Patrol" healthmultiplier="1" experiencepoints="6000" healthmultiplierinmultiplayer="1.1" aimspeed="3" aimaccuracy="0.75" reportrange="20000">
+      <talents>
+        <talent identifier="physicalconditioning" />
+        <talent identifier="inordinateexsanguination" />
+        <talent identifier="swole" />
+      </talents>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_specopsuniform" equip="true" />
+        <Item identifier="scp_yuirig" equip="true" />
+        <Item identifier="scp_yuihelmet" equip="true" />
+        <Item identifier="scp_assaultpack" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_hk433">
+          <Item identifier="scp_556apmag" />
+        </Item>
+        <Item identifier="scp_556apmag" />
+        <Item identifier="scp_556apmag" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="scp_physicoriumsword" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.8">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_specopsuniform" equip="true" />
+        <Item identifier="scp_yuirig" equip="true" />
+        <Item identifier="scp_yuihelmet" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_kir">
+          <Item identifier="scp_kirmag" />
+        </Item>
+        <Item identifier="scp_kirmag" />
+        <Item identifier="scp_kirmag" />
+        <Item identifier="scp_physicoriumsword" equip="false" />
+        <Item identifier="scp_assaultpack" equip="true" />
+      </ItemSet>
+    </npc>
+  </npcset>
+  <npcset identifier="piratescavnpcs">
+    <npc identifier="piratescav" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Passive" healthmultiplier="0.75" healthmultiplierinmultiplayer="0.8" aimspeed="1.15" aimaccuracy="0.25" reportrange="2000">
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes2" equip="true" />
+        <Item identifier="scp_riotvest" equip="true" />
+        <Item identifier="baseballcap" equip="true" />
+        <Item identifier="shotgun">
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+        </Item>
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes3" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="scp_rm93">
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+        </Item>
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes3" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="harpoongun">
+          <Item identifier="spear" />
+          <Item identifier="spear" />
+          <Item identifier="spear" />
+          <Item identifier="spear" />
+          <Item identifier="spear" />
+          <Item identifier="spear" />
+        </Item>
+        <Item identifier="spear" />
+        <Item identifier="spear" />
+        <Item identifier="spear" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes5" equip="true" />
+        <Item identifier="scp_riotvest" equip="true" />
+        <Item identifier="piratebandana" equip="true" />
+        <Item identifier="scp_meusoc">
+          <Item identifier="scp_45mag" />
+        </Item>
+        <Item identifier="scp_45mag" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes5" equip="true" />
+        <Item identifier="scp_simplehelmet" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="scp_mp433">
+          <Item identifier="scp_9mmmag" />
+        </Item>
+        <Item identifier="scp_9mmmag" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.85">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes5" equip="true" />
+        <Item identifier="ballistichelmet3" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="scp_machete" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.75">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes5" equip="true" />
+        <Item identifier="scp_simplehelmet" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="scp_sr2">
+          <Item identifier="scp_umpmag" />
+        </Item>
+        <Item identifier="scp_umpmag" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.75">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes4" equip="true" />
+        <Item identifier="scp_piratehelmet" equip="true" />
+        <Item identifier="scp_riotvest" equip="true" />
+        <Item identifier="smg">
+          <Item identifier="smgmagazine" />
+        </Item>
+        <Item identifier="smgmagazine" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.75">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes3" equip="true" />
+        <Item identifier="scp_piratebandana" equip="true" />
+        <Item identifier="scp_riotvest" equip="true" />
+        <Item identifier="machinepistol">
+          <Item identifier="smgmagazine" />
+        </Item>
+        <Item identifier="smgmagazine" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.75">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes5" equip="true" />
+        <Item identifier="scp_piratebandana" equip="true" />
+        <Item identifier="scp_riotvest" equip="true" />
+        <Item identifier="scp_python">
+          <Item identifier="scp_357round" />
+          <Item identifier="scp_357round" />
+          <Item identifier="scp_357round" />
+          <Item identifier="scp_357round" />
+          <Item identifier="scp_357round" />
+          <Item identifier="scp_357round" />
+        </Item>
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.8">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes5" equip="true" />
+        <Item identifier="scp_piratebandana" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="revolver">
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+        </Item>
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.5">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="scp_simplehelmet" equip="true" />
+        <Item identifier="makeshiftarmor" equip="true" />
+        <Item identifier="scp_saiga12">
+          <Item identifier="scp_saigamag" />
+        </Item>
+        <Item identifier="scp_saigamag" />
+        <Item identifier="scp_saigamag" />
+        <Item identifier="scp_sledge" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.5">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="scp_simplehelmet" equip="true" />
+        <Item identifier="makeshiftarmor" equip="true" />
+        <Item identifier="scp_ump45">
+          <Item identifier="scp_umpmag" />
+        </Item>
+        <Item identifier="scp_umpmag" />
+        <Item identifier="scp_sledge" equip="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="piratescavwanderer" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Patrol" healthmultiplier="0.75" healthmultiplierinmultiplayer="0.8" aimspeed="1.15" aimaccuracy="0.25" reportrange="2000">
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes2" equip="true" />
+        <Item identifier="scp_riotvest" equip="true" />
+        <Item identifier="baseballcap" equip="true" />
+        <Item identifier="shotgun">
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+        </Item>
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes3" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="scp_rm93">
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+        </Item>
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes3" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="harpoongun">
+          <Item identifier="spear" />
+          <Item identifier="spear" />
+          <Item identifier="spear" />
+          <Item identifier="spear" />
+          <Item identifier="spear" />
+          <Item identifier="spear" />
+        </Item>
+        <Item identifier="spear" />
+        <Item identifier="spear" />
+        <Item identifier="spear" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes5" equip="true" />
+        <Item identifier="scp_riotvest" equip="true" />
+        <Item identifier="piratebandana" equip="true" />
+        <Item identifier="scp_meusoc">
+          <Item identifier="scp_45mag" />
+        </Item>
+        <Item identifier="scp_45mag" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes5" equip="true" />
+        <Item identifier="scp_simplehelmet" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="scp_9226">
+          <Item identifier="scp_9mmmag" />
+        </Item>
+        <Item identifier="scp_9mmmag" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.85">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes5" equip="true" />
+        <Item identifier="ballistichelmet3" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="scp_machete" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.75">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes5" equip="true" />
+        <Item identifier="scp_simplehelmet" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="scp_sr2">
+          <Item identifier="scp_umpmag" />
+        </Item>
+        <Item identifier="scp_umpmag" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.75">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes4" equip="true" />
+        <Item identifier="scp_piratehelmet" equip="true" />
+        <Item identifier="scp_riotvest" equip="true" />
+        <Item identifier="smg">
+          <Item identifier="smgmagazine" />
+        </Item>
+        <Item identifier="smgmagazine" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.75">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes3" equip="true" />
+        <Item identifier="scp_piratebandana" equip="true" />
+        <Item identifier="scp_riotvest" equip="true" />
+        <Item identifier="machinepistol">
+          <Item identifier="smgmagazine" />
+        </Item>
+        <Item identifier="smgmagazine" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.75">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes5" equip="true" />
+        <Item identifier="scp_piratebandana" equip="true" />
+        <Item identifier="scp_riotvest" equip="true" />
+        <Item identifier="scp_python">
+          <Item identifier="scp_357round" />
+          <Item identifier="scp_357round" />
+          <Item identifier="scp_357round" />
+          <Item identifier="scp_357round" />
+          <Item identifier="scp_357round" />
+          <Item identifier="scp_357round" />
+        </Item>
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.8">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="commonerclothes5" equip="true" />
+        <Item identifier="scp_piratebandana" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="revolver">
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+        </Item>
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.5">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="scp_simplehelmet" equip="true" />
+        <Item identifier="makeshiftarmor" equip="true" />
+        <Item identifier="scp_saiga12">
+          <Item identifier="scp_saigamag" />
+        </Item>
+        <Item identifier="scp_saigamag" />
+        <Item identifier="scp_saigamag" />
+        <Item identifier="scp_sledge" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.5">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="scp_simplehelmet" equip="true" />
+        <Item identifier="makeshiftarmor" equip="true" />
+        <Item identifier="scp_ump45">
+          <Item identifier="scp_umpmag" />
+        </Item>
+        <Item identifier="scp_umpmag" />
+        <Item identifier="scp_sledge" equip="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="piratescavleader" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Patrol" healthmultiplier="0.85" healthmultiplierinmultiplayer="0.9" aimspeed="1.75" aimaccuracy="0.45" reportrange="12000">
+      <ItemSet commonness="0.85">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="piratebodyarmor" equip="true" />
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="rifle">
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+        </Item>
+        <Item identifier="riflebullet" />
+        <Item identifier="riflebullet" />
+        <Item identifier="riflebullet" />
+        <Item identifier="riflebullet" />
+        <Item identifier="riflebullet" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="piratecaptainhat" equip="true" />
+        <Item identifier="smgunique">
+          <Item identifier="smgmagazine" />
+        </Item>
+        <Item identifier="smgmagazine" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="piratebodyarmor" equip="true" />
+        <Item identifier="piratecaptainhat" equip="true" />
+        <Item identifier="smgunique">
+          <Item identifier="smgmagazine" />
+        </Item>
+        <Item identifier="smgmagazine" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="piratebodyarmor" equip="true" />
+        <Item identifier="piratecaptainhat" equip="true" />
+        <Item identifier="smgunique">
+          <Item identifier="smgmagazine" />
+        </Item>
+        <Item identifier="smgmagazine" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.75">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="piratebodyarmor" equip="true" />
+        <Item identifier="piratecaptainhat" equip="true" />
+        <Item identifier="scp_ak74m">
+          <Item identifier="scp_ak74mag" />
+        </Item>
+        <Item identifier="scp_ak74mag" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="pirateprivate" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Passive" healthmultiplier="0.7" healthmultiplierinmultiplayer="0.8" aimspeed="1.35" aimaccuracy="0.35" reportrange="2500">
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="piratebandana" equip="true" />
+        <Item identifier="smg">
+          <Item identifier="smgmagazine" />
+        </Item>
+        <Item identifier="smgmagazine" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="piratebandana" equip="true" />
+        <Item identifier="scp_sr2">
+          <Item identifier="scp_umpmag" />
+        </Item>
+        <Item identifier="scp_umpmag" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="piratebandana" equip="true" />
+        <Item identifier="scp_ump45">
+          <Item identifier="scp_umpmag" />
+        </Item>
+        <Item identifier="scp_umpmag" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.85">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="rifle">
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+          <Item identifier="riflebullet" />
+        </Item>
+        <Item identifier="riflebullet" />
+        <Item identifier="riflebullet" />
+        <Item identifier="riflebullet" />
+        <Item identifier="riflebullet" />
+        <Item identifier="riflebullet" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.85">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="scp_rm93">
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+        </Item>
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="shotgunshell" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.8">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="piratebodyarmor" equip="true" />
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="scp_ak74m">
+          <Item identifier="scp_ak74mag" />
+        </Item>
+        <Item identifier="scp_ak74mag" />
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="pirateoperator" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Patrol" healthmultiplier="0.85" healthmultiplierinmultiplayer="0.9" aimspeed="1.55" aimaccuracy="0.4" reportrange="3500">
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="piratebodyarmor" equip="true" />
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="scp_ak74m">
+          <Item identifier="scp_ak74mag" />
+        </Item>
+        <Item identifier="scp_ak74mag" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="piratebodyarmor" equip="true" />
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="scp_ak103">
+          <Item identifier="scp_akmag" />
+        </Item>
+        <Item identifier="scp_akmag" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="piratebodyarmor" equip="true" />
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="scp_sg550">
+          <Item identifier="scp_556mag" />
+        </Item>
+        <Item identifier="scp_556mag" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="piratebodyarmor" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="scp_g3">
+          <Item identifier="scp_scarmag" />
+        </Item>
+        <Item identifier="scp_scarmag" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+    </npc>
+    <npc identifier="pirateoperatorleader" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Passive" healthmultiplier="0.9" healthmultiplierinmultiplayer="0.95" aimspeed="1.75" aimaccuracy="0.45" reportrange="8500">
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="scp_heavyvest" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="scp_g3">
+          <Item identifier="scp_scarmag" />
+        </Item>
+        <Item identifier="scp_scarmag" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="scp_heavyvest" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="scp_scar17">
+          <Item identifier="scp_scarmag" />
+        </Item>
+        <Item identifier="scp_scarmag" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="scp_heavyvest" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="scp_ak103">
+          <Item identifier="scp_akapmag" />
+        </Item>
+        <Item identifier="scp_akapmag" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="divingknife" equip="false" />
+      </ItemSet>
+    </npc>
+  </npcset>
+  <npcset identifier="separatistoutpostmembers">
+    <npc identifier="separatistsoldier" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Passive" healthmultiplier="0.9" healthmultiplierinmultiplayer="0.95" aimspeed="1.75" aimaccuracy="0.45" reportrange="8500">
+      <ItemSet commonness="0.9">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true">
+          <Item identifier="scp_ak74mag" />
+        </Item>
+        <Item identifier="scp_simplehelmet" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ak74m">
+          <Item identifier="scp_ak74mag" />
+        </Item>
+        <Item identifier="screwdriver" equip="true" />
+        <Item identifier="scp_machete" equip="false" />
+        <Item identifier="toolbelt" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="0.85">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="ballistichelmet3" equip="true" />
+        <Item identifier="bodyarmor" equip="true">
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="divingmask">
+            <Item identifier="oxygentank" />
+          </Item>
+        </Item>
+        <Item identifier="shotgun">
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+          <Item identifier="shotgunshell" />
+        </Item>
+        <Item identifier="scp_dementonitemachete" equip="false" />
+        <Item identifier="toolbelt" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="0.85">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="piratebandana" equip="true" />
+        <Item identifier="scp_softvest" equip="true">
+          <Item identifier="scp_556mag" />
+          <Item identifier="scp_556mag" />
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_sg550">
+          <Item identifier="scp_556mag" />
+        </Item>
+        <Item identifier="screwdriver" equip="true" />
+        <Item identifier="scp_machete" equip="false" />
+        <Item identifier="toolbelt" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="0.95">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="baseballcap" equip="true" />
+        <Item identifier="wrench" equip="false" />
+        <Item identifier="scp_rhino">
+          <Item identifier="scp_357round" />
+          <Item identifier="scp_357round" />
+          <Item identifier="scp_357round" />
+          <Item identifier="scp_357round" />
+          <Item identifier="scp_357round" />
+          <Item identifier="scp_357round" />
+        </Item>
+        <Item identifier="scp_m9bayonet" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.85">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="ballistichelmet2" equip="true" />
+        <Item identifier="scp_renegadevest" equip="true"></Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_rm93" equip="true">
+          <Item identifier="scp_12gmagbuck" amount="6" />
+        </Item>
+        <Item identifier="scp_12gmagbuck" amount="6" />
+        <Item identifier="scp_machete" equip="false" />
+        <Item identifier="toolbelt" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="0.8">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="baseballcap" equip="true" />
+        <Item identifier="scp_softvest" equip="true">
+          <Item identifier="scp_saigaextmag" />
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_saiga12" equip="true">
+          <Item identifier="scp_saigaextmag" />
+        </Item>
+        <Item identifier="scp_machete" equip="false" />
+
+        <Item identifier="toolbelt" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="1">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="piratebandana" equip="true" />
+        <Item identifier="scp_softvest" equip="true">
+          <Item identifier="scp_umpmag" />
+          <Item identifier="scp_umpmag" />
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_sr2" equip="true">
+          <Item identifier="scp_umpmag" />
+        </Item>
+        <Item identifier="crowbar" />
+
+        <Item identifier="toolbelt" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="0.6">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true">
+          <Item identifier="scp_65bullmag" />
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_kh2020" equip="true">
+          <Item identifier="scp_65bullmag" />
+        </Item>
+        <Item identifier="crowbar" />
+        <Item identifier="toolbelt" equip="true" />
+      </ItemSet>
+      <ItemSet commonness="0.85">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true">
+        </Item>
+        <Item identifier="scp_renegadevest" equip="true">
+          <Item identifier="scp_9mmsmgmag" />
+          <Item identifier="scp_9mmsmgmag" />
+        </Item>
+        <Item identifier="scp_simplehelmet" equip="true" />
+        <Item identifier="scp_assaultpack" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_m9bayonet" />
+        <Item identifier="scp_uzi" equip="true">
+          <Item identifier="scp_9mmsmgmag" />
+        </Item>
+      </ItemSet>
+      <ItemSet commonness="0.4">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true">
+          <Item identifier="scp_65bullmag" />
+        </Item>
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="scp_renegadeheavyhelmet" equip="true" />
+        <Item identifier="scp_assaultpack" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_kh2020" equip="true">
+          <Item identifier="scp_65bullmag" />
+        </Item>
+        <Item identifier="scp_m9bayonet" />
+      </ItemSet>
+      <ItemSet commonness="0.35">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyrenuniform" equip="true">
+          <Item identifier="scp_valmag" />
+        </Item>
+        <Item identifier="scp_softvest" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="scp_assaultpack" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_m9bayonet" />
+        <Item identifier="scp_val" equip="true">
+          <Item identifier="scp_valextmag" />
+        </Item>
+      </ItemSet>
+      <ItemSet commonness="0.45">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true">
+          <Item identifier="scp_akmag" />
+        </Item>
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="scp_assaultpack" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ak103" equip="true">
+          <Item identifier="scp_akmag" />
+        </Item>
+        <Item identifier="scp_m9bayonet" />
+      </ItemSet>
+      <ItemSet commonness="0.45">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true">
+          <Item identifier="scp_akapmag" />
+        </Item>
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="ballistichelmet2" equip="true" />
+        <Item identifier="scp_assaultpack" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_tabuk" equip="true">
+          <Item identifier="scp_akapmag" />
+        </Item>
+        <Item identifier="scp_m9bayonet" />
+      </ItemSet>
+      <ItemSet commonness="0.5">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true">
+          <Item identifier="scp_scarmag" />
+        </Item>
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="scp_assaultpack" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_g3" equip="true">
+          <Item identifier="scp_scarmag" />
+        </Item>
+        <Item identifier="scp_m9bayonet" />
+      </ItemSet>
+    </npc>
+    <npc identifier="separatistsoldierwanderer" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Patrol" healthmultiplier="0.9" healthmultiplierinmultiplayer="0.95" aimspeed="1.75" aimaccuracy="0.45" reportrange="8500">
+      <ItemSet commonness="1">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true" />
+        <Item identifier="piratebandana" equip="true" />
+        <Item identifier="scp_softvest" equip="true">
+          <Item identifier="scp_umpmag" />
+          <Item identifier="scp_umpmag" />
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_sr2" equip="true">
+          <Item identifier="scp_umpmag" />
+        </Item>
+      </ItemSet>
+      <ItemSet commonness="0.75">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true">
+          <Item identifier="scp_scarmag" />
+        </Item>
+        <Item identifier="scp_renegadevest" equip="true" />
+        <Item identifier="ballistichelmet2" equip="true" />
+        <Item identifier="scp_assaultpack" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ak74m" equip="true">
+          <Item identifier="scp_ak74mag" />
+        </Item>
+        <Item identifier="scp_ak74mag" />
+        <Item identifier="scp_m9bayonet" />
+      </ItemSet>
+      <ItemSet commonness="0.75">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true">
+        </Item>
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="scp_assaultpack" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_sg550" equip="true">
+          <Item identifier="scp_556mag" />
+        </Item>
+        <Item identifier="scp_556mag" />
+        <Item identifier="scp_m9bayonet" />
+      </ItemSet>
+      <ItemSet commonness="0.5">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadeuniform" equip="true">
+          <Item identifier="scp_scarmag" />
+        </Item>
+        <Item identifier="scp_renegadeplatecarrier" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="scp_assaultpack" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_g3" equip="true">
+          <Item identifier="scp_scarmag" />
+        </Item>
+        <Item identifier="scp_m9bayonet" />
+      </ItemSet>
+    </npc>
+    <npc identifier="separatistoutpostleader" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Passive" healthmultiplier="0.9" healthmultiplierinmultiplayer="0.95" aimspeed="1.75" aimaccuracy="0.45" reportrange="8500">
+      <ItemSet commonness="0.5">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadecaptainhat" equip="true" />
+        <Item identifier="scp_renegadecaptainuniform" equip="true" />
+        <Item identifier="scp_softvest" equip="true">
+          <Item identifier="steroids" />
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_deagle">
+          <Item identifier="scp_deaglemag" />
+        </Item>
+        <Item identifier="scp_deaglemag" />
+        <Item identifier="scp_deaglemag" />
+        <Item identifier="scp_machete" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.4">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_heavyhazmatuniform" equip="true" />
+        <Item identifier="scp_renegadevest" equip="true">
+          <Item identifier="steroids" />
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ak103">
+          <Item identifier="scp_akdumag" />
+        </Item>
+        <Item identifier="scp_akdumag" />
+        <Item identifier="scp_machete" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.65">
+        <Item identifier="scp_renegadecaptainhat" equip="true" />
+        <Item identifier="scp_renegadecaptainuniform" equip="true" />
+        <Item identifier="scp_renegadevest" equip="true">
+  
+          <Item identifier="steroids" />
+          <Item identifier="scp_ak74apmag" />
+        </Item>
+        <Item identifier="toolbelt" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_ak74m">
+          <Item identifier="scp_ak74apmag" />
+        </Item>
+        <Item identifier="scp_dementonitemachete" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.65">
+        <Item identifier="scp_renegadecaptainhat" equip="true" />
+        <Item identifier="scp_renegadecaptainuniform" equip="true" />
+        <Item identifier="scp_heavyvest" equip="true">
+  
+          <Item identifier="steroids" />
+          <Item identifier="scp_scarmag" />
+        </Item>
+        <Item identifier="toolbelt" equip="true" />
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_scar17">
+          <Item identifier="scp_scarmag" />
+        </Item>
+        <Item identifier="scp_dementonitemachete" equip="false" />
+      </ItemSet>
+      <ItemSet commonness="0.5">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="scp_renegadehelmet" equip="true" />
+        <Item identifier="scp_renegadecaptainuniform" equip="true" />
+        <Item identifier="scp_renegadeplatecarrier" equip="true">
+          <Item identifier="steroids" />
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="scp_rsh12">
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+          <Item identifier="scp_arevolverround" />
+        </Item>
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_arevolverround" />
+        <Item identifier="scp_dementonitemachete" />
+      </ItemSet>
+    </npc>
+  </npcset>
+</npcsets>

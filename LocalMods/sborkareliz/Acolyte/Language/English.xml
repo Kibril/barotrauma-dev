@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<infotexts language="Russian" nowhitespace="false" translatedname="Русский">
+  <jobname.acolyte>Аколит</jobname.acolyte>
+  <!-- В переводе с английского это означает "Помощник", что бы не повторяться, я оставил оригинал с английкого, написав кирилицей. -->
+  <jobdescription.acolyte>Преданные церкви хаска, аколиты стремятся найти путь потерянного правильного пути. Они выставляют силу хаска на всеобщее обозрение и показывают, что только через обьеденение с хаском мы можем выжить в инопланетных водах Европы.</jobdescription.acolyte>
+  <!-- Talent Trees -->
+  <talenttree.symbiosis>Симбиоз</talenttree.symbiosis>
+  <talenttree.missionary>Наёмничество</talenttree.missionary>
+  <talenttree.hivemind>Коллективный разум</talenttree.hivemind>
+  <!-- Prerequisite Talent Names -->
+  <talentname.crusade>Крестовый поход</talentname.crusade>
+  <talentname.faithismyshield>Вера - мой щит</talentname.faithismyshield>
+  <talentname.martyr>Мученик</talentname.martyr>
+  <talentname.medievalmedication>Средневековые лекарства</talentname.medievalmedication>
+  <talentname.powerofprayer>Сила молитвы</talentname.powerofprayer>
+  <talentname.sanctuary>Святилище</talentname.sanctuary>
+  <talentname.willinghost>Желающий хозяин</talentname.willinghost>
+  <talentname.chainthebeast>Цепочка зверя</talentname.chainthebeast>
+  <talentname.dunleashthebeast>Развязать зверя</talentname.dunleashthebeast>
+  <talentname.freesamples>Бесплатные образцы</talentname.freesamples>
+  <talentname.herbalist>Травник</talentname.herbalist>
+  <talentname.itsalive>Оно живое!</talentname.itsalive>
+  <talentname.jekyllandhyde>Джекил и Хайд</talentname.jekyllandhyde>
+  <talentname.naturalorder>Естественный порядок</talentname.naturalorder>
+  <talentname.onceuponatime>Когда-то давно...</talentname.onceuponatime>
+  <talentname.onceuponatime_assistant>Опыт помощника</talentname.onceuponatime_assistant>
+  <talentname.onceuponatime_captain>Опыт капитана</talentname.onceuponatime_captain>
+  <talentname.onceuponatime_doctor>Опыт работы с врачом</talentname.onceuponatime_doctor>
+  <talentname.onceuponatime_engineer>Опыт инженера</talentname.onceuponatime_engineer>
+  <talentname.onceuponatime_mechanic>Опыт механика</talentname.onceuponatime_mechanic>
+  <talentname.onceuponatime_security>Опыт офицера службы безопасности</talentname.onceuponatime_security>
+  <!-- Specialization Talent Names -->
+  <talentname.bettertogether>Вместе лучше</talentname.bettertogether>
+  <talentname.supplication>Просьба</talentname.supplication>
+  <talentname.geneticenhancement>Генетическое расширение</talentname.geneticenhancement>
+  <talentname.waterbornepathogen>Водный патоген</talentname.waterbornepathogen>
+  <talentname.blessed>Благословенный</talentname.blessed>
+  <talentname.cursed>Проклятый</talentname.cursed>
+  <talentname.resilientgenes>Упругие гены</talentname.resilientgenes>
+  <talentname.xbloodfeast>Кровавый пир</talentname.xbloodfeast>
+  <talentname.spreadthefaith>Распространение веры</talentname.spreadthefaith>
+  <talentname.communityservice>Общественные работы</talentname.communityservice>
+  <talentname.forcefulconversion>Силовое преобразование</talentname.forcefulconversion>
+  <talentname.generousdonation>Щедрое пожертвование</talentname.generousdonation>
+  <talentname.sacrifice>Жертва</talentname.sacrifice>
+  <talentname.archbishop>Архиепископ</talentname.archbishop>
+  <talentname.fanatic>Фанатик</talentname.fanatic>
+  <talentname.assimilation>Ассимиляция</talentname.assimilation>
+  <talentname.enthrall>Enthrall</talentname.enthrall>
+  <talentname.induction>Вводный инструктаж</talentname.induction>
+  <talentname.greatmindsthinkalike>У великих мысли сходятся </talentname.greatmindsthinkalike>
+  <talentname.shiningexample>Сияющий пример</talentname.shiningexample>
+  <talentname.overmind>Сверхразум</talentname.overmind>
+  <!-- Prerequisite Talent Descriptions -->
+  <talentdescription.crusadeself>До тех пор, пока вы находитесь за пределами вашей подводной лодки, вы получаете следующие бонусы:</talentdescription.crusadeself>
+  <talentdescription.crusadeallies>До тех пор, пока вы находитесь за пределами вашей подводной лодки, союзники рядом с вами, также получают следующие атрибуты:</talentdescription.crusadeallies>
+  <talentdescription.faithismyshield>Если вы не были атакованы [seconds] секунд, следующая атака будет на [powerreduction]% менее сильной.</talentdescription.faithismyshield>
+  <talentdescription.martyr1>За каждые [health]% отсутствующего здоровья, вы получаете дополнительные [power]% [attackpower].</talentdescription.martyr1>
+  <talentdescription.martyr2>До [powercap]% [attackpower] вы можете получить таким образом.</talentdescription.martyr2>
+  <talentdescription.medievalmedication>Применение [item] на союзнике теперь лечит.</talentdescription.medievalmedication>
+  <talentdescription.naturalorder>Наносите [amount]% больше урона с помощью ‖color:gui.orange‖Жала хаска‖end‖ и ‖color:gui.orange‖Шипа шипостая‖end‖.</talentdescription.naturalorder>
+  <talentdescription.powerofprayer>В следующий раз, когда вы ляжете, вы получите [amount] рандомного навыка.</talentdescription.powerofprayer>
+  <talentdescription.powerofprayermission>Каждый раз, когда вы завершаете миссию, вы можете расслабиться для получения от [amount1] до [amount2] рандомных очков навыка.</talentdescription.powerofprayermission>
+  <talentdescription.huskreputationboost>Каждый раз, когда вы завершаете миссию без смерти члена экипажа, вы получаете [amount] репутации у ‖color:gui.orange‖Церкви Паразита‖end‖.</talentdescription.huskreputationboost>
+  <talentdescription.sanctuaryself>Пока вы находитесь внутри вашей подводной лодки вы получаете следующие бонусы:</talentdescription.sanctuaryself>
+  <talentdescription.sanctuaryallies>Пока вы находитесь внутри вашей подводной лодки, союзники вокруг вас так-же будут получать эти бонусы.</talentdescription.sanctuaryallies>
+  <talentdescription.slowhusk>Замедляет скорость заражения паразитом.</talentdescription.slowhusk>
+  <talentdescription.willinghost>Пока у вас на или выше [amount]% заражении паразитами, Хаски будут вас игнорировать, пока вы их не спровоцируете, вам не нужно будет дышать кислородом, и у вас будет сопротивление давлению, как у Хаска.</talentdescription.willinghost>
+  <talentdescription.chainthebeast>Наносите до [cap]% больше [stun] основываясь на том, насколько низко ваше заражение паразитами</talentdescription.chainthebeast>
+  <talentdescription.dunleashthebeast>Получаете до [cap1]% [meleeatkspeed] и наносите до [cap2]% больше [bleeding] основываясь на том, насколько велико ваше заражение паразитами</talentdescription.dunleashthebeast>
+  <talentdescription.gainoutputfromplants>Всякий раз, когда вы деконструируете завод, у вас есть [probability]% шанса получить двойное количество предмета.</talentdescription.gainoutputfromplants>
+  <talentdescription.freesamples>Когда вы или ваш союзник убивает за пределами судна монстра, у вас есть шанс в [probability]% найти в его трупе генетический материал.</talentdescription.freesamples>
+  <talentdescription.freesampleseggs>Каждый раз, когда вы завершаете миссию без смерти члена экипажа, вы получаете дополнительно [item].</talentdescription.freesampleseggs>
+  <talentdescription.moreoutput>Каждый раз, когда вы создаёте [item], вы имеете [percentchance]% получить двойное количество предмета.</talentdescription.moreoutput>
+  <talentdescription.jekyll>Пока у вас на или ниже [percent]% заражения паразитами, вы получаете [medicalskillamount] к [medicalskill], а медикаменты применённые на вас [potency]% работают эффективней.</talentdescription.jekyll>
+  <talentdescription.hyde>Пока у вас на или ниже [percent]% заражения паразитами, вы получаете бонус [weaponsskillamount] к [weaponsskill] и наносите на [bleedingamount]% больше [bleeding].</talentdescription.hyde>
+  <talentdescription.Onceuponatimebase>До того, как вы посвятили свою жизнь Церкви Паразита, ваша жизнь была совсем другой.</talentdescription.Onceuponatimebase>
+  <talentdescription.Aonceuponatimejob>Ранее вы имели должность [job] и получаете следующее:</talentdescription.Aonceuponatimejob>
+  <talentdescription.ANonceuponatimejob>Ранее вы имели должность [job] и получаете следующее:</talentdescription.ANonceuponatimejob>
+  <talentdescription.allskills>Получить бонус [skillincrease] ко всем навыкам.</talentdescription.allskills>
+  <talentdescription.speedmover>Вы передвигаетесь на [amount]% быстрее когда вы носите ‖color:gui.orange‖Металлические ящики‖end‖, ‖color:gui.orange‖Артефакты‖end‖, ‖color:gui.orange‖Ящики с патронами‖end‖, или ‖color:gui.orange‖Снаряды для рельсотрона‖end‖.</talentdescription.speedmover>
+  <talentdescription.extrapowertopistols>Вы получаете дополнительно [amount]% [attackpower] к пистолетам.</talentdescription.extrapowertopistols>
+  <talentdescription.downwiththeshipacolyte>Если вы находитесь на вашей подводной лодке и она затоплена, как минимум, на [flooded]%, вы получаете следующие бонусы на [duration] секунд.</talentdescription.downwiththeshipacolyte>
+  <talentdescription.extrapowertohandheldranged>Вы получаете дополнительные [amount]% [attackpower] к ручным дальнобойным оружием.</talentdescription.extrapowertohandheldranged>
+  <talentdescription.moreaffliction>Вы наносите на [amount]% больше [affliction].</talentdescription.moreaffliction>
+  <talentdescription.lessaffliction>Вы наносите на [amount]% меньше [affliction].</talentdescription.lessaffliction>
+  <talentdescription.reductionresistanceself>Lose [amount]% [affliction] resistance.</talentdescription.reductionresistanceself>
+  <talentdescription.reductionreputationgains>Получаение репутации вашем экипажем снижается на [amount]%.</talentdescription.reductionreputationgains>
+  <talentdescription.damagetoaffliction1>Наносите [amount]% больше урона [affliction] целям.</talentdescription.damagetoaffliction1>
+  <talentdescription.damagetoaffliction2>Наносите [amount]% больше урона целям, имеющим [affliction].</talentdescription.damagetoaffliction2>
+  <talentdescription.damagetostun>Наносите [amount]% больше урона целям, которые ‖color:gui.orange‖Оглушены‖end‖.</talentdescription.damagetostun>
+  <!-- Specialization Talent Descriptions -->
+  <talentdescription.bettertogether>Значительно замедляет заражение паразитами и при заражении паразитами даёт [skillincrease] ко всем навыкам.</talentdescription.bettertogether>
+  <talentdescription.supplication>Пока вы заражены паразитами, союзники рядом с вами страдают от понижения на [amount] всех навыков и [amount]% [speedreduction].</talentdescription.supplication>
+  <talentdescription.supplicationbuff>Значительно замедляет скорость заражения паразитами и при заражении паразитами вы получаете [skillincrease] ко всем навыкам.</talentdescription.supplicationbuff>
+  <talentdescription.supplicationitems>Каждый раз, когда вы завершаете миссию без смерти члена экипажа, вы получаете следующие предметы в качестве дополнительной награды:</talentdescription.supplicationitems>
+  <talentdescription.geneticenhancement>Пока вы заражены паразитами, вы получаете [spreadreductionamount]% [spreadreduction], [meleeatkspeed]% [matkspeed] и [movementspeed]% [speedboost].</talentdescription.geneticenhancement>
+  <talentdescription.waterbornepathogen>Пока вы заражены паразитами, ваша скорость в воде увеличивается на [swimmingboost]%.</talentdescription.waterbornepathogen>
+  <talentdescription.waterbornepathogenwaterbuffs>Пока вы заражены паразитами и находитесь в воде, вы получаете дополнительно [amount]% устойчивости к [affliction].</talentdescription.waterbornepathogenwaterbuffs>
+  <talentdescription.reductiontoresistanceself>Снижает устойчивость к [affliction] на [amount]%.</talentdescription.reductiontoresistanceself>
+  <talentdescription.blessed>Пока вы заражены паразитами, ваше максимальное здоровье увеличивается на [health]%, а большая часть видов урона исцеляется. В случае если ваше здоровье упадёт ниже нуля - активируется процесс симбиотического восстановления.</talentdescription.blessed>
+  <talentdescription.cursed>Пока вы заражены паразитами, вы получаете [power]% [attackpower] и бонус [amount] к [skill].</talentdescription.cursed>
+  <talentdescription.cursedturretcap>Этот бонус ограничен до [power]% [attackpower] пока вы находитесь за орудием.</talentdescription.cursedturretcap>
+  <talentdescription.curseddrawback>Пока вы заражены паразитами, получаете [amount]% больше урона.</talentdescription.curseddrawback>
+  <talentdescription.resilientgenes>За каждые [health]% отсутствующего здоровья, пока вы заражены паразитами, вы получаете дополнительные [dmgresist]% к устойчивости к [physicaldamage] и [bleedingresist]% устойчивости к [bleeding].</talentdescription.resilientgenes>
+  <talentdescription.resilientgenescap>Максимум до [cap]% [physicaldamage] устойчивости и [cap]% [bleeding] устойчивости может быть получено таким образом.</talentdescription.resilientgenescap>
+  <talentdescription.bloodfeast>Пока вы заражены паразитами, вы быстрее исцеляетесь от [bleeding], но получаете на [bleed]% больше [bleeding].</talentdescription.bloodfeast>
+  <talentdescription.medicaleffectivenessreduction>Пока вы заражены паразитами, медикаменты на [amount]% менее эффективны при применении их на вас.</talentdescription.medicaleffectivenessreduction>
+  <talentdescription.spreadthefaith>Распространяйте учения церкви хаска. Близкие к вам союзники начнут получать просветление, получая бонусы до [buffduration] секунд.</talentdescription.spreadthefaith>
+  <talentdescription.spreadthefaithitem>Всякий раз, когда вы завершаете миссию без смерти члена экипажа, получите предмет [item].</talentdescription.spreadthefaithitem>
+  <talentdescription.forcefulconversion1>Каждый раз, когда вы применяете [item] союзнику, который не является самим собой, ему даётся [seconds] секунд Просвящения.</talentdescription.forcefulconversion1>
+  <talentdescription.forcefulconversion2>Если у вас есть [talent], каждый раз применяя [item] на союзника, который не является самим собой, ему даётся [seconds] секунд Секретов Церкви.</talentdescription.forcefulconversion2>
+  <talentdescription.generousdonationmoney>Каждый раз, когда вы завершаете хотя бы одну миссию, вы получаете дополнительно [marks1] к [marks2] кредитам.</talentdescription.generousdonationmoney>
+  <talentdescription.generousdonationitem>Каждый раз, когда, вы получаете комбинацию из [amount] со следующего предмета:</talentdescription.generousdonationitem>
+  <talentdescription.item>[itemname]</talentdescription.item>
+  <talentdescription.damagetobleeding>Наносите до [cap]% больше урона против [affliction] целей основываясь на силе их кровотечение.</talentdescription.damagetobleeding>
+  <talentdescription.archbishop>В дополнение к другим бонусам от Просвящения, вы и ваши союзники, которые находятся рядом с вами, так-же получают следующие признаки вплодь до [buffduration] секунд.</talentdescription.archbishop>
+  <talentdescription.fanatic>Получаете до [cap1]% [movementspeed] и [cap2]% [affliction] устойчивости основываясь количестве психоза.</talentdescription.fanatic>
+  <talentdescription.fanaticpsychosis>Каждый раз, когда вы применяете [item] на себя, выполучаете психоз.</talentdescription.fanaticpsychosis>
+  <talentdescription.assimilation>Слегка понижает скорость заражения паразитами. Каждый раз когда вы отдаёте приказ другому персонажу, вы даёте Причащение, таким образом ещё сильнее замедляя заражение паразитами.</talentdescription.assimilation>
+  <talentdescription.assimilationreminder>Причащение могут иметь до двух членов экипажа. Давая приказ одному персонажу, вы лишаете этого эффекта предыдущего.</talentdescription.assimilationreminder>
+  <talentdescription.infection>Каждый раз, когда вы применяете [item] на союзнике, вы даёте следующие эффекты на [buffduration] секунд:</talentdescription.infection>
+  <talentdescription.infectionself>Каждый раз, когда вы применяете [item] на себе, вы так-же получаете эффекты от [talent] на [buffduration] секунд.</talentdescription.infectionself>
+  <talentdescription.infectionreminder>Продолжительность эффекта может быть увелечина повторным применением до [buffduration] секунд.</talentdescription.infectionreminder>
+  <talentdescription.greatmindsthinkalike>Каждый раз, когда вы уровень навыка, есть шанс в [probability]% что все остальные члены экипажа так-же получат этот уровень навыка.</talentdescription.greatmindsthinkalike>
+  <talentdescription.greatmindsthinkalikehusked>Если они заражены паразитами, у них будет [probability]% шанс, так-же получить уровень этого навыка.</talentdescription.greatmindsthinkalikehusked>
+  <talentdescription.shiningexamplerepair>Каждый раз, когда вы полностью ремонтируете прибор, остальные ваши союзники получают [repair]% [repairspeed] на [buffduration] секунд.</talentdescription.shiningexamplerepair>
+  <talentdescription.shiningexampledamage>Каждый раз, когда вы убиваете монстра, все остальные союзники получают [dmgboost]% бонус к урону на [buffduration] секунд.</talentdescription.shiningexampledamage>
+  <talentdescription.shiningexamplehusked>Если они заражены паразитами, их эффект будет длиться [buffduration] секунд вместо предыдущего времени.</talentdescription.shiningexamplehusked>
+  <talentdescription.overmind>За каждые [skillcap] уровня навыка или выше, вы получаете дополнительно [skillgainincrease]% [skillgain].</talentdescription.overmind>
+  <talentdescription.overmindbuffs>Пока ваш уровень навыка [skillcap] или выше, вы даёте союзникам следующие бонусы:</talentdescription.overmindbuffs>
+  <talentdescription.overmindstat>[skill]: [statamount]% [stat].</talentdescription.overmindstat>
+  <talentdescription.overmindresistance>[skill]: [resistanceamount]% [affliction] устойчивость.</talentdescription.overmindresistance>
+  <!-- Affliction Names -->
+  <afflictionname.crusade>Крестовый поход</afflictionname.crusade>
+  <afflictionname.faithshield>Божественная защита</afflictionname.faithshield>
+  <afflictionname.sanctuary1>Святилище</afflictionname.sanctuary1>
+  <afflictionname.downwiththeshipacolyte>На дно с судном</afflictionname.downwiththeshipacolyte>
+  <afflictionname.drained>Истощенный</afflictionname.drained>
+  <afflictionname.enlightenment>Просвещение</afflictionname.enlightenment>
+  <afflictionname.churchsecrets>Церковные секреты</afflictionname.churchsecrets>
+  <afflictionname.communion>Причастие</afflictionname.communion>
+  <afflictionname.enthrall1>Восторг</afflictionname.enthrall1>
+  <afflictionname.induction>Водный инструктаж</afflictionname.induction>
+  <afflictionname.shiningexamplerepair>Ремонтная директива</afflictionname.shiningexamplerepair>
+  <afflictionname.shiningexampledamage>Боевая директива</afflictionname.shiningexampledamage>
+  <afflictionname.medical100buff>Медицинский сверхразум</afflictionname.medical100buff>
+  <afflictionname.weapons100buff>Оружейный сверхразум</afflictionname.weapons100buff>
+  <afflictionname.helm100buff>Управленческий сверхразум</afflictionname.helm100buff>
+  <afflictionname.mechanical100buff>Механический сверхразум</afflictionname.mechanical100buff>
+  <afflictionname.electrical100buff>Инжнерный сверхразум</afflictionname.electrical100buff>
+  <!-- Custom Override -->
+  <afflictionname.nobreath>Не дышит</afflictionname.nobreath>
+  <afflictionname.apotheosis1>Симбиотическое восстановление</afflictionname.apotheosis1>
+  <talentdescription.blessed1>Пока вы заражены паразитами, ваше максимальное здоровье увеличивается на [health]%, а большая часть видов урона исцеляется. В случае если ваше здоровье упадёт ниже нуля - активируется процесс симбиотического восстановления.</talentdescription.blessed1>
+  <talentdescription.willinghost1>Пока у вас на или выше [amount]% заражении паразитами, Хаски будут вас игнорировать, пока вы их не спровоцируете, вам не нужно будет дышать кислородом, любые лёгочные травмы игнорируются и у вас будет сопротивление давлению, как у Хаска.</talentdescription.willinghost1>
+  <talentdescription.bloodfeast1>Пока вы заражены паразитами, вы быстрее исцеляетесь от [bleeding], но получаете на [bleed]% больше [bleeding]. К тому же, сердечные травмы быстро исцеляются.</talentdescription.bloodfeast1>
+  <!-- Affliction Descriptions -->
+  <afflictiondescription.crusade>Субьект в крестовом походе.</afflictiondescription.crusade>
+  <afflictiondescription.faithshield>Субьект защищён своей судьбой.</afflictiondescription.faithshield>
+  <afflictiondescription.sanctuary1>Субьект чувствует себя в безопасности.</afflictiondescription.sanctuary1>
+  <afflictiondescription.downwiththeshipacolyte>Субъект отказывается покинуть судно и сделает все, чтобы восстановить ему былую славу.</afflictiondescription.downwiththeshipacolyte>
+  <afflictiondescription.drained>Субьект чувствует слабость.</afflictiondescription.drained>
+  <afflictiondescription.enlightenment>Субьект чувствует просвещение.</afflictiondescription.enlightenment>
+  <afflictiondescription.churchsecrets>Субьект был награждён знаниями.</afflictiondescription.churchsecrets>
+  <afflictiondescription.communion>Субьект превозносит хаска.</afflictiondescription.communion>
+  <afflictiondescription.enthrall1>Субьект увлечён.</afflictiondescription.enthrall1>
+  <afflictiondescription.induction>Субьект обучен сворачиваться.</afflictiondescription.induction>
+  <afflictiondescription.shiningexamplerepair>Субьект призван ремонтировать приборы.</afflictiondescription.shiningexamplerepair>
+  <afflictiondescription.shiningexampledamage>Субьект призван бороться с монстрами.</afflictiondescription.shiningexampledamage>
+  <afflictiondescription.medical100buff>Субьект награждён силой от хаска.</afflictiondescription.medical100buff>
+  <afflictiondescription.weapons100buff>Субьект награждён силой от хаска.</afflictiondescription.weapons100buff>
+  <afflictiondescription.helm100buff>Субьект награждён силой от хаска.</afflictiondescription.helm100buff>
+  <afflictiondescription.mechanical100buff>Субьект награждён силой от хаска.</afflictiondescription.mechanical100buff>
+  <afflictiondescription.electrical100buff>Субьект награждён силой от хаска.</afflictiondescription.electrical100buff>
+  <!-- Custom Override -->
+  <afflictiondescription.nobreath>Субъект не пытается сделать вдох. По всей видимости, воздух ему больше не нужен.</afflictiondescription.nobreath>
+  <afflictiondescription.apotheosis1>Можно увидеть как под кожей субъекта что-то ползает, а раны поразительно быстро затягиваются.</afflictiondescription.apotheosis1>
+  <!-- Stat type names -->
+  <stattypenames.gainoredetachspeed>Скорость добычи руды</stattypenames.gainoredetachspeed>
+  <stattypenames.physicaldamage>Физический урон</stattypenames.physicaldamage>
+  <stattypenames.flow>Течение</stattypenames.flow>
+  <stattypenames.rangedspreadreduction>Сокращение распространения</stattypenames.rangedspreadreduction>
+</infotexts>

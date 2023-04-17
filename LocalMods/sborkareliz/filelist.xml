@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Sborka New" path="Mods/sborkareliz/filelist.xml" corepackage="false" gameversion="1.0.8.0">
+  <!--< Overrides />-->
+  <Item file="%ModDir%/Override/Vanila/diving.xml" />
+
+  <Sounds file="%ModDir%/Sounds/sounds.xml" />
+
+  <!--< Acolyte />-->
+  <Talents file="%ModDir%/Acolyte/Talents1.xml" />
+  <Afflictions file="%ModDir%/Acolyte/Acolyteafflictions.xml" />
+  <Text file="%ModDir%/Acolyte/Language/English.xml" />
+  <Text file="%ModDir%/Acolyte/Language/Russian.xml" />
+
+  <!--< Diver />-->
+  <Talents file="%ModDir%/Diver/TalentsDiver.xml" />
+
+  <!--< headset />-->
+  <Item file="%ModDir%/Headsets/Headsets.xml" />
+  <Other file="%ModDir%/advancedheadsetspreview.png" />
+  <Other file="%ModDir%/Headsets/AdvancedHeadsetAtlas.png" />
+</contentpackage>

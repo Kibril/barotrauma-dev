@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Polish" nowhitespace="false" translatedname="Polski">
+  <entityname.ammopack>Pojemnik na ammunicje</entityname.ammopack>
+  <entitydescription.ammopack>Pojemnik pozwalający na łątwiejsze zarządzanie i przechowywanie ammunicji.</entitydescription.ammopack>
+  <entityname.backpack1>Plecak</entityname.backpack1>
+  <entitydescription.backpack1>Aby twoje rece były wolne i twoje plecy cierpiały.</entitydescription.backpack1>
+  <entityname.minigun1>Minigun</entityname.minigun1>
+  <entitydescription.minigun1>Aby napełnić tą bestje musisz umiescić ją w Zbiorniku ammunicji do Miniguna (Uwaga : Jak minigun bedie pełny wyciągnij go szybko z zbiornika, muszę jeszcze naprawić probem z wytrzymałością).</entitydescription.minigun1>
+  <entityname.minigunammunitiontank>Zbiornik ammunicji do Miniguna</entityname.minigunammunitiontank>
+  <entitydescription.minigunammunitiontank>Cięki zbiornik ammunicji zamontowany na pancerzu, używany by napełnić napełnić Miniguna.</entitydescription.minigunammunitiontank>
+  <entityname.ddossuit>Strój do głębokich operacji podwodnych.</entityname.ddossuit>
+  <entitydescription.ddossuit>Strój używany przez elitarnych nurków. Z zintegorwaną baterią zasilającą zinegrowany układ napędowy, wzmocnionym plecakiem, kompaktowym systemem przechowywania zaopatrzenia, i bardzo wytrzymalym opancerzeniem ten technologiczny cud zapewni przetrwanie każdego kto go nosi, i kogo na niego stać... Powinno sie rozebrać przed założeniem tego stroju.</entitydescription.ddossuit>
+  <entityname.heavybackpack>Ciężki plecak</entityname.heavybackpack>
+  <entitydescription.heavybackpack>Duży plecak służący do łatwiejszego transportu ciężkich narzędzi lub sprzętu. Może być używany do przechowywania dużych przedmiotów, takich jak amunicja, pociski do działa szynowego i artefakty obcych.</entitydescription.heavybackpack>
+  <entityname.heavycrate>Cieżka skrzynia</entityname.heavycrate>
+  <entitydescription.heavycrate>Ciężka, ruchoma skrzynia służąca do przechowywania skrzynek z amunicją, pocisków do działek szynowych, kombinezonów do nurkowania, a nawet artefaktów obcych. Powoduje ona znaczne spowolnienie poruszania, ale zaoferuje świetny sposób na przenoszenie dużych przedmiotów.</entitydescription.heavycrate>
+  <entityname.medicalbackpack>Plecak medyczny</entityname.medicalbackpack>
+  <entitydescription.medicalbackpack>Plecak służący do transportu medykamentow i komponentów medycznych.</entitydescription.medicalbackpack>
+  <entityname.medipack>Medipack</entityname.medipack>
+  <entitydescription.medipack>Pojemnik umożliwiający łatwiejszy transport artykułów medycznych.</entitydescription.medipack>
+  <entityname.oxy-genbackpack>Plecak Oxy-Gen</entityname.oxy-genbackpack>
+  <entitydescription.oxy-genbackpack>Przenośna stacja oddechowa przekształcona w plecak, umożliwiająca oddychanie pod wodą, a także uzupełnianie dowolnych butli tlenowych.</entitydescription.oxy-genbackpack>
+  <entityname.power-backpack>Plecak Energetyczny</entityname.power-backpack>
+  <entitydescription.power-backpack>Przenośny emiter światła o wysokiej intensywności wyposażony w doki ładujące, do długich operacji na morzu, z kilkoma kieszeniami do przechowywania.</entitydescription.power-backpack>
+  <entityname.shieldbackpack>Plecak - Osłona</entityname.shieldbackpack>
+  <entitydescription.shieldbackpack>Rewolucyjne urządzenie służące do zmniejszania obrażeń osoby która go nosi. Ilosc redukcji zalezy od tego czy jest zasilony oraz, w zależności od typu zastosowanej baterii. Niektórzy umieszczają nawet w środku źródło mocy obcych...</entitydescription.shieldbackpack>
+  <entityname.tacticalbodyarmor>Pancerz Taktyczny</entityname.tacticalbodyarmor>
+  <entitydescription.tacticalbodyarmor>Zasadniczo kamizelka kuloodporna z nałożonym bandolierem. To po prostu działa.</entitydescription.tacticalbodyarmor>
+  <entityname.techno-backpack>Techno-Backpack</entityname.techno-backpack>
+  <entitydescription.techno-backpack>A useful backpack allowing you to monitor the submarines status as well as the thermal signature of every lifeform around (And of course it won't explode (hopefully))</entitydescription.techno-backpack>
+  <entityname.xeno-backpack>Plecak Xeno</entityname.xeno-backpack>
+  <entitydescription.xeno-backpack>Dziwne urządzenie stworzone z różnych i trudnych do zrozumienia obcych materiałów, przypominające plecak do noszenia. W takim stanie nie może pomieścić wiele, ale używając krwi jego nosiciela może rematerializować wiele rodzajów wyposażenia, a także tłumić ataki psychozy.</entitydescription.xeno-backpack>
+</infotexts>

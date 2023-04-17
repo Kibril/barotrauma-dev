@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="backpack1" category="Equipment" tags="mediumitem,backpack" fireproof="true" waterproof="true" cargocontaineridentifier="metalcrate" scale="0.28" impactsoundtag="impact_soft" description="">
+    <Price baseprice="350">
+      <Price locationtype="outpost" multiplier="1" minavailable="4" />
+      <Price locationtype="city" multiplier="0.9" minavailable="6" />
+      <Price locationtype="research" multiplier="1.25" minavailable="1" />
+      <Price locationtype="military" multiplier="1.25" minavailable="1" />
+      <Price locationtype="mine" multiplier="1.25" minavailable="8" />
+    </Price>
+    <Deconstruct time="40">
+      <Item identifier="ballisticfiber" />
+      <Item identifier="ballisticfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="mechanical" level="35" />
+      <RequiredItem identifier="ballisticfiber" />
+      <RequiredItem identifier="ballisticfiber" />
+    </Fabricate>
+    <InventoryIcon texture="Backpack.png" sourcerect="185,8,261,273" />
+    <Sprite texture="Backpack.png" sourcerect="185,8,261,273" depth="0.6" origin="0.5,0.9" />
+    <ContainedSprite name="Mannequin" allowedcontainertags="loadoutmannequin" texture="%ModDir%/Backpack/Backpack.png" depth="0.8" inherittexturescale="true" origin="1,0.5" sourcerect="1,1,101,137" />
+    <Body width="100" height="60" density="30" />
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+      <sprite name="Backpack on character" texture="Backpack.png" limb="Torso" depth="0.8" hidelimb="false" canbehiddenbyotherwearables="false" inherittexturescale="true" origin="1,0.5" sourcerect="1,1,101,137" />
+      <ItemContainer capacity="10" hideitems="true">
+        <Containable items="smallitem,weapon,gun" excludeditems="backpack,toolbox,cargoscooter" />
+      </ItemContainer>
+      <!-- -->
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="0" />
+        <Affliction identifier="encombrancebackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="1" />
+        <Affliction identifier="encombrancebackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="2" />
+        <Affliction identifier="encombrancebackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="3" />
+        <Affliction identifier="encombrancebackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="4" />
+        <Affliction identifier="encombrancebackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="5" />
+        <Affliction identifier="encombrancebackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="6" />
+        <Affliction identifier="encombrancebackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="7" />
+        <Affliction identifier="encombrancebackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="8" />
+        <Affliction identifier="encombrancebackpack" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="9" />
+        <Affliction identifier="encombrancebackpack" amount="1" />
+      </StatusEffect>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,0" handle1="-10,-20" handle2="10,-20" holdangle="45" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use">
+      <Upgrade gameversion="0.1401.0.0" msg="ItemMsgPickUpUse" />
+    </Holdable>
+  </Item>
+</Items>

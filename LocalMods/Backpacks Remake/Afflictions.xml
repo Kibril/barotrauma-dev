@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+  <Affliction name="Shielded" identifier="shielded" description="Because of your powered Shield Backpack all damage taken are reduced by 20% and water pressure is entirely negated." type="shield" isbuff="true" limbspecific="false" indicatorlimb="Torso" maxstrength="1">
+    <Effect minstrength="0" maxstrength="1" strengthchange="-1" resistancefor="damage,gunshotwound,internaldamage,blunttrauma,lacerations,bitewounds,explosiondamage,bleeding,burn,acidburn,stun,concussion,radiationsickness,incrementalstun,progressivestun" minresistance="0.2" maxresistance="0.2"></Effect>
+    <icon texture="%ModDir%/Shield Backpack/Shielded affliction.png" sourcerect="256,896,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Super-Shielded" identifier="supershielded" description="Because of your super-powered Shield Backpack all damage taken are reduced by 30% and water pressure is entirely negated." type="shield" isbuff="true" limbspecific="false" indicatorlimb="Torso" maxstrength="1">
+    <Effect minstrength="0" maxstrength="1" strengthchange="-1" resistancefor="damage,gunshotwound,internaldamage,blunttrauma,lacerations,bitewounds,explosiondamage,bleeding,burn,acidburn,stun,concussion,radiationsickness,incrementalstun,progressivestun" minresistance="0.3" maxresistance="0.3"></Effect>
+    <icon texture="%ModDir%/Shield Backpack/Shielded affliction.png" sourcerect="256,896,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Over-Shielded" identifier="overshielded" description="Because of your over-powered Shield Backpack all damage taken are reduced by 40%, and water pressure is entirely negated. Also your wounds seems to close quickly" type="shield" isbuff="true" limbspecific="false" indicatorlimb="Torso" maxstrength="1">
+    <Effect minstrength="0" maxstrength="1" strengthchange="-1" resistancefor="damage,gunshotwound,internaldamage,blunttrauma,lacerations,bitewounds,explosiondamage,bleeding,burn,acidburn,stun,concussion,radiationsickness,incrementalstun,progressivestun" minresistance="0.4" maxresistance="0.4"></Effect>
+    <icon texture="%ModDir%/Shield Backpack/Shielded affliction.png" sourcerect="256,896,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Encombrance - Backpack" identifier="encombrancebackpack" description="-5% MS by slot used" type="weight" limbspecific="false" indicatorlimb="Torso" maxstrength="15" affectmachines="true" showiconthreshold="1000" showinhealthscannerthreshold="1000">
+    <Effect minstrength="0" maxstrength="1" minspeedmultiplier="1.0" maxspeedmultiplier="0.95" strengthchange="-1" />
+    <Effect minstrength="1.1" maxstrength="2" minspeedmultiplier="0.95" maxspeedmultiplier="0.90" strengthchange="-2" />
+    <Effect minstrength="2.1" maxstrength="3" minspeedmultiplier="0.90" maxspeedmultiplier="0.85" strengthchange="-3" />
+    <Effect minstrength="3.1" maxstrength="4" minspeedmultiplier="0.85" maxspeedmultiplier="0.80" strengthchange="-4" />
+    <Effect minstrength="4.1" maxstrength="5" minspeedmultiplier="0.80" maxspeedmultiplier="0.75" strengthchange="-5" />
+    <Effect minstrength="5.1" maxstrength="6" minspeedmultiplier="0.75" maxspeedmultiplier="0.70" strengthchange="-6" />
+    <Effect minstrength="6.1" maxstrength="7" minspeedmultiplier="0.70" maxspeedmultiplier="0.65" strengthchange="-7" />
+    <Effect minstrength="7.1" maxstrength="8" minspeedmultiplier="0.65" maxspeedmultiplier="0.60" strengthchange="-8" />
+    <Effect minstrength="8.1" maxstrength="9" minspeedmultiplier="0.60" maxspeedmultiplier="0.55" strengthchange="-9" />
+    <Effect minstrength="9.1" maxstrength="10" minspeedmultiplier="0.55" maxspeedmultiplier="0.50" strengthchange="-10" />
+    <Effect minstrength="10.1" maxstrength="11" minspeedmultiplier="0.50" maxspeedmultiplier="0.45" strengthchange="-11" />
+    <Effect minstrength="11.1" maxstrength="12" minspeedmultiplier="0.45" maxspeedmultiplier="0.35" strengthchange="-12" />
+    <Effect minstrength="12.1" maxstrength="13" minspeedmultiplier="0.35" maxspeedmultiplier="0.30" strengthchange="-13" />
+    <Effect minstrength="13.1" maxstrength="14" minspeedmultiplier="0.30" maxspeedmultiplier="0.25" strengthchange="-14" />
+    <Effect minstrength="14.1" maxstrength="15" minspeedmultiplier="0.25" maxspeedmultiplier="0.20" strengthchange="-15" />
+    <icon texture="%ModDir%/Shield Backpack/Shielded affliction.png" sourcerect="256,896,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Encombrance - Heavy Backpack" identifier="encombranceheavybackpack" description="hmmmmm" type="weight" limbspecific="false" indicatorlimb="Torso" maxstrength="18" affectmachines="true" showiconthreshold="1000" showinhealthscannerthreshold="1000">
+    <Effect minstrength="0" maxstrength="1" minspeedmultiplier="1.0" maxspeedmultiplier="0.95" strengthchange="-1" />
+    <Effect minstrength="1.1" maxstrength="2" minspeedmultiplier="0.95" maxspeedmultiplier="0.90" strengthchange="-2" />
+    <Effect minstrength="2.1" maxstrength="3" minspeedmultiplier="0.90" maxspeedmultiplier="0.85" strengthchange="-3" />
+    <Effect minstrength="3.1" maxstrength="4" minspeedmultiplier="0.85" maxspeedmultiplier="0.80" strengthchange="-4" />
+    <Effect minstrength="4.1" maxstrength="5" minspeedmultiplier="0.80" maxspeedmultiplier="0.75" strengthchange="-5" />
+    <Effect minstrength="5.1" maxstrength="6" minspeedmultiplier="0.75" maxspeedmultiplier="0.70" strengthchange="-6" />
+    <Effect minstrength="6.1" maxstrength="7" minspeedmultiplier="0.70" maxspeedmultiplier="0.65" strengthchange="-7" />
+    <Effect minstrength="7.1" maxstrength="8" minspeedmultiplier="0.65" maxspeedmultiplier="0.60" strengthchange="-8" />
+    <Effect minstrength="8.1" maxstrength="9" minspeedmultiplier="0.60" maxspeedmultiplier="0.55" strengthchange="-9" />
+    <Effect minstrength="9.1" maxstrength="10" minspeedmultiplier="0.55" maxspeedmultiplier="0.50" strengthchange="-10" />
+    <Effect minstrength="10.1" maxstrength="11" minspeedmultiplier="0.50" maxspeedmultiplier="0.45" strengthchange="-11" />
+    <Effect minstrength="11.1" maxstrength="12" minspeedmultiplier="0.45" maxspeedmultiplier="0.35" strengthchange="-12" />
+    <Effect minstrength="12.1" maxstrength="13" minspeedmultiplier="0.35" maxspeedmultiplier="0.30" strengthchange="-13" />
+    <Effect minstrength="13.1" maxstrength="14" minspeedmultiplier="0.30" maxspeedmultiplier="0.25" strengthchange="-14" />
+    <Effect minstrength="14.1" maxstrength="15" minspeedmultiplier="0.25" maxspeedmultiplier="0.20" strengthchange="-15" />
+    <Effect minstrength="15.1" maxstrength="16" minspeedmultiplier="0.20" maxspeedmultiplier="0.15" strengthchange="-16" />
+    <Effect minstrength="16.1" maxstrength="17" minspeedmultiplier="0.15" maxspeedmultiplier="0.10" strengthchange="-17" />
+    <Effect minstrength="17.1" maxstrength="18" minspeedmultiplier="0.10" maxspeedmultiplier="0.08" strengthchange="-18" />
+    <icon texture="%ModDir%/Shield Backpack/Shielded affliction.png" sourcerect="256,896,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Encombrance - Medical Backpack" identifier="encombrancemedicalbackpack" description="hmmmmm" type="weight" limbspecific="false" indicatorlimb="Torso" maxstrength="36" affectmachines="true" showiconthreshold="1000" showinhealthscannerthreshold="1000">
+    <Effect minstrength="0" maxstrength="1" minspeedmultiplier="1.0" maxspeedmultiplier="0.98" strengthchange="-1" />
+    <Effect minstrength="1.1" maxstrength="2" minspeedmultiplier="0.98" maxspeedmultiplier="0.96" strengthchange="-2" />
+    <Effect minstrength="2.1" maxstrength="3" minspeedmultiplier="0.96" maxspeedmultiplier="0.94" strengthchange="-3" />
+    <Effect minstrength="3.1" maxstrength="4" minspeedmultiplier="0.94" maxspeedmultiplier="0.92" strengthchange="-4" />
+    <Effect minstrength="4.1" maxstrength="5" minspeedmultiplier="0.92" maxspeedmultiplier="0.90" strengthchange="-5" />
+    <Effect minstrength="5.1" maxstrength="6" minspeedmultiplier="0.90" maxspeedmultiplier="0.88" strengthchange="-6" />
+    <Effect minstrength="6.1" maxstrength="7" minspeedmultiplier="0.88" maxspeedmultiplier="0.86" strengthchange="-7" />
+    <Effect minstrength="7.1" maxstrength="8" minspeedmultiplier="0.86" maxspeedmultiplier="0.84" strengthchange="-8" />
+    <Effect minstrength="8.1" maxstrength="9" minspeedmultiplier="0.84" maxspeedmultiplier="0.82" strengthchange="-9" />
+    <Effect minstrength="9.1" maxstrength="10" minspeedmultiplier="0.82" maxspeedmultiplier="0.80" strengthchange="-10" />
+    <Effect minstrength="10.1" maxstrength="11" minspeedmultiplier="0.80" maxspeedmultiplier="0.78" strengthchange="-11" />
+    <Effect minstrength="11.1" maxstrength="12" minspeedmultiplier="0.78" maxspeedmultiplier="0.76" strengthchange="-12" />
+    <Effect minstrength="12.1" maxstrength="13" minspeedmultiplier="0.76" maxspeedmultiplier="0.74" strengthchange="-13" />
+    <Effect minstrength="13.1" maxstrength="14" minspeedmultiplier="0.74" maxspeedmultiplier="0.72" strengthchange="-14" />
+    <Effect minstrength="14.1" maxstrength="15" minspeedmultiplier="0.72" maxspeedmultiplier="0.70" strengthchange="-15" />
+    <Effect minstrength="15.1" maxstrength="16" minspeedmultiplier="0.70" maxspeedmultiplier="0.68" strengthchange="-16" />
+    <Effect minstrength="16.1" maxstrength="17" minspeedmultiplier="0.68" maxspeedmultiplier="0.66" strengthchange="-17" />
+    <Effect minstrength="17.1" maxstrength="18" minspeedmultiplier="0.66" maxspeedmultiplier="0.64" strengthchange="-18" />
+    <Effect minstrength="18.1" maxstrength="19" minspeedmultiplier="0.64" maxspeedmultiplier="0.62" strengthchange="-19" />
+    <Effect minstrength="19.1" maxstrength="20" minspeedmultiplier="0.62" maxspeedmultiplier="0.60" strengthchange="-20" />
+    <Effect minstrength="20.1" maxstrength="21" minspeedmultiplier="0.60" maxspeedmultiplier="0.58" strengthchange="-21" />
+    <Effect minstrength="21.1" maxstrength="22" minspeedmultiplier="0.58" maxspeedmultiplier="0.56" strengthchange="-22" />
+    <Effect minstrength="22.1" maxstrength="23" minspeedmultiplier="0.56" maxspeedmultiplier="0.54" strengthchange="-23" />
+    <Effect minstrength="23.1" maxstrength="24" minspeedmultiplier="0.54" maxspeedmultiplier="0.52" strengthchange="-24" />
+    <Effect minstrength="24.1" maxstrength="25" minspeedmultiplier="0.52" maxspeedmultiplier="0.50" strengthchange="-25" />
+    <Effect minstrength="25.1" maxstrength="26" minspeedmultiplier="0.50" maxspeedmultiplier="0.48" strengthchange="-26" />
+    <Effect minstrength="26.1" maxstrength="27" minspeedmultiplier="0.48" maxspeedmultiplier="0.46" strengthchange="-27" />
+    <Effect minstrength="27.1" maxstrength="28" minspeedmultiplier="0.46" maxspeedmultiplier="0.44" strengthchange="-28" />
+    <Effect minstrength="28.1" maxstrength="29" minspeedmultiplier="0.44" maxspeedmultiplier="0.42" strengthchange="-29" />
+    <Effect minstrength="29.1" maxstrength="30" minspeedmultiplier="0.42" maxspeedmultiplier="0.40" strengthchange="-30" />
+    <Effect minstrength="30.1" maxstrength="31" minspeedmultiplier="0.40" maxspeedmultiplier="0.38" strengthchange="-31" />
+    <Effect minstrength="31.1" maxstrength="32" minspeedmultiplier="0.38" maxspeedmultiplier="0.36" strengthchange="-32" />
+    <Effect minstrength="32.1" maxstrength="33" minspeedmultiplier="0.36" maxspeedmultiplier="0.34" strengthchange="-33" />
+    <Effect minstrength="33.1" maxstrength="34" minspeedmultiplier="0.34" maxspeedmultiplier="0.32" strengthchange="-34" />
+    <Effect minstrength="34.1" maxstrength="35" minspeedmultiplier="0.32" maxspeedmultiplier="0.30" strengthchange="-35" />
+    <Effect minstrength="35.1" maxstrength="36" minspeedmultiplier="0.30" maxspeedmultiplier="0.28" strengthchange="-36" />
+    <icon texture="%ModDir%/Shield Backpack/Shielded affliction.png" sourcerect="256,896,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Xeno-Backpack Bizzare Adventures" identifier="xenobackpackmalus" description="Notice me Mason !" type="weight" limbspecific="false" indicatorlimb="Torso" maxstrength="100" affectmachines="true" showiconthreshold="1000" showinhealthscannerthreshold="1000">
+    <Effect minstrength="0" maxstrength="100" minspeedmultiplier="1.0" maxspeedmultiplier="0.05" minscreendistort="0" maxscreendistort="2.0" minradialdistort="0.0" maxradialdistort="2.0" minscreenblur="0.0" maxscreenblur="1.0" minchromaticaberration="0.0" maxchromaticaberration="2.0" strengthchange="-0.50" />
+    <icon texture="%ModDir%/Shield Backpack/Shielded affliction.png" sourcerect="256,896,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <!--Affliction name ="DDOS - Systems Check" identifier="ddossystemcheck" description="Notice me Mason !" type="weight" limbspecific="false" indicatorlimb="Torso" maxstrength="20" affectmachines="true" showinhealthscannerthreshold="1000" >
+    
+	
+    
+  <icon texture="%ModDir%/Shield Backpack/Shielded affliction.png" sourcerect="256,896,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction-->
+</Afflictions>

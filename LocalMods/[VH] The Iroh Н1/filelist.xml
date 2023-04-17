@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="[VH] The Iroh Н1" modversion="1.0.12" corepackage="False" gameversion="1.0.8.0">
+  <Submarine file="%ModDir%/[VH] The Iroh Н1.sub" />
+</contentpackage>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="shieldbackpack" category="Equipment" tags="mediumitem,backpack" scale="0.51" fireproof="true" waterproof="true" description="" impactsoundtag="impact_metal_light">
+    <Price baseprice="1500">
+      <Price locationtype="outpost" multiplier="3" minavailable="0" />
+      <Price locationtype="city" multiplier="2.5" minavailable="1" />
+      <Price locationtype="research" multiplier="2.25" minavailable="1" />
+      <Price locationtype="military" multiplier="1.9" minavailable="1" />
+      <Price locationtype="mine" multiplier="4" minavailable="0" />
+    </Price>
+    <Deconstruct time="30">
+      <Item identifier="power-backpack" />
+      <Item identifier="batterycell" />
+      <Item identifier="batterycell" />
+      <Item identifier="batterycell" />
+      <Item identifier="batterycell" />
+      <Item identifier="batterycell" />
+      <Item identifier="batterycell" />
+      <Item identifier="batterycell" />
+      <Item identifier="batterycell" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="mechanical" level="50" />
+      <RequiredItem identifier="power-backpack" />
+      <RequiredItem identifier="batterycell" />
+      <RequiredItem identifier="batterycell" />
+      <RequiredItem identifier="batterycell" />
+      <RequiredItem identifier="batterycell" />
+      <RequiredItem identifier="batterycell" />
+      <RequiredItem identifier="batterycell" />
+      <RequiredItem identifier="batterycell" />
+      <RequiredItem identifier="batterycell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Shield Backpack/Shield Backpack.png" sourcerect="3,2,43,179" />
+    <Sprite texture="%ModDir%/Shield Backpack/Shield Backpack.png" sourcerect="3,2,43,179" depth="0.7" origin="0.5,0.7" />
+    <Body radius="45" width="34" density="15" />
+    <Wearable slots="Bag" msg="ItemMsgEquipSelect">
+      <sprite texture="%ModDir%/Shield Backpack/Shield Backpack.png" canbehiddenbyotherwearables="false" limb="Torso" inheritlimbdepth="true" hidelimb="false" inheritorigin="false" inherittexturescale="true" sourcerect="3,2,43,179" origin="1.55,0.65">
+        <LightComponent range="150.0" lightcolor="0,255,0,25" flicker="2" castshadows="true" powerconsumption="10" IsOn="true">
+          <StatusEffect type="OnWearing" target="This,Character" setvalue="true" Voltage="1.0" PressureProtection="20000.0">
+            <RequiredItem item="batterycell" type="Contained" condition="gt 0" />
+            <Conditional IsDead="false" />
+            <Affliction identifier="shielded" strength="1" />
+            <Sound file="%ModDir%/Shield Backpack/Shield Backpack.ogg" range="30" volume="0.2" />
+          </StatusEffect>
+          <StatusEffect type="OnWearing" target="This,Character" setvalue="true" Voltage="1.0" PressureProtection="20000.0">
+            <RequiredItem item="fulguriumbatterycell" type="Contained" condition="gt 0" />
+            <Conditional IsDead="false" />
+            <Affliction identifier="supershielded" strength="1" />
+            <Sound file="%ModDir%/Shield Backpack/Shield Backpack.ogg" range="30" volume="0.2" />
+          </StatusEffect>
+          <StatusEffect type="OnWearing" target="This,Character" setvalue="true" Voltage="1.0" PressureProtection="20000.0">
+            <RequiredItem item="alienpowercell" type="Contained" condition="gt 0" />
+            <Conditional IsDead="false" />
+            <Affliction identifier="overshielded" strength="1" />
+            <Sound file="%ModDir%/Shield Backpack/Shield Backpack.ogg" range="30" volume="0.2" />
+          </StatusEffect>
+          <LightTexture texture="%ModDir%/Shield Backpack/Shield Backpack shield light.png" origin="0.48, 0.65" size="0.55,0.75" />
+        </LightComponent>
+      </sprite>
+      <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.8" setvalue="true" />
+      <StatusEffect type="Always" target="Contained" condition="-0.4">
+        <RequiredItem item="batterycell" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Contained" condition="-0.3">
+        <RequiredItem item="fulguriumbatterycell" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Contained" condition="-0.2">
+        <RequiredItem item="alienpowercell" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character,AllLimbs">
+        <RequiredItem item="alienpowercell" type="Contained" condition="gt 0" />
+        <ReduceAffliction type="damage" amount="0.05" />
+        <ReduceAffliction type="gunshotwound" amount="0.05" />
+        <ReduceAffliction type="internaldamage" amount="0.05" />
+        <ReduceAffliction type="blunttrauma" amount="0.05" />
+        <ReduceAffliction type="lacerations" amount="0.05" />
+        <ReduceAffliction type="bitewounds" amount="0.05" />
+        <ReduceAffliction type="explosiondamage" amount="0.05" />
+        <ReduceAffliction type="bleeding" amount="0.05" />
+        <ReduceAffliction type="burn" amount="0.05" />
+        <ReduceAffliction type="acidburn" amount="0.05" />
+        <ReduceAffliction type="stun" amount="0.05" />
+        <ReduceAffliction type="concussion" amount="0.05" />
+        <ReduceAffliction type="radiationsickness" amount="0.05" />
+        <ReduceAffliction type="incrementalstun" amount="0.05" />
+        <ReduceAffliction type="progressivestun" amount="0.05" />
+      </StatusEffect>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,0" handle1="-10,-20" handle2="10,-20" holdangle="45" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use">
+      <Upgrade gameversion="0.1401.0.0" msg="ItemMsgPickUpUse" />
+    </Holdable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true">
+      <Containable items="batterycell,alienpowercell,fulguriumbatterycell" excludeditems="backpack" />
+      <SlotIcon slotindex="0" texture="Content/UI/WeaponUI.png" sourcerect="64,961,32,22" origin="0.5,0.45" />
+    </ItemContainer>
+  </Item>
+</Items>
