@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Posters" path="%ModDir%/filelist.xml" corepackage="false" gameversion="0.9.10.0">
+  <Item file="%ModDir%/posters.xml" />
+  <None file="%ModDir%/images/astolfo.jpg" />
+  <None file="%ModDir%/images/naisu.jpg" />
+  <None file="%ModDir%/images/reina.jpg" />
+  <None file="%ModDir%/images/violetposter.jpg" />
+  <None file="%ModDir%/images/asuka.jpg" />
+  <None file="%ModDir%/images/holo.jpg" />
+  <None file="%ModDir%/images/misato.jpg" />
+  <None file="%ModDir%/images/zero2.jpg" />
+  <None file="%ModDir%/images/risingsun.jpg" />
+  <None file="%ModDir%/images/pycca.jpg" />
+  <None file="%ModDir%/images/aqua.png" />
+  <None file="%ModDir%/images/asuna.png" />
+  <None file="%ModDir%/images/asuna2.png" />
+  <None file="%ModDir%/images/dragon.png" />
+  <None file="%ModDir%/images/emilia.png" />
+  <None file="%ModDir%/images/hitagi.png" />
+  <None file="%ModDir%/images/nurse.png" />
+  <None file="%ModDir%/images/ozen.png" />
+  <None file="%ModDir%/images/pycca_2.png" />
+  <None file="%ModDir%/images/rem.png" />
+  <None file="%ModDir%/images/rin.png" />
+  <None file="%ModDir%/images/tohru.png" />
+  <None file="%ModDir%/images/zero2_2.png" />
+</contentpackage>

@@ -217,7 +217,7 @@
     <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
     <Projectile characterusable="false" hitscan="true" removeonhit="true">
       <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colourmultiplier="255,255,115,175" scalemultiplier="0.8,0.8" />
-      <Attack structuredamage="6.0" targetforce="3" itemdamage="7.5" severlimbsprobability="0.25" penetration="0.25">
+      <Attack structuredamage="6.0" targetforce="3" itemdamage="7.5" penetration="0.25">
         <Affliction identifier="bleeding" strength="25" />
         <Affliction identifier="bleeding" strength="15" probability="0.1" />
         <Affliction identifier="gunshotwound" strength="35" />
@@ -401,7 +401,7 @@
     <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
     <Projectile characterusable="false" hitscan="true" hitscancount="8" removeonhit="true" spread="10">
       <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,100" scalemultiplier="1,0.5" />
-      <Attack structuredamage="1" targetforce="5" itemdamage="2" severlimbsprobability="0.5" penetration="0.05">
+      <Attack structuredamage="1" targetforce="5" itemdamage="2" penetration="0.05">
         <Affliction identifier="bleeding" strength="15" />
         <Affliction identifier="gunshotwound" strength="15" />
         <Affliction identifier="gunshotwound" strength="10" probability="0.2" />
@@ -438,7 +438,7 @@
     <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
     <Projectile characterusable="false" hitscan="true" hitscancount="1" removeonhit="true" spread="1">
       <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,100" scalemultiplier="1,0.5" />
-      <Attack structuredamage="1" targetforce="25" itemdamage="12" severlimbsprobability="0.2" penetration="0.4">
+      <Attack structuredamage="1" targetforce="25" itemdamage="12" penetration="0.4">
         <Affliction identifier="bleeding" strength="35" />
         <Affliction identifier="bleeding" strength="35" probability="0.5" />
         <Affliction identifier="gunshotwound" strength="75" />
@@ -647,7 +647,7 @@
     <Projectile characterusable="false" hitscan="true" maxtargetstohit="2" removeonhit="true">
       <ParticleEmitter particle="tracernucleargun" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="1,0.75" colormultiplier="255,90,0,255" />
       <ParticleEmitter particle="FlareBubbles" emitacrossrayinterval="50" />
-      <Attack structuredamage="40" targetforce="5" itemdamage="100" severlimbsprobability="0.5" penetration="0.8">
+      <Attack structuredamage="40" targetforce="5" itemdamage="100" penetration="0.8">
         <Affliction identifier="burn" strength="25" />
         <Affliction identifier="radiationsickness" strength="10" />
         <Affliction identifier="explosiondamage" strength="45" />
@@ -713,7 +713,7 @@
     <Projectile characterusable="false" hitscan="true" maxtargetstohit="3" removeonhit="true">
       <ParticleEmitter particle="tracernucleargun" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="1,1" colormultiplier="0,0,255,255" />
       <ParticleEmitter particle="FlareBubbles" emitacrossrayinterval="50" />
-      <Attack structuredamage="40" targetforce="12" itemdamage="100" severlimbsprobability="0.5" penetration="1.5">
+      <Attack structuredamage="40" targetforce="12" itemdamage="100" penetration="1.5">
         <Affliction identifier="burn" strength="40" />
         <Affliction identifier="radiationsickness" strength="35" />
         <Affliction identifier="explosiondamage" strength="75" />
@@ -786,7 +786,7 @@
     <Projectile characterusable="false" hitscan="true" maxtargetstohit="8" removeonhit="true">
       <ParticleEmitter particle="tracernucleargun" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="1.5,2" colormultiplier="255,0,0,255" />
       <ParticleEmitter particle="FlareBubbles" emitacrossrayinterval="50" />
-      <Attack structuredamage="70" targetforce="40" itemdamage="100" severlimbsprobability="1" penetration="4">
+      <Attack structuredamage="70" targetforce="40" itemdamage="100" penetration="4">
         <Affliction identifier="burn" strength="50" />
         <Affliction identifier="explosiondamage" strength="165" />
         <Affliction identifier="stun" strength="2" />
@@ -1070,7 +1070,7 @@
     <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
     <Projectile characterusable="false" hitscan="true" removeonhit="true">
       <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,255" scalemultiplier="1,0.5" />
-      <Attack structuredamage="3" targetforce="2" itemdamage="0.05" severlimbsprobability="0.15" penetration="0.1">
+      <Attack structuredamage="3" targetforce="2" itemdamage="0.05" penetration="0.1">
         <Affliction identifier="bleeding" strength="10" />
         <Affliction identifier="gunshotwound" strength="15" />
       </Attack>

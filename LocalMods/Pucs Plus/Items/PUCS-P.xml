@@ -27,10 +27,9 @@
       <RequiredSkill identifier="electrical" level="90" />
       <RequiredSkill identifier="mechanical" level="90" />
       <RequiredSkill identifier="weapons" level="40" />
-      <RequiredItem identifier="scp_durasteel" amount="2" />
+      <RequiredItem identifier="du_p_alloy" amount="4" />
       <RequiredItem identifier="aliencircuitry" amount="4" />
-      <RequiredItem identifier="physicorium" amount="2" />
-      <RequiredItem identifier="fulgurium" amount="2" />
+      <RequiredItem identifier="fulgurium" amount="3" />
       <Item tag="alienpowercell" />
       <RequiredItem identifier="pucs" />
     </Fabricate>
@@ -279,6 +278,7 @@
       <StatusEffect type="Always" target="This,Contained" targetslot="1" drawhudwhenequipped="false" setvalue="true" interval="1.0">
         <Conditional hastag="eq InterfaceOff" />
       </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" tags="sonarprotection" duration="0.1" />
       <!-- 减伤 -->
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="activesonar" damagemultiplier="0.7" damagesound="LimbArmor" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="activesonarbeacon" damagemultiplier="0.75" damagesound="LimbArmor" />

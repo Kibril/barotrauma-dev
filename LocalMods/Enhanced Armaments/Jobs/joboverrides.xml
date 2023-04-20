@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <Override>
-    <Job identifier="captain" minkarma="45" initialcount="1" minnumber="0" maxnumber="4" uicolor="0.65,0.73,0.84" vitalitymodifier="0" pricemultiplier="1.3" idlebehavior="StayInHull">
+    <Job identifier="captain" minkarma="45" initialcount="1" minnumber="0" maxnumber="1" uicolor="0.65,0.73,0.84" vitalitymodifier="0" pricemultiplier="1.3" idlebehavior="StayInHull">
       <Jobicon>
         <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="384,256,128,128" origin="0.5,0.5" />
       </Jobicon>
@@ -105,9 +105,6 @@
           <Item identifier="scp_9mmsmgmag" showpreview="false" />
         </Item>
         <Item identifier="scp_9mmsmgmag" />
-        <Item identifier="stunbaton">
-          <Item identifier="batterycell" showpreview="false" />
-        </Item>
         <Item identifier="scp_baton" />
         <Item identifier="harmonica" equip="false" />
         <PreviewSprites dims="120,109">
@@ -423,9 +420,6 @@
           <Item identifier="weldingfueltank" />
           <Item identifier="plasmacutter">
             <Item identifier="oxygentank" showpreview="false" />
-          </Item>
-          <Item identifier="scp_p226">
-            <Item identifier="scp_9mmmag" showpreview="false" />
           </Item>
         </Item>
         <Item identifier="baseballcap" equip="true" />

@@ -780,9 +780,9 @@
         <StatusEffect type="OnWearing" target="This,Character" SpeedMultiplier="0.4" setvalue="true" disabledeltatime="true">
           <Conditional Voltage="gt 0.5" />
         </StatusEffect>      
-        <StatusEffect type="OnWearing" target="Contained,Character" Condition="-0.1" interval="1" disabledeltatime="true" targetslot="1" comparison="Or">
+        <StatusEffect type="OnWearing" target="Contained,Character" Condition="-0.3" interval="1" disabledeltatime="true" targetslot="1" comparison="Or">
           <Conditional IsDead="false" />
-          <RequiredItem items="reactorfuel" targetslot="1" type="Contained" />
+          <RequiredItem items="fulguriumbatterycell" targetslot="1" type="Contained" />
         </StatusEffect>
         <!-- 0 movement speed when out of fuel-->
         <StatusEffect type="OnWearing" target="This,Character" SpeedMultiplier="-10.0" setvalue="true" disabledeltatime="true">
@@ -838,7 +838,7 @@
           <Containable items="oxygensource,weldingtoolfuel" />
         </SubContainer>
         <SubContainer capacity="1" maxstacksize="1">
-          <Containable items="reactorfuel">
+          <Containable items="fulguriumbatterycell">
             <StatusEffect type="OnContaining" target="This" Voltage="1.0" setvalue="true" />
           </Containable>
         </SubContainer>
@@ -917,9 +917,9 @@
           <Conditional IsDead="false" />
           <RequiredItem items="oxygenitetank" type="Contained" />
         </StatusEffect>
-        <StatusEffect type="OnWearing" target="Contained,Character" Condition="-0.2" targetslot="1" comparison="Or">
+        <StatusEffect type="OnWearing" target="Contained,Character" Condition="-0.4" targetslot="1" comparison="Or">
           <Conditional IsDead="false" />
-          <RequiredItem items="reactorfuel" type="Contained" />
+          <RequiredItem items="fulguriumbatterycell" type="Contained" />
         </StatusEffect>
         <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.2" loop="true" frequencymultiplier="0.5" />
         <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="activesonar" damagemultiplier="0.7" damagesound="LimbArmor" />
@@ -968,7 +968,7 @@
           <Containable items="oxygensource,weldingtoolfuel" />
         </SubContainer>
         <SubContainer capacity="1" maxstacksize="1">
-          <Containable items="reactorfuel">
+          <Containable items="fulguriumbatterycell">
             <StatusEffect type="OnContaining" target="This" Voltage="1.0" setvalue="true" />
           </Containable>
         </SubContainer>
@@ -980,18 +980,18 @@
         <GuiFrame relativesize="0.15,0.1" anchor="BottomCenter" pivot="BottomCenter" relativeoffset="0,0.1" style="ItemUI" />
         <Button text="clownexosuitweapon" connection="signal_out1">
           <StatusEffect type="OnUse" duration="5" target="NearbyCharacters" range="500" camerashake="5" setvalue="true" stackable="false">
-            <RequiredItem items="reactorfuel" type="Contained" />
+            <RequiredItem items="fulguriumbatterycell" type="Contained" />
             <Affliction identifier="hallucinatingshortduration" strength="3" />
             <TriggerEvent identifier="clownhaven_progress" />
             <sound file="Content/Items/JobGear/Clown/ClownExosuitHorn.ogg" type="OnUse" range="5000.0" loop="true" />
           </StatusEffect>
           <StatusEffect type="OnUse" duration="5" target="Limb,This" targetlimbs="Torso" range="500" camerashake="5" setvalue="true" stackable="false" CheckConditionalAlways="true">
-            <RequiredItem items="reactorfuel" type="Contained" />
+            <RequiredItem items="fulguriumbatterycell" type="Contained" />
             <Conditional ParentInventory="! null" />
             <ParticleEmitter particle="steamspray" copytargetangle="true" particlespersecond="30" velocitymin="500" velocitymax="1000" anglemin="140" anglemax="140" distancemin="50" distancemax="55" />
           </StatusEffect>
-          <StatusEffect type="OnUse" target="Contained" Condition="-0.2" duration="5" targetslot="1" stackable="false">
-            <RequiredItem items="reactorfuel" type="Contained" />
+          <StatusEffect type="OnUse" target="Contained" Condition="-0.4" duration="5" targetslot="1" stackable="false">
+            <RequiredItem items="fulguriumbatterycell" type="Contained" />
           </StatusEffect>
         </Button>
       </CustomInterface>

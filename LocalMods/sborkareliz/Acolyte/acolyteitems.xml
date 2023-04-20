@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <Item name="Holy Symbiote" identifier="blessedmag" description="This strain of husk symbiote generates a short lived, stinger shaped strain of husk parasite. The stingers generated cause targets to bleed profusely." maxstacksize="1" scale="0.5" category="Weapon" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,blessedammo" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="blessedbow" amount="1" spawnprobability="1" />
-    <Fabricate suitablefabricators="medicalfabricator" requiredtime="300">
+    <Fabricate suitablefabricators="medicalfabricator" requiredtime="300" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="70" />
       <RequiredSkill identifier="medical" level="90" />
       <RequiredItem identifier="alienspear" amount="2" />
@@ -29,6 +29,7 @@
     <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
+
   <Item name="Blessed Bolt" identifier="blessedbolt" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="true" scale="0.5">
     <InventoryIcon texture="%ModDir%/Icons/huskharpoon.png" sourcerect="0,0,180,18" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Icons/huskharpoon.png" sourcerect="0,0,180,18" depth="0.55" origin="0.5,0.5" />
@@ -49,6 +50,7 @@
     </Projectile>
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
+  
   <Item name="Blessed Arbalest" identifier="blessedbow" description="A special crossbow, made to channel the divine power of the Holy Symbiote." category="Weapon" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gunsmith,mountableweapon" Scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="secarmcab" secondary="armcab,weaponholder" />
     <Deconstruct time="10">
@@ -56,9 +58,9 @@
       <Item identifier="steel" />
       <Item identifier="tin" />
     </Deconstruct>
-    <Fabricate suitablefabricators="fabricator" requiredtime="120">
+    <Fabricate suitablefabricators="fabricator" requiredtime="120" requiresrecipe="true">
       <RequiredSkill identifier="weapons" level="60" />
-      <RequiredSkill identifier="medical" level="60" />
+      <RequiredSkill identifier="medical" level="100" />
       <RequiredItem identifier="calcium" amount="6" />
       <RequiredItem identifier="titaniumaluminiumalloy" amount="4" />
       <RequiredItem identifier="huskeggs" amount="4" />

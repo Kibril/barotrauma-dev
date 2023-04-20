@@ -211,6 +211,8 @@
         <CharacterAbilityModifyStat stattype="MedicalItemEffectivenessMultiplier" value="-0.30" />
       </Abilities>
     </AbilityGroupInterval>
+    <AddedRecipe itemidentifier="blessedmag"/>
+    <AddedRecipe itemidentifier="blessedbow"/>
     <!-- Husk Symbiosis -->
     <AbilityGroupInterval>
       <Conditions>

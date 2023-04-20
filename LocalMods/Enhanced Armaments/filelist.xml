@@ -101,4 +101,5 @@
   <Other file="%ModDir%/Jobgear/softvest.png" />
   <Other file="%ModDir%/Misc/containers.png" />
   <Text file="%ModDir%/Text/english.xml" />
+  <SkillSettings file="%ModDir%/SkillSettings.xml" />
 </contentpackage>

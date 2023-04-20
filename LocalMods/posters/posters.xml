@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+    <Item name="astolfo_poster" identifier="astolfo_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="240" width="320" density="580" />
+        <Sprite texture="%ModDir%/images/astolfo.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="asuka_poster" identifier="asuka_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="240" width="320" density="580" />
+        <Sprite texture="%ModDir%/images/asuka.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="holo_poster" identifier="holo_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="240" width="320" density="580" />
+        <Sprite texture="%ModDir%/images/holo.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="misato_poster" identifier="misato_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="240" width="320" density="580" />
+        <Sprite texture="%ModDir%/images/misato.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="naisu_poster" identifier="naisu_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="240" width="320" density="580" />
+        <Sprite texture="%ModDir%/images/naisu.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="pycca_poster" identifier="pycca_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="240" width="320" density="580" />
+        <Sprite texture="%ModDir%/images/pycca.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="reina_poster" identifier="reina_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="240" width="320" density="580" />
+        <Sprite texture="%ModDir%/images/reina.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="risingsun_poster" identifier="risingsun_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="240" width="320" density="580" />
+        <Sprite texture="%ModDir%/images/risingsun.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="violet_poster" identifier="violet_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="240" width="320" density="580" />
+        <Sprite texture="%ModDir%/images/violetposter.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="zero2_poster" identifier="zero2_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="240" width="320" density="580" />
+        <Sprite texture="%ModDir%/images/zero2.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="aqua_poster" identifier="aqua_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="320" width="400" density="580" />
+        <Sprite texture="%ModDir%/images/aqua.png"  depth="0.01" sourcerect="0,0,80,100"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="asuna_poster" identifier="asuna_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="320" width="400" density="580" />
+        <Sprite texture="%ModDir%/images/asuna.png"  depth="0.01" sourcerect="0,0,80,100"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="asuna2_poster" identifier="asuna2_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="320" width="400" density="580" />
+        <Sprite texture="%ModDir%/images/asuna2.png"  depth="0.01" sourcerect="0,0,80,100"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="dragon_poster" identifier="dragon_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="320" width="400" density="580" />
+        <Sprite texture="%ModDir%/images/dragon.png"  depth="0.01" sourcerect="0,0,80,100"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="emilia_poster" identifier="emilia_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="320" width="400" density="580" />
+        <Sprite texture="%ModDir%/images/emilia.png"  depth="0.01" sourcerect="0,0,80,100"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="hitagi_poster" identifier="hitagi_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="320" width="400" density="580" />
+        <Sprite texture="%ModDir%/images/hitagi.png"  depth="0.01" sourcerect="0,0,80,100"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="ozen_poster" identifier="ozen_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="320" width="400" density="580" />
+        <Sprite texture="%ModDir%/images/ozen.png"  depth="0.01" sourcerect="0,0,80,100"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="pycca2_poster" identifier="pycca2_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="320" width="400" density="580" />
+        <Sprite texture="%ModDir%/images/pycca_2.png"  depth="0.01" sourcerect="0,0,80,100"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="rem_poster" identifier="rem_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="320" width="400" density="580" />
+        <Sprite texture="%ModDir%/images/rem.png"  depth="0.01" sourcerect="0,0,80,100"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="rin_poster" identifier="rin_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="320" width="400" density="580" />
+        <Sprite texture="%ModDir%/images/rin.png"  depth="0.01" sourcerect="0,0,80,100"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="tohru_poster" identifier="tohru_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="320" width="400" density="580" />
+        <Sprite texture="%ModDir%/images/tohru.png"  depth="0.01" sourcerect="0,0,80,100"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="zero2_2_poster" identifier="zero2_2_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="320" width="400" density="580" />
+        <Sprite texture="%ModDir%/images/zero2_2.png"  depth="0.01" sourcerect="0,0,80,100"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+    <Item name="nurse_poster" identifier="nurse_poster" maxstacksize="1" category="Decorative" pickdistance="200" scale="0.5" description="Description" tags="mediumitem" isshootable="True" Indestructible="True" AllowRotatingInEditor="True" CanFlipX="False" CanFlipY="False">
+        <Body height="240" width="320" density="580" />
+        <Sprite texture="%ModDir%/images/nurse.png"  depth="0.01" sourcerect="0,0,80,100"/>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetach" PickingTime="1" aimpos="0,0" handle1="0,0" Attachable="True" AttachedByDefault="True" Aimable="True" />
+        <Deconstruct time="1">
+            <Item identifier="organicfiber" />
+        </Deconstruct>
+        <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="65" fabricationlimitmin="1" fabricationlimitmax="4" />
+    </Item>
+</Items>
